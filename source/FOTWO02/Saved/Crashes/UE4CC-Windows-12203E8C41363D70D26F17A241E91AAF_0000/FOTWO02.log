@@ -1,0 +1,735 @@
+﻿Log file open, 07/28/17 09:26:14
+LogInit:Display: Running engine for game: FOTWO02
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(1433172738) SRandInit(1433172738).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.747216
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3514769
+LogInit: Engine Version: 4.16.2-3514769+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jun 29 2017 02:03:24
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.07.28-07.26.14:895][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.28-07.26.14:895][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.07.28-07.26.14:966][  0]LogInit: Computer: KLAUDE2017ALIEN
+[2017.07.28-07.26.14:966][  0]LogInit: User: vonkl
+[2017.07.28-07.26.14:966][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.07.28-07.26.14:966][  0]LogInit: High frequency timer resolution =2.742183 MHz
+[2017.07.28-07.26.14:967][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.07.28-07.26.14:967][  0]LogMemory: Platform Memory Stats for Windows
+[2017.07.28-07.26.14:967][  0]LogMemory: Process Physical Memory: 272.55 MB used, 272.55 MB peak
+[2017.07.28-07.26.14:967][  0]LogMemory: Process Virtual Memory: 260.89 MB used, 260.89 MB peak
+[2017.07.28-07.26.14:967][  0]LogMemory: Physical Memory: 5166.95 MB used,  11090.03 MB free, 16256.98 MB total
+[2017.07.28-07.26.14:967][  0]LogMemory: Virtual Memory: 638.49 MB used,  11090.03 MB free, 134217728.00 MB total
+[2017.07.28-07.26.15:477][  0]LogInit: Using OS detected language (en-GB).
+[2017.07.28-07.26.15:477][  0]LogInit: Using OS detected locale (en-GB).
+[2017.07.28-07.26.15:592][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2017.07.28-07.26.18:647][  0]LogD3D11RHI: D3D11 adapters:
+[2017.07.28-07.26.18:691][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2017.07.28-07.26.18:691][  0]LogD3D11RHI:       6084/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.07.28-07.26.18:712][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2017.07.28-07.26.18:712][  0]LogD3D11RHI:       128/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.07.28-07.26.18:714][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.07.28-07.26.18:714][  0]LogD3D11RHI:       0/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.07.28-07.26.18:714][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.07.28-07.26.18:724][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.07.28-07.26.18:724][  0]LogD3D11RHI:     GPU DeviceId: 0x1c60 (for the marketing name, search the web for "GPU Device Id")
+[2017.07.28-07.26.18:724][  0]LogWindows: EnumDisplayDevices:
+[2017.07.28-07.26.18:724][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060' (P:0 D:1)
+[2017.07.28-07.26.18:725][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060' (P:1 D:1)
+[2017.07.28-07.26.18:725][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2017.07.28-07.26.18:725][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2017.07.28-07.26.18:725][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.07.28-07.26.18:725][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.07.28-07.26.18:726][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.07.28-07.26.18:726][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.07.28-07.26.18:726][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2017.07.28-07.26.18:726][  0]LogD3D11RHI:   Driver Version: 382.53 (internal:22.21.13.8253, unified:382.53)
+[2017.07.28-07.26.18:726][  0]LogD3D11RHI:      Driver Date: 6-7-2017
+[2017.07.28-07.26.18:727][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.07.28-07.26.18:760][  0]LogD3D11RHI: Async texture creation enabled
+[2017.07.28-07.26.18:790][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.07.28-07.26.18:892][  0]LogShaderCompilers: Guid format shader working directory is 2 characters bigger than the processId version (../../../../../../Unreal/FOTWO/source/FOTWO02/Intermediate/Shaders/WorkingDirectory/912/).
+[2017.07.28-07.26.18:892][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/vonkl/AppData/Local/Temp/UnrealShaderWorkingDir/8448542E42B80CEF0271009AA4D9482D/'.
+[2017.07.28-07.26.18:893][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.07.28-07.26.21:003][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.07.28-07.26.21:056][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.07.28-07.26.21:105][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.07.28-07.26.21:151][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.07.28-07.26.21:202][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.07.28-07.26.21:250][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.07.28-07.26.21:295][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.07.28-07.26.21:344][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.07.28-07.26.21:388][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.07.28-07.26.21:439][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.07.28-07.26.21:488][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.07.28-07.26.21:537][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.07.28-07.26.21:583][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.07.28-07.26.21:629][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.07.28-07.26.21:676][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.07.28-07.26.21:773][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.07.28-07.26.21:773][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.07.28-07.26.21:811][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.07.28-07.26.21:905][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.07.28-07.26.21:933][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.07.28-07.26.21:978][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.07.28-07.26.22:023][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.07.28-07.26.22:068][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.07.28-07.26.22:118][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.07.28-07.26.22:118][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.07.28-07.26.22:775][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.07.28-07.26.23:357][  0]LogDerivedDataCache: Loaded boot cache 0.58s 90MB C:/Users/vonkl/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.28-07.26.23:357][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/vonkl/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.07.28-07.26.23:358][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Unreal/FOTWO/source/FOTWO02/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.07.28-07.26.23:358][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.07.28-07.26.23:358][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Unreal/FOTWO/source/FOTWO02/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.07.28-07.26.23:358][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.07.28-07.26.23:383][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.07.28-07.26.23:395][  0]LogDerivedDataCache: Using Local data cache path C:/Users/vonkl/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.07.28-07.26.23:406][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.07.28-07.26.23:411][  0]LogSlate: Using Freetype 2.6.0
+[2017.07.28-07.26.23:424][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.28-07.26.23:424][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.07.28-07.26.24:314][  0]LogInit: Selected Device Profile: [Windows]
+[2017.07.28-07.26.24:488][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.07.28-07.26.24:736][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.07.28-07.26.24:793][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.07.28-07.26.24:851][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.07.28-07.26.24:851][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.07.28-07.26.24:851][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.07.28-07.26.26:177][  0]LogNetVersion: FOTWO02 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2990255715)
+[2017.07.28-07.26.26:276][  0]LogAssetRegistry: FAssetRegistry took 0.0272 seconds to start up
+[2017.07.28-07.26.26:346][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.045788 seconds
+[2017.07.28-07.26.26:352][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.07.28-07.26.26:352][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.07.28-07.26.26:352][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.07.28-07.26.26:419][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.07.28-07.26.32:119][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.07.28-07.26.32:162][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.07.28-07.26.32:850][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.07.28-07.26.33:404][  0]SourceControl: Info Source control is disabled
+[2017.07.28-07.26.33:477][  0]SourceControl: Info Source control is disabled
+[2017.07.28-07.26.33:538][  0]SourceControl: Info Source control is disabled
+[2017.07.28-07.26.33:590][  0]SourceControl: Info Source control is disabled
+[2017.07.28-07.26.34:387][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.07.28-07.26.35:035][  0]LogEngine: Initializing Engine...
+[2017.07.28-07.26.35:036][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.07.28-07.26.35:380][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.07.28-07.26.35:381][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.07.28-07.26.35:566][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.07.28-07.26.35:586][  0]LogInit: XAudio2 using 'Headset Earphone (3- Microsoft LifeChat LX-3000)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.28-07.26.35:597][  0]LogInit: FAudioDevice initialized.
+[2017.07.28-07.26.35:638][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/vonkl/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.07.28-07.26.35:647][  0]LogInit: Texture streaming: Enabled
+[2017.07.28-07.26.35:747][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.07.28-07.26.36:013][  0]LogInit: Transaction tracking system initialized
+[2017.07.28-07.26.36:373][  0]BlueprintLog: New page: Editor Load
+[2017.07.28-07.26.37:405][  0]LocalizationService: Info Localization service is disabled
+[2017.07.28-07.26.38:293][  0]LogConsoleResponse:Display: 
+[2017.07.28-07.26.38:693][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.07.28-07.26.38:693][  0]LogCook:Display: Mobile HDR setting 1
+[2017.07.28-07.26.38:725][  0]LogFileCache: Scanning file cache for directory 'C:/Unreal/FOTWO/source/FOTWO02/Content/' took 0.02s
+[2017.07.28-07.26.39:972][  0]SourceControl: Info Source control is disabled
+[2017.07.28-07.26.39:973][  0]Cmd: MAP LOAD FILE="../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.28-07.26.39:973][  0]LogEditorServer:Warning: Can't find file '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
+[2017.07.28-07.26.39:974][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.28-07.26.40:019][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.079ms to complete.
+[2017.07.28-07.26.40:019][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 0.046
+[2017.07.28-07.26.40:236][  0]LogCollectionManager: Loaded 0 collections in 0.001782 seconds
+[2017.07.28-07.26.40:323][  0]LogFileCache: Scanning file cache for directory 'C:/Unreal/FOTWO/source/FOTWO02/Saved/Collections/' took 0.01s
+[2017.07.28-07.26.40:323][  0]LogFileCache: Scanning file cache for directory 'C:/Unreal/FOTWO/source/FOTWO02/Content/Developers/vonkl/Collections/' took 0.01s
+[2017.07.28-07.26.40:323][  0]LogFileCache: Scanning file cache for directory 'C:/Unreal/FOTWO/source/FOTWO02/Content/Collections/' took 0.00s
+[2017.07.28-07.26.40:323][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.07.28-07.26.40:333][  0]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 2329 classes and 491 folders.
+[2017.07.28-07.26.40:398][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2017.07.28-07.26.40:887][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.07.28-07.26.40:958][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.07.28-07.26.41:110][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.07.28-07.26.41:130][  0]LogSlate: Took 0.007401 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.28-07.26.41:137][  0]LogSlate: Took 0.005031 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.07.28-07.26.41:149][  0]LogSlate: Took 0.005182 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.07.28-07.26.41:325][  0]LogRenderer: Reallocating scene render targets to support 1656x932 NumSamples 1 (Frame:1).
+[2017.07.28-07.26.41:436][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.07.28-07.26.41:502][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 1 classes and 2 folders.
+[2017.07.28-07.26.41:502][  0]LogLoad: (Engine Initialization) Total time: 30.08 seconds
+[2017.07.28-07.26.41:502][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.08 seconds
+[2017.07.28-07.26.41:502][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.07.28-07.26.41:502][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.07.28-07.26.41:521][  0]LogOcInput: OculusInput pre-init called
+[2017.07.28-07.26.41:521][  0]LogHMD: Starting GearVRController plugin
+[2017.07.28-07.26.41:539][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.07.28-07.26.41:591][  1]LogAssetRegistry: Asset discovery search completed in 15.3363 seconds
+[2017.07.28-07.26.41:593][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2017.07.28-07.26.41:593][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000026 seconds (updated 0 objects)
+[2017.07.28-07.27.56:711][341]LogSlate: Took 0.008950 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.28-07.27.57:530][341]LogAIModule: Creating AISystem for world FOTWO01
+[2017.07.28-07.27.57:541][341]LogSlate: Took 0.000179 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.07.28-07.27.57:573][341]Cmd: MAP LOAD FILE="../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Maps/FOTWO01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.07.28-07.27.57:573][341]LightingResults: New page: Lighting Build
+[2017.07.28-07.27.57:613][341]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0005 seconds. Added 5 classes and 0 folders.
+[2017.07.28-07.27.57:614][341]LoadErrors: New page: Loading map: FOTWO01.umap
+[2017.07.28-07.27.57:615][341]MapCheck: New page: Map Check
+[2017.07.28-07.27.57:615][341]LightingResults: New page: Lighting Build
+[2017.07.28-07.27.57:683][341]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.07.28-07.27.57:745][341]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.07.28-07.27.57:802][341]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 56.451ms to complete.
+[2017.07.28-07.27.57:803][341]LogFileHelpers: Loading map 'FOTWO01' took 0.231
+[2017.07.28-07.28.21:529][707]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/Simulation/NationBAU.NationBAU_C' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/Simulation/EarthBAU.PackageMetaData'
+[2017.07.28-07.28.21:529][707]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/Simulation/NationBAU.NationBAU:EarthPPM.K2Node_FunctionEntry_24' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/Simulation/EarthBAU.PackageMetaData'
+[2017.07.28-07.28.21:529][707]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/Simulation/NationBAU.NationBAU:EarthPPM.K2Node_FunctionResult_0' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/Simulation/EarthBAU.PackageMetaData'
+[2017.07.28-07.28.21:529][707]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/Simulation/NationBAU.NationBAU:EarthWarming.K2Node_FunctionResult_0' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/Simulation/EarthBAU.PackageMetaData'
+[2017.07.28-07.28.21:529][707]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/Simulation/NationBAU.NationBAU:EarthWarming.K2Node_FunctionEntry_159' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/Simulation/EarthBAU.PackageMetaData'
+[2017.07.28-07.28.21:529][707]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/Simulation/NationBAU.NationBAU:BudgetCalculation.K2Node_FunctionResult_1' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/Simulation/EarthBAU.PackageMetaData'
+[2017.07.28-07.28.21:529][707]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/Simulation/NationBAU.NationBAU:PopulationChange.K2Node_FunctionResult_0' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/Simulation/EarthBAU.PackageMetaData'
+[2017.07.28-07.28.21:529][707]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/Simulation/NationBAU.NationBAU:PopulationChange.K2Node_FunctionEntry_90' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/Simulation/EarthBAU.PackageMetaData'
+[2017.07.28-07.28.21:529][707]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/Simulation/NationBAU.NationBAU:HDICalculation.K2Node_FunctionResult_2' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/Simulation/EarthBAU.PackageMetaData'
+[2017.07.28-07.28.21:529][707]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/Simulation/NationBAU.NationBAU:HDICalculation.K2Node_FunctionEntry_338' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/Simulation/EarthBAU.PackageMetaData'
+[2017.07.28-07.28.21:529][707]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/Simulation/NationBAU.NationBAU:BudgetCalculation.K2Node_FunctionEntry_178' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/Simulation/EarthBAU.PackageMetaData'
+[2017.07.28-07.28.21:529][707]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/Simulation/NationBAU.NationBAU:EmissionsSum.K2Node_FunctionEntry_426' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/Simulation/EarthBAU.PackageMetaData'
+[2017.07.28-07.28.21:529][707]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/Simulation/NationBAU.NationBAU:EmissionsSum.K2Node_FunctionResult_3' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/Simulation/EarthBAU.PackageMetaData'
+[2017.07.28-07.28.21:529][707]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/Simulation/NationBAU.NationBAU:EconomyGDP.K2Node_FunctionEntry_16' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/Simulation/EarthBAU.PackageMetaData'
+[2017.07.28-07.28.21:529][707]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/Simulation/NationBAU.NationBAU:EconomyGDP.K2Node_FunctionResult_0' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/Simulation/EarthBAU.PackageMetaData'
+[2017.07.28-07.28.21:529][707]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/Simulation/NationBAU.NationBAU:EconomyGHG.K2Node_FunctionResult_0' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/Simulation/EarthBAU.PackageMetaData'
+[2017.07.28-07.28.21:529][707]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/Simulation/NationBAU.NationBAU:LandUse.K2Node_FunctionEntry_44' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/Simulation/EarthBAU.PackageMetaData'
+[2017.07.28-07.28.21:529][707]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/Simulation/NationBAU.NationBAU:EconomyGHG.K2Node_FunctionEntry_200' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/Simulation/EarthBAU.PackageMetaData'
+[2017.07.28-07.28.21:529][707]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/Simulation/NationBAU.NationBAU:LandUse.K2Node_FunctionResult_0' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/Simulation/EarthBAU.PackageMetaData'
+[2017.07.28-07.28.21:529][707]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/Simulation/NationBAU.NationBAU:PlayCards.K2Node_FunctionEntry_20' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/Simulation/EarthBAU.PackageMetaData'
+[2017.07.28-07.28.21:529][707]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/Simulation/NationBAU.NationBAU:PlayCards.K2Node_FunctionResult_0' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/Simulation/EarthBAU.PackageMetaData'
+[2017.07.28-07.28.21:529][707]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/Simulation/NationBAU.NationBAU:NationPledge.K2Node_FunctionEntry_15' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/Simulation/EarthBAU.PackageMetaData'
+[2017.07.28-07.28.21:529][707]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/Simulation/NationBAU.NationBAU:NationPledge.K2Node_FunctionResult_0' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/Simulation/EarthBAU.PackageMetaData'
+[2017.07.28-07.28.21:529][707]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/Simulation/NationBAU.NationBAU:EarthYear.K2Node_FunctionResult_0' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/Simulation/EarthBAU.PackageMetaData'
+[2017.07.28-07.28.21:529][707]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/Simulation/NationBAU.NationBAU:EarthYear.K2Node_FunctionEntry_170' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/Simulation/EarthBAU.PackageMetaData'
+[2017.07.28-07.28.21:529][707]LogMetaData: Removing '/Game/2DSideScrollerBP/Blueprints/Simulation/NationBAU.SKEL_NationBAU_C' ref from Metadata '/Game/2DSideScrollerBP/Blueprints/Simulation/EarthBAU.PackageMetaData'
+[2017.07.28-07.28.21:870][707]LogSavePackage: Save=302.04ms
+[2017.07.28-07.28.21:870][707]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/NationBAU42E46A3544101787775C81B3AFAFA75F.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/NationBAU.uasset'
+[2017.07.28-07.28.21:873][707]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/NationBAU.uasset
+[2017.07.28-07.28.22:120][707]LogSavePackage: Save=5.91ms
+[2017.07.28-07.28.22:120][707]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/EarthBAU59DA93264E24475262F95AA1DA622341.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/EarthBAU.uasset'
+[2017.07.28-07.28.22:123][707]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/EarthBAU.uasset
+[2017.07.28-07.28.37:648][608]LogSavePackage: Save=140.20ms
+[2017.07.28-07.28.37:648][608]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/ArchHUDAE79969E42379E88F72F66A9CF59EBAE.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ArchHUD.uasset'
+[2017.07.28-07.28.37:650][608]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ArchHUD.uasset
+[2017.07.28-07.28.39:987][719]LogSavePackage: Save=266.90ms
+[2017.07.28-07.28.39:987][719]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/ConfHUD717B451E443D2967837E85B1276FAF74.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset'
+[2017.07.28-07.28.39:990][719]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset
+[2017.07.28-07.28.41:888][816]LogSavePackage: Save=66.13ms
+[2017.07.28-07.28.41:888][816]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/EventsHUDF24A351B4FC98EE32764E1A121F09D27.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/EventsHUD.uasset'
+[2017.07.28-07.28.41:891][816]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/EventsHUD.uasset
+[2017.07.28-07.28.44:853][936]LogSavePackage: Save=740.93ms
+[2017.07.28-07.28.44:853][936]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/MainHUDAD35277D438E0B457BA63D94C3E12D00.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/MainHUD.uasset'
+[2017.07.28-07.28.44:856][936]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/MainHUD.uasset
+[2017.07.28-07.28.47:468][ 63]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 112 classes and 0 folders.
+[2017.07.28-07.28.48:160][ 63]LogSlate: Took 0.000115 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.07.28-07.28.48:168][ 63]LogSlate: Took 0.007216 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.07.28-07.29.55:300][604]LogSlate: Took 0.031093 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.07.28-07.34.57:800][127]LogUObjectHash:Warning: Ambiguous search, could be ObjectProperty /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:VoteToggleButton or Button /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VoteToggleButton
+[2017.07.28-07.34.57:800][127]LogUObjectHash:Warning: Ambiguous search, could be ObjectProperty /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:VoteToggleButton or ObjectProperty /Engine/Transient.TRASHCLASS_ConfHUD_60:VoteToggleButton
+[2017.07.28-07.34.57:800][127]LogUObjectHash:Warning: Ambiguous search, could be ObjectProperty /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:VoteToggleButton or ObjectProperty /Engine/Transient.REINST_SKEL_ConfHUD_C_20:VoteToggleButton
+[2017.07.28-07.34.57:800][127]LogUObjectHash:Warning: Ambiguous search, could be ObjectProperty /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:VoteToggleButton or Button /Engine/Transient.World_1:ConfHUD_C_2.WidgetTree_15.VoteToggleButton
+[2017.07.28-07.34.57:800][127]LogUObjectHash:Warning: Ambiguous search, could be ObjectProperty /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:VoteToggleButton or Button /Engine/Transient.World_1:ConfHUD_C_1.WidgetTree_14.VoteToggleButton
+[2017.07.28-07.34.57:800][127]LogUObjectHash:Warning: Ambiguous search, could be ObjectProperty /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:VoteToggleButton or ObjectProperty /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.SKEL_ConfHUD_C:VoteToggleButton
+[2017.07.28-07.34.57:800][127]LogUObjectHash:Warning: Ambiguous search, could be ObjectProperty /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:VoteToggleButton or Button /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:WidgetTree.VoteToggleButton
+[2017.07.28-07.34.57:800][127]LogUObjectHash:Warning: Ambiguous search, could be ObjectProperty /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:VoteToggleButton or Button /Engine/Transient.World_1:ConfHUD_C_3.WidgetTree_16.VoteToggleButton
+[2017.07.28-07.34.57:800][127]LogUObjectHash:Warning: Ambiguous search, could be ButtonSlot /Engine/Transient.World_1:ConfHUD_C_3.WidgetTree_16.VoteToggleButton.ButtonSlot_0 or ButtonSlot /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VoteToggleButton.ButtonSlot_0
+[2017.07.28-07.34.57:800][127]LogProperty:Warning: Illegal TEXT reference to a private object in external package (ButtonSlot /Engine/Transient.World_1:ConfHUD_C_3.WidgetTree_16.VoteToggleButton.ButtonSlot_0) from referencer (TextBlock /Engine/UMG/Editor/Transient.TextBlock_7).  Import failed...
+[2017.07.28-07.34.57:800][127]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'ButtonSlot'VoteToggleButton.ButtonSlot_0''
+[2017.07.28-07.35.38:573][272]LogUObjectHash:Warning: Ambiguous search, could be ObjectProperty /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:VoteToggleButton or Button /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VoteToggleButton
+[2017.07.28-07.35.38:573][272]LogUObjectHash:Warning: Ambiguous search, could be ObjectProperty /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:VoteToggleButton or Button /Engine/Transient.World_1:ConfHUD_C_4.WidgetTree_17.VoteToggleButton
+[2017.07.28-07.35.38:573][272]LogUObjectHash:Warning: Ambiguous search, could be ObjectProperty /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:VoteToggleButton or ObjectProperty /Engine/Transient.TRASHCLASS_ConfHUD_60:VoteToggleButton
+[2017.07.28-07.35.38:573][272]LogUObjectHash:Warning: Ambiguous search, could be ObjectProperty /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:VoteToggleButton or ObjectProperty /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.SKEL_ConfHUD_C:VoteToggleButton
+[2017.07.28-07.35.38:573][272]LogUObjectHash:Warning: Ambiguous search, could be ObjectProperty /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:VoteToggleButton or ObjectProperty /Engine/Transient.REINST_SKEL_ConfHUD_C_20:VoteToggleButton
+[2017.07.28-07.35.38:573][272]LogUObjectHash:Warning: Ambiguous search, could be ObjectProperty /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:VoteToggleButton or Button /Engine/Transient.World_1:ConfHUD_C_2.WidgetTree_15.VoteToggleButton
+[2017.07.28-07.35.38:573][272]LogUObjectHash:Warning: Ambiguous search, could be ObjectProperty /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:VoteToggleButton or Button /Engine/Transient.World_1:ConfHUD_C_1.WidgetTree_14.VoteToggleButton
+[2017.07.28-07.35.38:573][272]LogUObjectHash:Warning: Ambiguous search, could be ObjectProperty /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:VoteToggleButton or ObjectProperty /Engine/Transient.REINST_SKEL_ConfHUD_C_21:VoteToggleButton
+[2017.07.28-07.35.38:573][272]LogUObjectHash:Warning: Ambiguous search, could be ObjectProperty /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:VoteToggleButton or ObjectProperty /Engine/Transient.TRASHCLASS_ConfHUD_61:VoteToggleButton
+[2017.07.28-07.35.38:573][272]LogUObjectHash:Warning: Ambiguous search, could be ObjectProperty /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:VoteToggleButton or Button /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:WidgetTree.VoteToggleButton
+[2017.07.28-07.35.38:573][272]LogUObjectHash:Warning: Ambiguous search, could be ObjectProperty /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:VoteToggleButton or Button /Engine/Transient.World_1:ConfHUD_C_3.WidgetTree_16.VoteToggleButton
+[2017.07.28-07.35.38:573][272]LogUObjectHash:Warning: Ambiguous search, could be ButtonSlot /Engine/Transient.World_1:ConfHUD_C_4.WidgetTree_17.VoteToggleButton.ButtonSlot_0 or ButtonSlot /Engine/Transient.World_1:ConfHUD_C_3.WidgetTree_16.VoteToggleButton.ButtonSlot_0
+[2017.07.28-07.35.38:573][272]LogUObjectHash:Warning: Ambiguous search, could be ButtonSlot /Engine/Transient.World_1:ConfHUD_C_4.WidgetTree_17.VoteToggleButton.ButtonSlot_0 or ButtonSlot /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VoteToggleButton.ButtonSlot_0
+[2017.07.28-07.35.38:573][272]LogProperty:Warning: Illegal TEXT reference to a private object in external package (ButtonSlot /Engine/Transient.World_1:ConfHUD_C_4.WidgetTree_17.VoteToggleButton.ButtonSlot_0) from referencer (TextBlock /Engine/UMG/Editor/Transient.TextBlock_7).  Import failed...
+[2017.07.28-07.35.38:573][272]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'ButtonSlot'VoteToggleButton.ButtonSlot_0''
+[2017.07.28-07.35.56:350][206]LogUObjectHash:Warning: Ambiguous search, could be ObjectProperty /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:VoteToggleButton or Button /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VoteToggleButton
+[2017.07.28-07.35.56:350][206]LogUObjectHash:Warning: Ambiguous search, could be ObjectProperty /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:VoteToggleButton or Button /Engine/Transient.World_1:ConfHUD_C_4.WidgetTree_17.VoteToggleButton
+[2017.07.28-07.35.56:350][206]LogUObjectHash:Warning: Ambiguous search, could be ObjectProperty /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:VoteToggleButton or ObjectProperty /Engine/Transient.TRASHCLASS_ConfHUD_60:VoteToggleButton
+[2017.07.28-07.35.56:350][206]LogUObjectHash:Warning: Ambiguous search, could be ObjectProperty /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:VoteToggleButton or ObjectProperty /Engine/Transient.TRASHCLASS_ConfHUD_62:VoteToggleButton
+[2017.07.28-07.35.56:350][206]LogUObjectHash:Warning: Ambiguous search, could be ObjectProperty /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:VoteToggleButton or ObjectProperty /Engine/Transient.REINST_SKEL_ConfHUD_C_20:VoteToggleButton
+[2017.07.28-07.35.56:350][206]LogUObjectHash:Warning: Ambiguous search, could be ObjectProperty /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:VoteToggleButton or Button /Engine/Transient.World_1:ConfHUD_C_2.WidgetTree_15.VoteToggleButton
+[2017.07.28-07.35.56:350][206]LogUObjectHash:Warning: Ambiguous search, could be ObjectProperty /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:VoteToggleButton or Button /Engine/Transient.World_1:ConfHUD_C_1.WidgetTree_14.VoteToggleButton
+[2017.07.28-07.35.56:350][206]LogUObjectHash:Warning: Ambiguous search, could be ObjectProperty /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:VoteToggleButton or ObjectProperty /Engine/Transient.REINST_SKEL_ConfHUD_C_21:VoteToggleButton
+[2017.07.28-07.35.56:350][206]LogUObjectHash:Warning: Ambiguous search, could be ObjectProperty /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:VoteToggleButton or ObjectProperty /Engine/Transient.TRASHCLASS_ConfHUD_61:VoteToggleButton
+[2017.07.28-07.35.56:350][206]LogUObjectHash:Warning: Ambiguous search, could be ObjectProperty /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:VoteToggleButton or Button /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:WidgetTree.VoteToggleButton
+[2017.07.28-07.35.56:350][206]LogUObjectHash:Warning: Ambiguous search, could be ObjectProperty /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:VoteToggleButton or Button /Engine/Transient.World_1:ConfHUD_C_3.WidgetTree_16.VoteToggleButton
+[2017.07.28-07.35.56:350][206]LogUObjectHash:Warning: Ambiguous search, could be ObjectProperty /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:VoteToggleButton or ObjectProperty /Engine/Transient.REINST_SKEL_ConfHUD_C_22:VoteToggleButton
+[2017.07.28-07.35.56:350][206]LogUObjectHash:Warning: Ambiguous search, could be ObjectProperty /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:VoteToggleButton or ObjectProperty /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.SKEL_ConfHUD_C:VoteToggleButton
+[2017.07.28-07.35.56:350][206]LogUObjectHash:Warning: Ambiguous search, could be ObjectProperty /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:VoteToggleButton or Button /Engine/Transient.World_1:ConfHUD_C_5.WidgetTree_18.VoteToggleButton
+[2017.07.28-07.35.56:350][206]LogUObjectHash:Warning: Ambiguous search, could be ButtonSlot /Engine/Transient.World_1:ConfHUD_C_4.WidgetTree_17.VoteToggleButton.ButtonSlot_0 or ButtonSlot /Engine/Transient.World_1:ConfHUD_C_3.WidgetTree_16.VoteToggleButton.ButtonSlot_0
+[2017.07.28-07.35.56:350][206]LogUObjectHash:Warning: Ambiguous search, could be ButtonSlot /Engine/Transient.World_1:ConfHUD_C_4.WidgetTree_17.VoteToggleButton.ButtonSlot_0 or ButtonSlot /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VoteToggleButton.ButtonSlot_0
+[2017.07.28-07.35.56:350][206]LogUObjectHash:Warning: Ambiguous search, could be ButtonSlot /Engine/Transient.World_1:ConfHUD_C_4.WidgetTree_17.VoteToggleButton.ButtonSlot_0 or ButtonSlot /Engine/Transient.World_1:ConfHUD_C_5.WidgetTree_18.VoteToggleButton.ButtonSlot_0
+[2017.07.28-07.35.56:350][206]LogProperty:Warning: Illegal TEXT reference to a private object in external package (ButtonSlot /Engine/Transient.World_1:ConfHUD_C_4.WidgetTree_17.VoteToggleButton.ButtonSlot_0) from referencer (TextBlock /Engine/UMG/Editor/Transient.TextBlock_7).  Import failed...
+[2017.07.28-07.35.56:350][206]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'ButtonSlot'VoteToggleButton.ButtonSlot_0''
+[2017.07.28-07.36.59:852][579]LogEditorTransaction: Undo Edit Specified Color
+[2017.07.28-07.37.00:441][598]LogEditorTransaction: Undo Edit Specified Color
+[2017.07.28-07.37.01:067][626]LogEditorTransaction: Undo Edit Specified Color
+[2017.07.28-07.37.01:735][654]LogEditorTransaction: Undo Edit Specified Color
+[2017.07.28-07.37.02:499][689]LogEditorTransaction: Undo Edit Specified Color
+[2017.07.28-07.37.03:388][730]LogEditorTransaction: Undo Edit Specified Color
+[2017.07.28-07.37.25:790][853]LogSlate: Took 0.003374 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.07.28-07.38.08:053][140]BlueprintLog: New page: Compile ConfHUD
+[2017.07.28-07.38.08:243][140]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.07.28-07.38.33:413][632]BlueprintLog: New page: Compile ConfHUD
+[2017.07.28-07.38.33:553][632]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.07.28-07.38.34:359][658]LogSavePackage: Save=272.70ms
+[2017.07.28-07.38.34:359][658]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/ConfHUDFE7D298D45163CC4B3DB0DA793ECAC13.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset'
+[2017.07.28-07.38.34:363][658]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset
+[2017.07.28-07.38.44:962][930]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.28-07.38.45:021][930]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.07.28-07.38.45:022][930]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.07.28-07.38.45:022][930]LogPlayLevel: [PlayLevel] Compiling EventsHUD before play...
+[2017.07.28-07.38.45:118][930]LogPlayLevel: [PlayLevel] Compiling MainHUD before play...
+[2017.07.28-07.38.45:330][930]LogPlayLevel: [PlayLevel] Compiling ArchHUD before play...
+[2017.07.28-07.38.45:440][930]LogPlayLevel: [PlayLevel] Compiling FOTWO01 before play...
+[2017.07.28-07.38.45:546][930]LogPlayLevel: PlayLevel: Blueprint regeneration took 524 ms (4 blueprints)
+[2017.07.28-07.38.45:547][930]PIE: New page: PIE session: FOTWO01 (28 Jul 2017 11:38:45)
+[2017.07.28-07.38.45:548][930]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01
+[2017.07.28-07.38.45:550][930]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002395s)
+[2017.07.28-07.38.45:551][930]LogAIModule: Creating AISystem for world FOTWO01
+[2017.07.28-07.38.45:551][930]LogPlayLevel: PIE: World Init took: (0.000608s)
+[2017.07.28-07.38.45:551][930]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 (0.003373s)
+[2017.07.28-07.38.45:572][930]LogInit: XAudio2 using 'Headset Earphone (3- Microsoft LifeChat LX-3000)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.28-07.38.45:578][930]LogInit: FAudioDevice initialized.
+[2017.07.28-07.38.45:627][930]LogLoad: Game class is 'FOTWOGameMode_C'
+[2017.07.28-07.38.45:632][930]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 up for play (max tick rate 60) at 2017.07.28-09.38.45
+[2017.07.28-07.38.45:633][930]LogWorld: Bringing up level for play took: 0.002576
+[2017.07.28-07.38.45:706][930]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.07.28-07.38.45:719][930]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01 1.021
+[2017.07.28-07.38.45:719][930]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.07.28-07.39.21:920][ 98]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.07.28-07.39.21:968][ 98]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.07.28-07.40.08:153][997]LogSavePackage: Save=92.77ms
+[2017.07.28-07.40.08:153][997]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/FOTWO01_Auto1AF8B565D41E506A1C72C08AF51153DF9.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Maps/FOTWO01_Auto1.umap'
+[2017.07.28-07.40.08:154][997]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Maps/FOTWO01_Auto1.umap
+[2017.07.28-07.40.08:155][997]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/FOTWO01' took 0.191
+[2017.07.28-07.40.08:155][997]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.191
+[2017.07.28-07.40.08:157][997]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/FOTWOGameMode] ([1] browsable assets)...
+[2017.07.28-07.40.08:157][997]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/FOTWOGameMode]
+[2017.07.28-07.40.08:232][997]LogSavePackage: Save=7.85ms
+[2017.07.28-07.40.08:232][997]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/FOTWOGameMode_Auto13A3488E44F581AD5B63B028A6A8AA884.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/FOTWOGameMode_Auto1.uasset'
+[2017.07.28-07.40.08:234][997]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/FOTWOGameMode_Auto1.uasset
+[2017.07.28-07.40.08:234][997]LogFileHelpers: Auto-saving content packages took 0.078
+[2017.07.28-07.51.54:911][280]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/FOTWO01' took 0.031
+[2017.07.28-07.51.54:914][280]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD] ([1] browsable assets)...
+[2017.07.28-07.51.54:914][280]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD]
+[2017.07.28-07.51.55:258][280]LogSavePackage: Save=276.27ms
+[2017.07.28-07.51.55:258][280]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/ConfHUD_Auto2710C1E5E4D468CA6D2E589AC6CA06546.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD_Auto2.uasset'
+[2017.07.28-07.51.55:260][280]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD_Auto2.uasset
+[2017.07.28-07.51.55:260][280]LogFileHelpers: Auto-saving content packages took 0.348
+[2017.07.28-07.58.33:309][285]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.HorizontalBox_22
+[2017.07.28-07.58.33:309][285]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_22.WidgetTree_58.HorizontalBox_22
+[2017.07.28-07.58.33:309][285]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_24.WidgetTree_60.HorizontalBox_22
+[2017.07.28-07.58.33:309][285]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_25.WidgetTree_61.HorizontalBox_22
+[2017.07.28-07.58.33:309][285]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_26.WidgetTree_62.HorizontalBox_22
+[2017.07.28-07.58.33:309][285]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_27.WidgetTree_63.HorizontalBox_22
+[2017.07.28-07.58.33:309][285]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_28.WidgetTree_64.HorizontalBox_22
+[2017.07.28-07.58.33:309][285]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_29.WidgetTree_65.HorizontalBox_22
+[2017.07.28-07.58.33:309][285]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_30.WidgetTree_66.HorizontalBox_22
+[2017.07.28-07.58.33:309][285]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_31.WidgetTree_67.HorizontalBox_22
+[2017.07.28-07.58.33:309][285]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.HorizontalBox_22.HorizontalBoxSlot_1 or HorizontalBoxSlot /Engine/Transient.World_1:ConfHUD_C_31.WidgetTree_67.HorizontalBox_22.HorizontalBoxSlot_1
+[2017.07.28-07.58.33:309][285]LogProperty:Warning: Illegal TEXT reference to a private object in external package (HorizontalBoxSlot /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.HorizontalBox_22.HorizontalBoxSlot_1) from referencer (TextBlock /Engine/UMG/Editor/Transient.TextBlock_52).  Import failed...
+[2017.07.28-07.58.33:309][285]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'HorizontalBoxSlot'HorizontalBox_22.HorizontalBoxSlot_1''
+[2017.07.28-08.02.02:295][474]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/FOTWO01' took 0.031
+[2017.07.28-08.02.02:297][474]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD] ([1] browsable assets)...
+[2017.07.28-08.02.02:297][474]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD]
+[2017.07.28-08.02.02:617][474]LogSavePackage: Save=248.77ms
+[2017.07.28-08.02.02:617][474]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/ConfHUD_Auto3175E0A4C4E04081CE116A6A5CF21AF5C.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD_Auto3.uasset'
+[2017.07.28-08.02.02:619][474]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD_Auto3.uasset
+[2017.07.28-08.02.02:619][474]LogFileHelpers: Auto-saving content packages took 0.323
+[2017.07.28-08.04.18:010][495]BlueprintLog: New page: Compile ConfHUD
+[2017.07.28-08.04.18:245][495]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.07.28-08.04.19:202][524]LogSavePackage: Save=285.37ms
+[2017.07.28-08.04.19:202][524]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/ConfHUD0E9DD3C74A5381233B0B7AB31084252E.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset'
+[2017.07.28-08.04.19:204][524]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset
+[2017.07.28-08.04.21:473][650]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.28-08.04.21:491][650]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.07.28-08.04.21:491][650]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.28-08.04.21:491][650]PIE: New page: PIE session: FOTWO01 (28 Jul 2017 12:04:21)
+[2017.07.28-08.04.21:491][650]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01
+[2017.07.28-08.04.21:493][650]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001391s)
+[2017.07.28-08.04.21:493][650]LogAIModule: Creating AISystem for world FOTWO01
+[2017.07.28-08.04.21:493][650]LogPlayLevel: PIE: World Init took: (0.000549s)
+[2017.07.28-08.04.21:493][650]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 (0.002076s)
+[2017.07.28-08.04.21:515][650]LogInit: XAudio2 using 'Headset Earphone (3- Microsoft LifeChat LX-3000)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.28-08.04.21:521][650]LogInit: FAudioDevice initialized.
+[2017.07.28-08.04.21:555][650]LogLoad: Game class is 'FOTWOGameMode_C'
+[2017.07.28-08.04.21:557][650]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 up for play (max tick rate 60) at 2017.07.28-10.04.21
+[2017.07.28-08.04.21:558][650]LogWorld: Bringing up level for play took: 0.001003
+[2017.07.28-08.04.21:570][650]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01 0.872
+[2017.07.28-08.04.21:570][650]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.07.28-08.05.05:093][261]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.07.28-08.05.05:146][261]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.07.28-08.05.26:862][363]BlueprintLog: New page: Compile ConfHUD
+[2017.07.28-08.05.27:047][363]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.07.28-08.05.29:480][492]LogTemp: Repeting last play command: Selected Viewport
+[2017.07.28-08.05.29:498][492]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.07.28-08.05.29:498][492]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.07.28-08.05.29:498][492]PIE: New page: PIE session: FOTWO01 (28 Jul 2017 12:05:29)
+[2017.07.28-08.05.29:498][492]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01
+[2017.07.28-08.05.29:499][492]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001403s)
+[2017.07.28-08.05.29:500][492]LogAIModule: Creating AISystem for world FOTWO01
+[2017.07.28-08.05.29:500][492]LogPlayLevel: PIE: World Init took: (0.000774s)
+[2017.07.28-08.05.29:501][492]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 (0.002354s)
+[2017.07.28-08.05.29:521][492]LogInit: XAudio2 using 'Headset Earphone (3- Microsoft LifeChat LX-3000)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.07.28-08.05.29:526][492]LogInit: FAudioDevice initialized.
+[2017.07.28-08.05.29:559][492]LogLoad: Game class is 'FOTWOGameMode_C'
+[2017.07.28-08.05.29:561][492]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 up for play (max tick rate 60) at 2017.07.28-10.05.29
+[2017.07.28-08.05.29:562][492]LogWorld: Bringing up level for play took: 0.000894
+[2017.07.28-08.05.29:574][492]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01 0.876
+[2017.07.28-08.05.29:574][492]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.07.28-08.06.31:833][744]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.07.28-08.06.31:875][744]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.07.28-08.06.35:356][907]LogSavePackage: Save=304.14ms
+[2017.07.28-08.06.35:356][907]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/ConfHUDAEB230DA4106033FAE29AC9BE51A01FB.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset'
+[2017.07.28-08.06.35:359][907]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset
+[2017.07.28-08.06.55:180][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.HorizontalBox_22
+[2017.07.28-08.06.55:180][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_22.WidgetTree_58.HorizontalBox_22
+[2017.07.28-08.06.55:180][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_24.WidgetTree_60.HorizontalBox_22
+[2017.07.28-08.06.55:180][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_25.WidgetTree_61.HorizontalBox_22
+[2017.07.28-08.06.55:180][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_26.WidgetTree_62.HorizontalBox_22
+[2017.07.28-08.06.55:180][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_27.WidgetTree_63.HorizontalBox_22
+[2017.07.28-08.06.55:180][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_28.WidgetTree_64.HorizontalBox_22
+[2017.07.28-08.06.55:180][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_29.WidgetTree_65.HorizontalBox_22
+[2017.07.28-08.06.55:180][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_30.WidgetTree_66.HorizontalBox_22
+[2017.07.28-08.06.55:180][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_31.WidgetTree_67.HorizontalBox_22
+[2017.07.28-08.06.55:181][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_32.WidgetTree_68.HorizontalBox_22
+[2017.07.28-08.06.55:181][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_33.WidgetTree_69.HorizontalBox_22
+[2017.07.28-08.06.55:181][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_1.WidgetTree_82.HorizontalBox_22
+[2017.07.28-08.06.55:181][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_2.WidgetTree_72.HorizontalBox_22
+[2017.07.28-08.06.55:181][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.REINST_ConfHUD_C_65:WidgetTree.HorizontalBox_22
+[2017.07.28-08.06.55:181][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:WidgetTree.HorizontalBox_22
+[2017.07.28-08.06.55:181][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Engine/Transient.World_1:ConfHUD_C_2.WidgetTree_72.HorizontalBox_22.HorizontalBoxSlot_1 or HorizontalBoxSlot /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.HorizontalBox_22.HorizontalBoxSlot_1
+[2017.07.28-08.06.55:181][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Engine/Transient.World_1:ConfHUD_C_2.WidgetTree_72.HorizontalBox_22.HorizontalBoxSlot_1 or HorizontalBoxSlot /Engine/Transient.World_1:ConfHUD_C_31.WidgetTree_67.HorizontalBox_22.HorizontalBoxSlot_1
+[2017.07.28-08.06.55:181][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Engine/Transient.World_1:ConfHUD_C_2.WidgetTree_72.HorizontalBox_22.HorizontalBoxSlot_1 or HorizontalBoxSlot /Engine/Transient.World_1:ConfHUD_C_32.WidgetTree_68.HorizontalBox_22.HorizontalBoxSlot_1
+[2017.07.28-08.06.55:181][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Engine/Transient.World_1:ConfHUD_C_2.WidgetTree_72.HorizontalBox_22.HorizontalBoxSlot_1 or HorizontalBoxSlot /Engine/Transient.World_1:ConfHUD_C_33.WidgetTree_69.HorizontalBox_22.HorizontalBoxSlot_1
+[2017.07.28-08.06.55:181][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Engine/Transient.World_1:ConfHUD_C_2.WidgetTree_72.HorizontalBox_22.HorizontalBoxSlot_1 or HorizontalBoxSlot /Engine/Transient.World_1:ConfHUD_C_1.WidgetTree_82.HorizontalBox_22.HorizontalBoxSlot_1
+[2017.07.28-08.06.55:181][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Engine/Transient.World_1:ConfHUD_C_2.WidgetTree_72.HorizontalBox_22.HorizontalBoxSlot_1 or HorizontalBoxSlot /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:WidgetTree.HorizontalBox_22.HorizontalBoxSlot_1
+[2017.07.28-08.06.55:181][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Engine/Transient.World_1:ConfHUD_C_2.WidgetTree_72.HorizontalBox_22.HorizontalBoxSlot_1 or HorizontalBoxSlot /Engine/Transient.REINST_ConfHUD_C_65:WidgetTree.HorizontalBox_22.HorizontalBoxSlot_1
+[2017.07.28-08.06.55:181][891]LogProperty:Warning: Illegal TEXT reference to a private object in external package (HorizontalBoxSlot /Engine/Transient.World_1:ConfHUD_C_2.WidgetTree_72.HorizontalBox_22.HorizontalBoxSlot_1) from referencer (TextBlock /Engine/UMG/Editor/Transient.TextBlock_52).  Import failed...
+[2017.07.28-08.06.55:181][891]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'HorizontalBoxSlot'HorizontalBox_22.HorizontalBoxSlot_1''
+[2017.07.28-08.06.55:181][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.HorizontalBox_22
+[2017.07.28-08.06.55:181][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_22.WidgetTree_58.HorizontalBox_22
+[2017.07.28-08.06.55:181][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_24.WidgetTree_60.HorizontalBox_22
+[2017.07.28-08.06.55:181][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_25.WidgetTree_61.HorizontalBox_22
+[2017.07.28-08.06.55:181][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_26.WidgetTree_62.HorizontalBox_22
+[2017.07.28-08.06.55:181][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_27.WidgetTree_63.HorizontalBox_22
+[2017.07.28-08.06.55:181][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_28.WidgetTree_64.HorizontalBox_22
+[2017.07.28-08.06.55:181][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_29.WidgetTree_65.HorizontalBox_22
+[2017.07.28-08.06.55:181][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_30.WidgetTree_66.HorizontalBox_22
+[2017.07.28-08.06.55:181][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_31.WidgetTree_67.HorizontalBox_22
+[2017.07.28-08.06.55:181][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_32.WidgetTree_68.HorizontalBox_22
+[2017.07.28-08.06.55:181][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_33.WidgetTree_69.HorizontalBox_22
+[2017.07.28-08.06.55:181][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_1.WidgetTree_82.HorizontalBox_22
+[2017.07.28-08.06.55:181][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_2.WidgetTree_72.HorizontalBox_22
+[2017.07.28-08.06.55:181][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.REINST_ConfHUD_C_65:WidgetTree.HorizontalBox_22
+[2017.07.28-08.06.55:181][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:WidgetTree.HorizontalBox_22
+[2017.07.28-08.06.55:182][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.HorizontalBox_22.HorizontalBoxSlot_2 or HorizontalBoxSlot /Engine/Transient.World_1:ConfHUD_C_32.WidgetTree_68.HorizontalBox_22.HorizontalBoxSlot_2
+[2017.07.28-08.06.55:182][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.HorizontalBox_22.HorizontalBoxSlot_2 or HorizontalBoxSlot /Engine/Transient.World_1:ConfHUD_C_33.WidgetTree_69.HorizontalBox_22.HorizontalBoxSlot_2
+[2017.07.28-08.06.55:182][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.HorizontalBox_22.HorizontalBoxSlot_2 or HorizontalBoxSlot /Engine/Transient.World_1:ConfHUD_C_1.WidgetTree_82.HorizontalBox_22.HorizontalBoxSlot_2
+[2017.07.28-08.06.55:182][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.HorizontalBox_22.HorizontalBoxSlot_2 or HorizontalBoxSlot /Engine/Transient.World_1:ConfHUD_C_2.WidgetTree_72.HorizontalBox_22.HorizontalBoxSlot_2
+[2017.07.28-08.06.55:182][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.HorizontalBox_22.HorizontalBoxSlot_2 or HorizontalBoxSlot /Engine/Transient.REINST_ConfHUD_C_65:WidgetTree.HorizontalBox_22.HorizontalBoxSlot_2
+[2017.07.28-08.06.55:182][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.HorizontalBox_22.HorizontalBoxSlot_2 or HorizontalBoxSlot /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:WidgetTree.HorizontalBox_22.HorizontalBoxSlot_2
+[2017.07.28-08.06.55:182][891]LogProperty:Warning: Illegal TEXT reference to a private object in external package (HorizontalBoxSlot /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.HorizontalBox_22.HorizontalBoxSlot_2) from referencer (TextBlock /Engine/UMG/Editor/Transient.TextBlock_55).  Import failed...
+[2017.07.28-08.06.55:182][891]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'HorizontalBoxSlot'HorizontalBox_22.HorizontalBoxSlot_2''
+[2017.07.28-08.06.55:182][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.HorizontalBox_22
+[2017.07.28-08.06.55:182][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_22.WidgetTree_58.HorizontalBox_22
+[2017.07.28-08.06.55:182][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_24.WidgetTree_60.HorizontalBox_22
+[2017.07.28-08.06.55:182][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_25.WidgetTree_61.HorizontalBox_22
+[2017.07.28-08.06.55:182][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_26.WidgetTree_62.HorizontalBox_22
+[2017.07.28-08.06.55:182][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_27.WidgetTree_63.HorizontalBox_22
+[2017.07.28-08.06.55:182][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_28.WidgetTree_64.HorizontalBox_22
+[2017.07.28-08.06.55:182][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_29.WidgetTree_65.HorizontalBox_22
+[2017.07.28-08.06.55:182][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_30.WidgetTree_66.HorizontalBox_22
+[2017.07.28-08.06.55:182][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_31.WidgetTree_67.HorizontalBox_22
+[2017.07.28-08.06.55:182][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_32.WidgetTree_68.HorizontalBox_22
+[2017.07.28-08.06.55:182][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_33.WidgetTree_69.HorizontalBox_22
+[2017.07.28-08.06.55:182][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_1.WidgetTree_82.HorizontalBox_22
+[2017.07.28-08.06.55:182][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_2.WidgetTree_72.HorizontalBox_22
+[2017.07.28-08.06.55:182][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.REINST_ConfHUD_C_65:WidgetTree.HorizontalBox_22
+[2017.07.28-08.06.55:182][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:WidgetTree.HorizontalBox_22
+[2017.07.28-08.06.55:182][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.HorizontalBox_22.HorizontalBoxSlot_3 or HorizontalBoxSlot /Engine/Transient.World_1:ConfHUD_C_33.WidgetTree_69.HorizontalBox_22.HorizontalBoxSlot_3
+[2017.07.28-08.06.55:182][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.HorizontalBox_22.HorizontalBoxSlot_3 or HorizontalBoxSlot /Engine/Transient.World_1:ConfHUD_C_2.WidgetTree_72.HorizontalBox_22.HorizontalBoxSlot_3
+[2017.07.28-08.06.55:182][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.HorizontalBox_22.HorizontalBoxSlot_3 or HorizontalBoxSlot /Engine/Transient.World_1:ConfHUD_C_1.WidgetTree_82.HorizontalBox_22.HorizontalBoxSlot_3
+[2017.07.28-08.06.55:182][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.HorizontalBox_22.HorizontalBoxSlot_3 or HorizontalBoxSlot /Engine/Transient.REINST_ConfHUD_C_65:WidgetTree.HorizontalBox_22.HorizontalBoxSlot_3
+[2017.07.28-08.06.55:182][891]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.HorizontalBox_22.HorizontalBoxSlot_3 or HorizontalBoxSlot /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:WidgetTree.HorizontalBox_22.HorizontalBoxSlot_3
+[2017.07.28-08.06.55:182][891]LogProperty:Warning: Illegal TEXT reference to a private object in external package (HorizontalBoxSlot /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.HorizontalBox_22.HorizontalBoxSlot_3) from referencer (Image /Engine/UMG/Editor/Transient.Image_3).  Import failed...
+[2017.07.28-08.06.55:182][891]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'HorizontalBoxSlot'HorizontalBox_22.HorizontalBoxSlot_3''
+[2017.07.28-08.07.00:781][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.HorizontalBox_22
+[2017.07.28-08.07.00:781][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_22.WidgetTree_58.HorizontalBox_22
+[2017.07.28-08.07.00:781][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_24.WidgetTree_60.HorizontalBox_22
+[2017.07.28-08.07.00:781][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_25.WidgetTree_61.HorizontalBox_22
+[2017.07.28-08.07.00:781][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_26.WidgetTree_62.HorizontalBox_22
+[2017.07.28-08.07.00:781][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_27.WidgetTree_63.HorizontalBox_22
+[2017.07.28-08.07.00:781][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_28.WidgetTree_64.HorizontalBox_22
+[2017.07.28-08.07.00:781][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_29.WidgetTree_65.HorizontalBox_22
+[2017.07.28-08.07.00:781][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_30.WidgetTree_66.HorizontalBox_22
+[2017.07.28-08.07.00:781][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_31.WidgetTree_67.HorizontalBox_22
+[2017.07.28-08.07.00:781][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_32.WidgetTree_68.HorizontalBox_22
+[2017.07.28-08.07.00:781][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_33.WidgetTree_69.HorizontalBox_22
+[2017.07.28-08.07.00:781][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_1.WidgetTree_82.HorizontalBox_22
+[2017.07.28-08.07.00:781][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_7.WidgetTree_91.HorizontalBox_22
+[2017.07.28-08.07.00:781][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_2.WidgetTree_72.HorizontalBox_22
+[2017.07.28-08.07.00:782][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.REINST_ConfHUD_C_65:WidgetTree.HorizontalBox_22
+[2017.07.28-08.07.00:782][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:WidgetTree.HorizontalBox_22
+[2017.07.28-08.07.00:782][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Engine/Transient.World_1:ConfHUD_C_2.WidgetTree_72.HorizontalBox_22.HorizontalBoxSlot_1 or HorizontalBoxSlot /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.HorizontalBox_22.HorizontalBoxSlot_1
+[2017.07.28-08.07.00:782][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Engine/Transient.World_1:ConfHUD_C_2.WidgetTree_72.HorizontalBox_22.HorizontalBoxSlot_1 or HorizontalBoxSlot /Engine/Transient.World_1:ConfHUD_C_31.WidgetTree_67.HorizontalBox_22.HorizontalBoxSlot_1
+[2017.07.28-08.07.00:782][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Engine/Transient.World_1:ConfHUD_C_2.WidgetTree_72.HorizontalBox_22.HorizontalBoxSlot_1 or HorizontalBoxSlot /Engine/Transient.World_1:ConfHUD_C_32.WidgetTree_68.HorizontalBox_22.HorizontalBoxSlot_1
+[2017.07.28-08.07.00:782][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Engine/Transient.World_1:ConfHUD_C_2.WidgetTree_72.HorizontalBox_22.HorizontalBoxSlot_1 or HorizontalBoxSlot /Engine/Transient.World_1:ConfHUD_C_33.WidgetTree_69.HorizontalBox_22.HorizontalBoxSlot_1
+[2017.07.28-08.07.00:782][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Engine/Transient.World_1:ConfHUD_C_2.WidgetTree_72.HorizontalBox_22.HorizontalBoxSlot_1 or HorizontalBoxSlot /Engine/Transient.World_1:ConfHUD_C_1.WidgetTree_82.HorizontalBox_22.HorizontalBoxSlot_1
+[2017.07.28-08.07.00:782][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Engine/Transient.World_1:ConfHUD_C_2.WidgetTree_72.HorizontalBox_22.HorizontalBoxSlot_1 or HorizontalBoxSlot /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:WidgetTree.HorizontalBox_22.HorizontalBoxSlot_1
+[2017.07.28-08.07.00:782][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Engine/Transient.World_1:ConfHUD_C_2.WidgetTree_72.HorizontalBox_22.HorizontalBoxSlot_1 or HorizontalBoxSlot /Engine/Transient.REINST_ConfHUD_C_65:WidgetTree.HorizontalBox_22.HorizontalBoxSlot_1
+[2017.07.28-08.07.00:782][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Engine/Transient.World_1:ConfHUD_C_2.WidgetTree_72.HorizontalBox_22.HorizontalBoxSlot_1 or HorizontalBoxSlot /Engine/Transient.World_1:ConfHUD_C_7.WidgetTree_91.HorizontalBox_22.HorizontalBoxSlot_1
+[2017.07.28-08.07.00:782][159]LogProperty:Warning: Illegal TEXT reference to a private object in external package (HorizontalBoxSlot /Engine/Transient.World_1:ConfHUD_C_2.WidgetTree_72.HorizontalBox_22.HorizontalBoxSlot_1) from referencer (TextBlock /Engine/UMG/Editor/Transient.TextBlock_52).  Import failed...
+[2017.07.28-08.07.00:782][159]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'HorizontalBoxSlot'HorizontalBox_22.HorizontalBoxSlot_1''
+[2017.07.28-08.07.00:782][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.HorizontalBox_22
+[2017.07.28-08.07.00:782][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_22.WidgetTree_58.HorizontalBox_22
+[2017.07.28-08.07.00:782][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_24.WidgetTree_60.HorizontalBox_22
+[2017.07.28-08.07.00:782][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_25.WidgetTree_61.HorizontalBox_22
+[2017.07.28-08.07.00:782][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_26.WidgetTree_62.HorizontalBox_22
+[2017.07.28-08.07.00:782][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_27.WidgetTree_63.HorizontalBox_22
+[2017.07.28-08.07.00:782][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_28.WidgetTree_64.HorizontalBox_22
+[2017.07.28-08.07.00:782][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_29.WidgetTree_65.HorizontalBox_22
+[2017.07.28-08.07.00:782][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_30.WidgetTree_66.HorizontalBox_22
+[2017.07.28-08.07.00:782][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_31.WidgetTree_67.HorizontalBox_22
+[2017.07.28-08.07.00:782][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_32.WidgetTree_68.HorizontalBox_22
+[2017.07.28-08.07.00:782][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_33.WidgetTree_69.HorizontalBox_22
+[2017.07.28-08.07.00:782][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_1.WidgetTree_82.HorizontalBox_22
+[2017.07.28-08.07.00:782][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_7.WidgetTree_91.HorizontalBox_22
+[2017.07.28-08.07.00:782][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_2.WidgetTree_72.HorizontalBox_22
+[2017.07.28-08.07.00:782][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.REINST_ConfHUD_C_65:WidgetTree.HorizontalBox_22
+[2017.07.28-08.07.00:782][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:WidgetTree.HorizontalBox_22
+[2017.07.28-08.07.00:782][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.HorizontalBox_22.HorizontalBoxSlot_2 or HorizontalBoxSlot /Engine/Transient.World_1:ConfHUD_C_32.WidgetTree_68.HorizontalBox_22.HorizontalBoxSlot_2
+[2017.07.28-08.07.00:782][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.HorizontalBox_22.HorizontalBoxSlot_2 or HorizontalBoxSlot /Engine/Transient.World_1:ConfHUD_C_33.WidgetTree_69.HorizontalBox_22.HorizontalBoxSlot_2
+[2017.07.28-08.07.00:783][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.HorizontalBox_22.HorizontalBoxSlot_2 or HorizontalBoxSlot /Engine/Transient.World_1:ConfHUD_C_1.WidgetTree_82.HorizontalBox_22.HorizontalBoxSlot_2
+[2017.07.28-08.07.00:783][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.HorizontalBox_22.HorizontalBoxSlot_2 or HorizontalBoxSlot /Engine/Transient.World_1:ConfHUD_C_2.WidgetTree_72.HorizontalBox_22.HorizontalBoxSlot_2
+[2017.07.28-08.07.00:783][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.HorizontalBox_22.HorizontalBoxSlot_2 or HorizontalBoxSlot /Engine/Transient.REINST_ConfHUD_C_65:WidgetTree.HorizontalBox_22.HorizontalBoxSlot_2
+[2017.07.28-08.07.00:783][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.HorizontalBox_22.HorizontalBoxSlot_2 or HorizontalBoxSlot /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:WidgetTree.HorizontalBox_22.HorizontalBoxSlot_2
+[2017.07.28-08.07.00:783][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.HorizontalBox_22.HorizontalBoxSlot_2 or HorizontalBoxSlot /Engine/Transient.World_1:ConfHUD_C_7.WidgetTree_91.HorizontalBox_22.HorizontalBoxSlot_2
+[2017.07.28-08.07.00:783][159]LogProperty:Warning: Illegal TEXT reference to a private object in external package (HorizontalBoxSlot /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.HorizontalBox_22.HorizontalBoxSlot_2) from referencer (TextBlock /Engine/UMG/Editor/Transient.TextBlock_55).  Import failed...
+[2017.07.28-08.07.00:783][159]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'HorizontalBoxSlot'HorizontalBox_22.HorizontalBoxSlot_2''
+[2017.07.28-08.07.00:783][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.HorizontalBox_22
+[2017.07.28-08.07.00:783][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_22.WidgetTree_58.HorizontalBox_22
+[2017.07.28-08.07.00:783][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_24.WidgetTree_60.HorizontalBox_22
+[2017.07.28-08.07.00:783][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_25.WidgetTree_61.HorizontalBox_22
+[2017.07.28-08.07.00:783][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_26.WidgetTree_62.HorizontalBox_22
+[2017.07.28-08.07.00:783][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_27.WidgetTree_63.HorizontalBox_22
+[2017.07.28-08.07.00:783][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_28.WidgetTree_64.HorizontalBox_22
+[2017.07.28-08.07.00:783][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_29.WidgetTree_65.HorizontalBox_22
+[2017.07.28-08.07.00:783][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_30.WidgetTree_66.HorizontalBox_22
+[2017.07.28-08.07.00:783][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_31.WidgetTree_67.HorizontalBox_22
+[2017.07.28-08.07.00:783][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_32.WidgetTree_68.HorizontalBox_22
+[2017.07.28-08.07.00:783][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_33.WidgetTree_69.HorizontalBox_22
+[2017.07.28-08.07.00:783][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_1.WidgetTree_82.HorizontalBox_22
+[2017.07.28-08.07.00:783][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_7.WidgetTree_91.HorizontalBox_22
+[2017.07.28-08.07.00:783][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.World_1:ConfHUD_C_2.WidgetTree_72.HorizontalBox_22
+[2017.07.28-08.07.00:783][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Engine/Transient.REINST_ConfHUD_C_65:WidgetTree.HorizontalBox_22
+[2017.07.28-08.07.00:783][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Engine/Transient.World_1:ConfHUD_C_23.WidgetTree_59.HorizontalBox_22 or HorizontalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:WidgetTree.HorizontalBox_22
+[2017.07.28-08.07.00:783][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.HorizontalBox_22.HorizontalBoxSlot_3 or HorizontalBoxSlot /Engine/Transient.World_1:ConfHUD_C_33.WidgetTree_69.HorizontalBox_22.HorizontalBoxSlot_3
+[2017.07.28-08.07.00:783][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.HorizontalBox_22.HorizontalBoxSlot_3 or HorizontalBoxSlot /Engine/Transient.World_1:ConfHUD_C_2.WidgetTree_72.HorizontalBox_22.HorizontalBoxSlot_3
+[2017.07.28-08.07.00:783][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.HorizontalBox_22.HorizontalBoxSlot_3 or HorizontalBoxSlot /Engine/Transient.World_1:ConfHUD_C_1.WidgetTree_82.HorizontalBox_22.HorizontalBoxSlot_3
+[2017.07.28-08.07.00:783][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.HorizontalBox_22.HorizontalBoxSlot_3 or HorizontalBoxSlot /Engine/Transient.REINST_ConfHUD_C_65:WidgetTree.HorizontalBox_22.HorizontalBoxSlot_3
+[2017.07.28-08.07.00:783][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.HorizontalBox_22.HorizontalBoxSlot_3 or HorizontalBoxSlot /Engine/Transient.World_1:ConfHUD_C_7.WidgetTree_91.HorizontalBox_22.HorizontalBoxSlot_3
+[2017.07.28-08.07.00:783][159]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBoxSlot /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.HorizontalBox_22.HorizontalBoxSlot_3 or HorizontalBoxSlot /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:WidgetTree.HorizontalBox_22.HorizontalBoxSlot_3
+[2017.07.28-08.07.00:783][159]LogProperty:Warning: Illegal TEXT reference to a private object in external package (HorizontalBoxSlot /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.HorizontalBox_22.HorizontalBoxSlot_3) from referencer (Image /Engine/UMG/Editor/Transient.Image_3).  Import failed...
+[2017.07.28-08.07.00:783][159]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'HorizontalBoxSlot'HorizontalBox_22.HorizontalBoxSlot_3''
+[2017.07.28-08.13.57:415][687]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/FOTWO01' took 0.036
+[2017.07.28-08.13.57:416][687]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD] ([1] browsable assets)...
+[2017.07.28-08.13.57:416][687]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD]
+[2017.07.28-08.13.57:745][687]LogSavePackage: Save=256.65ms
+[2017.07.28-08.13.57:745][687]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/ConfHUD_Auto4AECEF2874CF3386688AA2CA814961FFE.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD_Auto4.uasset'
+[2017.07.28-08.13.57:747][687]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD_Auto4.uasset
+[2017.07.28-08.13.57:747][687]LogFileHelpers: Auto-saving content packages took 0.331
+[2017.07.28-08.19.10:651][ 85]BlueprintLog: New page: Compile ConfHUD
+[2017.07.28-08.19.10:948][ 85]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.07.28-08.19.12:584][147]LogSavePackage: Save=306.07ms
+[2017.07.28-08.19.12:584][147]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/ConfHUD0386F8F146CA4A1F4E2038AA780D799E.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset'
+[2017.07.28-08.19.12:586][147]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset
+[2017.07.28-08.19.42:750][787]BlueprintLog: New page: Compile ConfHUD
+[2017.07.28-08.19.42:938][787]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.07.28-08.19.44:260][835]LogSavePackage: Save=310.99ms
+[2017.07.28-08.19.44:260][835]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/ConfHUDC2FAD63D462DA795380695BF7A0AAEF4.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset'
+[2017.07.28-08.19.44:263][835]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset
+[2017.07.28-08.20.49:436][594]LogSlate: Took 0.005605 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.07.28-08.23.58:681][446]LogSavePackage: Save=110.20ms
+[2017.07.28-08.23.58:681][446]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/FOTWO01_Auto52660305E43B8CAADCC5DCBA23293C5BD.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Maps/FOTWO01_Auto5.umap'
+[2017.07.28-08.23.58:683][446]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Maps/FOTWO01_Auto5.umap
+[2017.07.28-08.23.58:685][446]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/FOTWO01' took 0.218
+[2017.07.28-08.23.58:685][446]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.218
+[2017.07.28-08.25.34:560][230]BlueprintLog: New page: Compile FOTWO01
+[2017.07.28-08.25.35:393][257]LogSavePackage: Save=105.00ms
+[2017.07.28-08.25.35:393][257]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/FOTWO017950B6AE479E698E88439FA398B8294C.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Maps/FOTWO01.umap'
+[2017.07.28-08.25.35:398][257]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Maps/FOTWO01.umap
+[2017.07.28-08.25.35:430][257]LogFileHelpers: Saving map 'FOTWO01' took 0.271
+[2017.07.28-08.31.04:796][466]BlueprintLog: New page: Compile FOTWO01
+[2017.07.28-08.31.06:090][519]LogSavePackage: Save=113.68ms
+[2017.07.28-08.31.06:090][519]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/FOTWO01B5A23575483EABC78C9C249574BFFA11.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Maps/FOTWO01.umap'
+[2017.07.28-08.31.06:092][519]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Maps/FOTWO01.umap
+[2017.07.28-08.31.06:118][519]LogFileHelpers: Saving map 'FOTWO01' took 0.277
+[2017.07.28-08.31.43:027][633]BlueprintLog: New page: Compile FOTWO01
+[2017.07.28-08.31.44:403][695]LogSavePackage: Save=92.63ms
+[2017.07.28-08.31.44:403][695]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/FOTWO018949F5BD4BF71B8ED2EB20828FFD018D.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Maps/FOTWO01.umap'
+[2017.07.28-08.31.44:405][695]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Maps/FOTWO01.umap
+[2017.07.28-08.31.44:437][695]LogFileHelpers: Saving map 'FOTWO01' took 0.251
+[2017.07.28-08.41.12:874][ 64]BlueprintLog: New page: Compile FOTWO01
+[2017.07.28-08.41.13:869][102]LogSavePackage: Save=120.95ms
+[2017.07.28-08.41.13:869][102]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/FOTWO0140AC778D41200D39025C398C5F3122BC.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Maps/FOTWO01.umap'
+[2017.07.28-08.41.13:871][102]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Maps/FOTWO01.umap
+[2017.07.28-08.41.13:898][102]LogFileHelpers: Saving map 'FOTWO01' took 0.284
+[2017.07.28-08.41.18:134][353]BlueprintLog: New page: Compile ConfHUD
+[2017.07.28-08.41.18:165][353]LogBlueprint:Error: [Compiler ConfHUD] Error The type of  Object  is undetermined.  Connect something to  Cast To GameState  to imply a specific type.
+[2017.07.28-08.41.18:165][353]LogBlueprint:Error: [Compiler ConfHUD] Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2017.07.28-08.41.18:445][353]BlueprintEditorCompileResults:Error: Error The type of  Object  is undetermined.  Connect something to  Cast To GameState  to imply a specific type.
+[2017.07.28-08.41.18:445][353]BlueprintEditorCompileResults:Error: Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
+[2017.07.28-08.41.18:445][353]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.07.28-08.41.18:446][353]LogBlueprint:Warning: [Compiler ConfHUD] Warning [4507.02] Compile of ConfHUD failed. 2 Fatal Issue(s) 0 Warning(s) [in 311 ms] (/Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD)
+[2017.07.28-08.41.19:294][380]LogSavePackage: Save=296.53ms
+[2017.07.28-08.41.19:294][380]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/ConfHUDAC85279D4296AED071D56F980DEA45ED.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset'
+[2017.07.28-08.41.19:297][380]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset
+[2017.07.28-08.41.25:149][721]BlueprintLog: New page: Compile ConfHUD
+[2017.07.28-08.41.25:304][721]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.07.28-08.41.26:277][755]LogSavePackage: Save=315.96ms
+[2017.07.28-08.41.26:277][755]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/ConfHUD8C0CE5D3456F22F90EFC90813C4FB5F7.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset'
+[2017.07.28-08.41.26:280][755]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset
+[2017.07.28-08.42.46:767][ 89]LogRenderer: Reallocating scene render targets to support 1712x1000 NumSamples 1 (Frame:1).
+[2017.07.28-08.43.42:710][328]BlueprintLog: New page: Compile FOTWOGameMode
+[2017.07.28-08.44.14:763][492]BlueprintLog: New page: Compile FOTWOGameMode
+[2017.07.28-08.44.15:533][530]LogSavePackage: Save=9.92ms
+[2017.07.28-08.44.15:533][530]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/FOTWOGameModeAACAB0C94B6305D40E29559DE1E51ED8.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/FOTWOGameMode.uasset'
+[2017.07.28-08.44.15:538][530]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/FOTWOGameMode.uasset
+[2017.07.28-08.45.06:126][533]BlueprintLog: New page: Compile FOTWOGameMode
+[2017.07.28-08.45.06:959][566]LogSavePackage: Save=13.04ms
+[2017.07.28-08.45.06:960][566]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/FOTWOGameModeE15ACA6D4A0FE131A71DD299ED1B2556.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/FOTWOGameMode.uasset'
+[2017.07.28-08.45.06:962][566]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/FOTWOGameMode.uasset
+[2017.07.28-08.45.53:365][215]BlueprintLog: New page: Compile ConfHUD
+[2017.07.28-08.45.53:516][215]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.07.28-08.45.55:517][307]LogSavePackage: Save=362.38ms
+[2017.07.28-08.45.55:517][307]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/ConfHUD51DB054047847FB92495A38F8F1400DA.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset'
+[2017.07.28-08.45.55:520][307]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset
+[2017.07.28-08.51.14:547][909]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/FOTWO01' took 0.022
+[2017.07.28-08.51.14:549][909]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD] ([1] browsable assets)...
+[2017.07.28-08.51.14:549][909]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD]
+[2017.07.28-08.51.14:894][909]LogSavePackage: Save=275.76ms
+[2017.07.28-08.51.14:894][909]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/ConfHUD_Auto6510E2FD343A39DA634A3039383581680.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD_Auto6.uasset'
+[2017.07.28-08.51.14:897][909]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD_Auto6.uasset
+[2017.07.28-08.51.14:897][909]LogFileHelpers: Auto-saving content packages took 0.349
+[2017.07.28-08.54.21:616][954]BlueprintLog: New page: Compile FOTWOGameMode
+[2017.07.28-08.54.48:991][561]BlueprintLog: New page: Compile FOTWOGameMode
+[2017.07.28-08.54.50:355][611]LogSavePackage: Save=15.80ms
+[2017.07.28-08.54.50:355][611]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/FOTWOGameMode2315E8664F4A22A910945EA9B2057A0E.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/FOTWOGameMode.uasset'
+[2017.07.28-08.54.50:357][611]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/FOTWOGameMode.uasset
+[2017.07.28-08.55.32:213][ 67]LogSavePackage: Save=89.36ms
+[2017.07.28-08.55.32:213][ 67]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/FOTWO018387587D47BD0922FD9242BE22A08E10.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Maps/FOTWO01.umap'
+[2017.07.28-08.55.32:214][ 67]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Maps/FOTWO01.umap
+[2017.07.28-08.55.32:242][ 67]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScrollerBP/Maps/FOTWO01_BuiltData" FILE="../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Maps/FOTWO01_BuiltData.uasset" SILENT=true
+[2017.07.28-08.55.32:312][ 67]LogSavePackage: Save=4.48ms
+[2017.07.28-08.55.32:312][ 67]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/FOTWO01_BuiltDataA23E28DD4A82BFED7972EFA62C81CC2E.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Maps/FOTWO01_BuiltData.uasset'
+[2017.07.28-08.55.32:313][ 67]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Maps/FOTWO01_BuiltData.uasset
+[2017.07.28-09.00.13:380][352]BlueprintLog: New page: Compile FOTWOGameMode
+[2017.07.28-09.00.14:325][382]LogSavePackage: Save=15.60ms
+[2017.07.28-09.00.14:325][382]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/FOTWOGameModeD6E27F0A4B139B48979F6A87C96AA00E.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/FOTWOGameMode.uasset'
+[2017.07.28-09.00.14:327][382]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/FOTWOGameMode.uasset
+[2017.07.28-09.00.56:721][ 72]LogSavePackage: Save=310.19ms
+[2017.07.28-09.00.56:721][ 72]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/ConfHUD3351CE964B7867B84F2E519776A0B624.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset'
+[2017.07.28-09.00.56:724][ 72]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset
+[2017.07.28-09.01.43:135][758]BlueprintLog: New page: Compile FOTWOGameMode
+[2017.07.28-09.01.43:961][785]LogSavePackage: Save=15.81ms
+[2017.07.28-09.01.43:961][785]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/FOTWOGameMode13AB97A04E21F0743D2B53A6EDBBF3A9.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/FOTWOGameMode.uasset'
+[2017.07.28-09.01.43:964][785]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/FOTWOGameMode.uasset
+[2017.07.28-09.01.58:025][599]LogSavePackage: Save=15.25ms
+[2017.07.28-09.01.58:025][599]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/FOTWOGameMode7B64E1494B9B57E03F0C879C655E994C.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/FOTWOGameMode.uasset'
+[2017.07.28-09.01.58:026][599]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/FOTWOGameMode.uasset
+[2017.07.28-09.03.05:031][541]BlueprintLog: New page: Compile FOTWOGameMode
+[2017.07.28-09.03.05:034][541]LogBlueprint:Warning: [ConfHUD] 'ConfAgendaItemsArray' variable not found. Base class was probably changed.
+[2017.07.28-09.03.10:297][832]LogSavePackage: Save=11.99ms
+[2017.07.28-09.03.10:297][832]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/FOTWOGameMode92A056214AFDC9D2CF798E8E5491C981.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/FOTWOGameMode.uasset'
+[2017.07.28-09.03.10:300][832]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/FOTWOGameMode.uasset
+[2017.07.28-09.04.50:416][716]BlueprintLog: New page: Compile FOTWOGameMode
+[2017.07.28-09.04.51:236][744]LogSavePackage: Save=13.20ms
+[2017.07.28-09.04.51:236][744]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/FOTWOGameMode85BF3D39422B9EF3BED383A94CEC7A03.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/FOTWOGameMode.uasset'
+[2017.07.28-09.04.51:238][744]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/FOTWOGameMode.uasset
+[2017.07.28-09.05.42:604][739]LogUObjectArray:Warning: Other object in slot
+[2017.07.28-09.05.42:815][739]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.210 s
+[2017.07.28-09.05.42:815][739]LogOutputDevice:Error: === Handled ensure: ===
+[2017.07.28-09.05.42:815][739]LogOutputDevice:Error: 
+[2017.07.28-09.05.42:815][739]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1037]
+[2017.07.28-09.05.42:815][739]LogOutputDevice:Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2017.07.28-09.05.42:815][739]LogOutputDevice:Error: Stack: 
+[2017.07.28-09.05.42:815][739]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000008D3BE256
+[2017.07.28-09.05.42:815][739]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000008D16B862
+[2017.07.28-09.05.42:815][739]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000008D181E26
+[2017.07.28-09.05.42:815][739]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000077F17556
+[2017.07.28-09.05.42:815][739]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x00000000755AD27B
+[2017.07.28-09.05.42:815][739]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000749324AA
+[2017.07.28-09.05.42:815][739]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000747D72CC
+[2017.07.28-09.05.42:815][739]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000747DA6D9
+[2017.07.28-09.05.42:815][739]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000748F8035
+[2017.07.28-09.05.42:815][739]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000078ECDB57
+[2017.07.28-09.05.42:815][739]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000078ED4B61
+[2017.07.28-09.05.42:815][739]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000790F48D3
+[2017.07.28-09.05.42:815][739]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000078F2F604
+[2017.07.28-09.05.42:815][739]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000078F077FC
+[2017.07.28-09.05.42:815][739]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000078EF814C
+[2017.07.28-09.05.42:815][739]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000008D3B1550
+[2017.07.28-09.05.42:815][739]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000008D39B771
+[2017.07.28-09.05.42:815][739]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000008D3B337B
+[2017.07.28-09.05.42:815][739]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000008D397AC2
+[2017.07.28-09.05.42:815][739]LogOutputDevice:Error: USER32.dll!0x00000000CC6EBC50
+[2017.07.28-09.05.42:815][739]LogOutputDevice:Error: USER32.dll!0x00000000CC6EB5CF
+[2017.07.28-09.05.42:815][739]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000008D3B3C86
+[2017.07.28-09.05.42:815][739]LogOutputDevice:Error: UE4Editor.exe!0x00000000917CDB44
+[2017.07.28-09.05.42:815][739]LogOutputDevice:Error: UE4Editor.exe!0x00000000917BF0B0
+[2017.07.28-09.05.42:815][739]LogOutputDevice:Error: UE4Editor.exe!0x00000000917BF12A
+[2017.07.28-09.05.42:815][739]LogOutputDevice:Error: UE4Editor.exe!0x00000000917D0CF9
+[2017.07.28-09.05.42:815][739]LogOutputDevice:Error: UE4Editor.exe!0x00000000917D25F7
+[2017.07.28-09.05.42:815][739]LogOutputDevice:Error: KERNEL32.DLL!0x00000000CC642774
+[2017.07.28-09.05.42:815][739]LogOutputDevice:Error: ntdll.dll!0x00000000CEF40D51
+[2017.07.28-09.05.42:815][739]LogOutputDevice:Error: 
+[2017.07.28-09.05.42:823][739]LogStats:                SubmitErrorReport -  0.000 s
