@@ -1,0 +1,580 @@
+﻿Log file open, 08/01/17 15:20:15
+LogInit:Display: Running engine for game: FOTWO02
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-1878453054) SRandInit(-1878453054).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.089293
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.01-13.20.15:826][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.01-13.20.15:826][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.01-13.20.15:874][  0]LogInit: Computer: KLAUDE2017ALIEN
+[2017.08.01-13.20.15:874][  0]LogInit: User: vonkl
+[2017.08.01-13.20.15:874][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.01-13.20.15:874][  0]LogInit: High frequency timer resolution =2.742183 MHz
+[2017.08.01-13.20.15:874][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.08.01-13.20.15:874][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.01-13.20.15:874][  0]LogMemory: Process Physical Memory: 274.30 MB used, 274.30 MB peak
+[2017.08.01-13.20.15:874][  0]LogMemory: Process Virtual Memory: 260.96 MB used, 260.96 MB peak
+[2017.08.01-13.20.15:874][  0]LogMemory: Physical Memory: 5593.82 MB used,  10663.15 MB free, 16256.98 MB total
+[2017.08.01-13.20.15:874][  0]LogMemory: Virtual Memory: 638.49 MB used,  10663.15 MB free, 134217728.00 MB total
+[2017.08.01-13.20.15:965][  0]LogInit: Using OS detected language (en-GB).
+[2017.08.01-13.20.15:965][  0]LogInit: Using OS detected locale (en-GB).
+[2017.08.01-13.20.15:967][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2017.08.01-13.20.18:754][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.01-13.20.18:789][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2017.08.01-13.20.18:789][  0]LogD3D11RHI:       6084/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.08.01-13.20.18:809][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2017.08.01-13.20.18:809][  0]LogD3D11RHI:       128/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.08.01-13.20.18:810][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.01-13.20.18:810][  0]LogD3D11RHI:       0/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.01-13.20.18:810][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.01-13.20.18:816][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.01-13.20.18:816][  0]LogD3D11RHI:     GPU DeviceId: 0x1c60 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.01-13.20.18:816][  0]LogWindows: EnumDisplayDevices:
+[2017.08.01-13.20.18:817][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060' (P:0 D:1)
+[2017.08.01-13.20.18:817][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060' (P:1 D:1)
+[2017.08.01-13.20.18:817][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2017.08.01-13.20.18:817][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2017.08.01-13.20.18:817][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.08.01-13.20.18:817][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.08.01-13.20.18:817][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.08.01-13.20.18:817][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.08.01-13.20.18:817][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2017.08.01-13.20.18:817][  0]LogD3D11RHI:   Driver Version: 382.53 (internal:22.21.13.8253, unified:382.53)
+[2017.08.01-13.20.18:817][  0]LogD3D11RHI:      Driver Date: 6-7-2017
+[2017.08.01-13.20.18:817][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.01-13.20.18:842][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.01-13.20.18:859][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.08.01-13.20.18:950][  0]LogShaderCompilers: Guid format shader working directory is 1 characters bigger than the processId version (../../../../../../Unreal/FOTWO/source/FOTWO02/Intermediate/Shaders/WorkingDirectory/9204/).
+[2017.08.01-13.20.18:950][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/vonkl/AppData/Local/Temp/UnrealShaderWorkingDir/1FD27B8243E59E26F143BEA090A95108/'.
+[2017.08.01-13.20.18:950][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.01-13.20.20:963][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.01-13.20.21:008][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.01-13.20.21:054][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.01-13.20.21:100][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.01-13.20.21:150][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.01-13.20.21:197][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.01-13.20.21:258][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.01-13.20.21:321][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.01-13.20.21:367][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.01-13.20.21:416][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.01-13.20.21:461][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.01-13.20.21:505][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.01-13.20.21:553][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.01-13.20.21:597][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.01-13.20.21:642][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.01-13.20.21:733][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.01-13.20.21:733][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.01-13.20.21:769][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.01-13.20.21:859][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.01-13.20.21:903][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.01-13.20.21:948][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.01-13.20.21:995][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.01-13.20.22:041][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.01-13.20.22:089][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.01-13.20.22:089][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.01-13.20.22:557][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.01-13.20.22:645][  0]LogDerivedDataCache: Loaded boot cache 0.09s 90MB C:/Users/vonkl/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.01-13.20.22:646][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/vonkl/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.01-13.20.22:646][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Unreal/FOTWO/source/FOTWO02/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.01-13.20.22:646][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.01-13.20.22:646][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Unreal/FOTWO/source/FOTWO02/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.01-13.20.22:646][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.01-13.20.22:667][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.01-13.20.22:679][  0]LogDerivedDataCache: Using Local data cache path C:/Users/vonkl/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.01-13.20.22:689][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.01-13.20.22:689][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.01-13.20.22:694][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.01-13.20.22:694][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.01-13.20.24:731][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.01-13.20.24:809][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.01-13.20.24:960][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.01-13.20.25:003][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.01-13.20.25:047][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.01-13.20.25:047][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.01-13.20.25:047][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.01-13.20.25:595][  0]LogNetVersion: FOTWO02 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2990255715)
+[2017.08.01-13.20.25:655][  0]LogAssetRegistry: FAssetRegistry took 0.0250 seconds to start up
+[2017.08.01-13.20.25:713][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.035383 seconds
+[2017.08.01-13.20.25:718][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.01-13.20.25:718][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.08.01-13.20.25:718][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.01-13.20.25:779][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.01-13.20.29:676][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.01-13.20.29:717][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.01-13.20.30:359][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.01-13.20.30:743][  0]SourceControl: Info Source control is disabled
+[2017.08.01-13.20.30:772][  0]SourceControl: Info Source control is disabled
+[2017.08.01-13.20.30:817][  0]SourceControl: Info Source control is disabled
+[2017.08.01-13.20.30:861][  0]SourceControl: Info Source control is disabled
+[2017.08.01-13.20.31:513][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.01-13.20.32:118][  0]LogEngine: Initializing Engine...
+[2017.08.01-13.20.32:118][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.01-13.20.32:317][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.01-13.20.32:317][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.01-13.20.32:434][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.01-13.20.32:447][  0]LogInit: XAudio2 using 'Headset Earphone (3- Microsoft LifeChat LX-3000)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.01-13.20.32:457][  0]LogInit: FAudioDevice initialized.
+[2017.08.01-13.20.32:497][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/vonkl/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.01-13.20.32:503][  0]LogInit: Texture streaming: Enabled
+[2017.08.01-13.20.32:594][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.01-13.20.32:802][  0]LogInit: Transaction tracking system initialized
+[2017.08.01-13.20.33:106][  0]BlueprintLog: New page: Editor Load
+[2017.08.01-13.20.33:997][  0]LocalizationService: Info Localization service is disabled
+[2017.08.01-13.20.34:665][  0]LogConsoleResponse:Display: 
+[2017.08.01-13.20.34:810][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.01-13.20.34:810][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.01-13.20.34:958][  0]LogFileCache: Scanning file cache for directory 'C:/Unreal/FOTWO/source/FOTWO02/Content/' took 0.02s
+[2017.08.01-13.20.35:886][  0]SourceControl: Info Source control is disabled
+[2017.08.01-13.20.35:886][  0]Cmd: MAP LOAD FILE="../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.01-13.20.35:886][  0]LogEditorServer:Warning: Can't find file '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
+[2017.08.01-13.20.35:886][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.01-13.20.35:931][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.142ms to complete.
+[2017.08.01-13.20.35:931][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 0.046
+[2017.08.01-13.20.36:193][  0]LogCollectionManager: Loaded 0 collections in 0.001706 seconds
+[2017.08.01-13.20.36:261][  0]LogFileCache: Scanning file cache for directory 'C:/Unreal/FOTWO/source/FOTWO02/Saved/Collections/' took 0.01s
+[2017.08.01-13.20.36:261][  0]LogFileCache: Scanning file cache for directory 'C:/Unreal/FOTWO/source/FOTWO02/Content/Developers/vonkl/Collections/' took 0.01s
+[2017.08.01-13.20.36:261][  0]LogFileCache: Scanning file cache for directory 'C:/Unreal/FOTWO/source/FOTWO02/Content/Collections/' took 0.00s
+[2017.08.01-13.20.36:261][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.08.01-13.20.36:269][  0]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2329 classes and 491 folders.
+[2017.08.01-13.20.36:327][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2017.08.01-13.20.36:615][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.08.01-13.20.36:671][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.08.01-13.20.36:741][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.01-13.20.36:751][  0]LogSlate: Took 0.004425 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.01-13.20.36:757][  0]LogSlate: Took 0.004146 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.01-13.20.36:766][  0]LogSlate: Took 0.004033 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.01-13.20.36:909][  0]LogRenderer: Reallocating scene render targets to support 1656x932 NumSamples 1 (Frame:1).
+[2017.08.01-13.20.36:985][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.08.01-13.20.37:046][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.08.01-13.20.37:046][  0]LogLoad: (Engine Initialization) Total time: 23.15 seconds
+[2017.08.01-13.20.37:046][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.05 seconds
+[2017.08.01-13.20.37:046][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.08.01-13.20.37:046][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.08.01-13.20.37:068][  0]LogOcInput: OculusInput pre-init called
+[2017.08.01-13.20.37:068][  0]LogHMD: Starting GearVRController plugin
+[2017.08.01-13.20.37:089][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.01-13.20.37:180][  2]LogAssetRegistry: Asset discovery search completed in 11.5469 seconds
+[2017.08.01-13.20.37:183][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.08.01-13.20.37:183][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000067 seconds (updated 0 objects)
+[2017.08.01-13.20.41:479][256]LogSlate: Took 0.006824 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.01-13.20.42:402][256]LogSlate: Took 0.000135 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.01-13.20.42:486][256]LogAIModule: Creating AISystem for world FOTWO01
+[2017.08.01-13.20.42:524][256]Cmd: MAP LOAD FILE="../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Maps/FOTWO01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.01-13.20.42:524][256]LightingResults: New page: Lighting Build
+[2017.08.01-13.20.42:563][256]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0005 seconds. Added 5 classes and 0 folders.
+[2017.08.01-13.20.42:564][256]LoadErrors: New page: Loading map: FOTWO01.umap
+[2017.08.01-13.20.42:564][256]MapCheck: New page: Map Check
+[2017.08.01-13.20.42:564][256]LightingResults: New page: Lighting Build
+[2017.08.01-13.20.42:629][256]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.01-13.20.42:663][256]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.01-13.20.42:707][256]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 43.504ms to complete.
+[2017.08.01-13.20.42:708][256]LogFileHelpers: Loading map 'FOTWO01' took 0.185
+[2017.08.01-13.20.57:667][117]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 112 classes and 0 folders.
+[2017.08.01-13.20.58:270][117]LogSlate: Took 0.000110 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.01-13.20.58:308][117]LogSlate: Took 0.003476 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.01-13.21.04:415][401]LogSlate: Took 0.007066 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.01-13.22.50:500][622]BlueprintLog: New page: Compile ConfHUD
+[2017.08.01-13.22.50:886][622]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.08.01-13.22.52:441][645]LogSavePackage: Save=715.49ms
+[2017.08.01-13.22.52:441][645]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/ConfHUDEAD186854379CA9CC94B0FB12A76DC12.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset'
+[2017.08.01-13.22.52:444][645]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset
+[2017.08.01-13.26.16:771][578]BlueprintLog: New page: Compile NationBAU
+[2017.08.01-13.26.18:711][615]LogSavePackage: Save=426.80ms
+[2017.08.01-13.26.18:711][615]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/NationBAU7B1CCEAD4BC2E28D153E91889F92DB3F.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/NationBAU.uasset'
+[2017.08.01-13.26.18:715][615]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/NationBAU.uasset
+[2017.08.01-13.27.35:900][178]BlueprintLog: New page: Compile NationBAU
+[2017.08.01-13.27.37:309][190]LogSavePackage: Save=381.52ms
+[2017.08.01-13.27.37:309][190]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/NationBAU4456445C44FBDE30E01A68814F6FA525.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/NationBAU.uasset'
+[2017.08.01-13.27.37:313][190]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/NationBAU.uasset
+[2017.08.01-13.28.12:069][224]BlueprintLog: New page: Compile NationBAU
+[2017.08.01-13.28.13:629][246]LogSavePackage: Save=367.56ms
+[2017.08.01-13.28.13:629][246]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/NationBAUF46A5A7046C9AF066CFC1BB74072C912.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/NationBAU.uasset'
+[2017.08.01-13.28.13:632][246]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/NationBAU.uasset
+[2017.08.01-13.30.42:619][744]LogSavePackage: Save=108.10ms
+[2017.08.01-13.30.42:619][744]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/FOTWO01_Auto163E2D9B8485FBB67B3CDAB955C36F5E3.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Maps/FOTWO01_Auto1.umap'
+[2017.08.01-13.30.42:619][744]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Maps/FOTWO01_Auto1.umap
+[2017.08.01-13.30.42:621][744]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/FOTWO01' took 0.238
+[2017.08.01-13.30.42:621][744]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.238
+[2017.08.01-13.31.53:598][793]LogSlate: Took 0.009010 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.08.01-13.39.02:591][846]BlueprintLog: New page: Compile NationBAU
+[2017.08.01-13.39.05:201][887]LogSavePackage: Save=419.25ms
+[2017.08.01-13.39.05:201][887]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/NationBAU3AB271A744EF22DFBCC47791BBAC0DB5.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/NationBAU.uasset'
+[2017.08.01-13.39.05:203][887]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/NationBAU.uasset
+[2017.08.01-13.40.56:551][883]BlueprintLog: New page: Compile ConfHUD
+[2017.08.01-13.40.56:898][883]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.08.01-13.40.58:264][908]LogSavePackage: Save=793.13ms
+[2017.08.01-13.40.58:264][908]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/ConfHUDF83125B44CFCEC37592C0BA617BF5752.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset'
+[2017.08.01-13.40.58:267][908]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset
+[2017.08.01-13.41.42:918][509]BlueprintLog: New page: Compile ConfHUD
+[2017.08.01-13.41.43:211][509]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.08.01-13.41.44:488][531]LogSavePackage: Save=817.19ms
+[2017.08.01-13.41.44:488][531]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/ConfHUDFF8BBF8645BEE8C1D5593A8C93012DDC.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset'
+[2017.08.01-13.41.44:491][531]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset
+[2017.08.01-13.42.28:708][143]BlueprintLog: New page: Compile ConfHUD
+[2017.08.01-13.42.29:004][143]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.08.01-13.42.30:433][175]LogSavePackage: Save=794.89ms
+[2017.08.01-13.42.30:433][175]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/ConfHUDF4FA3D404E751A7914BC31884CA72549.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset'
+[2017.08.01-13.42.30:437][175]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset
+[2017.08.01-13.43.23:476][306]BlueprintLog: New page: Compile ConfHUD
+[2017.08.01-13.43.23:772][306]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.08.01-13.43.25:132][334]LogSavePackage: Save=791.44ms
+[2017.08.01-13.43.25:133][334]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/ConfHUDABF69F6A4C1B95088146749A558DF1FD.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset'
+[2017.08.01-13.43.25:135][334]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset
+[2017.08.01-13.43.59:886][367]BlueprintLog: New page: Compile ConfHUD
+[2017.08.01-13.44.00:189][367]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.08.01-13.44.01:359][385]LogSavePackage: Save=766.81ms
+[2017.08.01-13.44.01:359][385]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/ConfHUDF233B20A4FD6E19BE0E23D850552BD25.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset'
+[2017.08.01-13.44.01:361][385]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset
+[2017.08.01-13.44.33:409][259]BlueprintLog: New page: Compile ConfHUD
+[2017.08.01-13.44.33:736][259]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.08.01-13.44.35:513][312]LogSavePackage: Save=793.21ms
+[2017.08.01-13.44.35:513][312]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/ConfHUD91D14C034A68C6C6777B4685B4B0C35B.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset'
+[2017.08.01-13.44.35:516][312]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset
+[2017.08.01-13.44.47:884][463]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.01-13.44.47:938][463]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.01-13.44.47:938][463]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.01-13.44.47:939][463]PIE: New page: PIE session: FOTWO01 (1 Aug 2017 17:44:47)
+[2017.08.01-13.44.47:939][463]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01
+[2017.08.01-13.44.47:940][463]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001284s)
+[2017.08.01-13.44.47:941][463]LogAIModule: Creating AISystem for world FOTWO01
+[2017.08.01-13.44.47:941][463]LogPlayLevel: PIE: World Init took: (0.000577s)
+[2017.08.01-13.44.47:941][463]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 (0.002098s)
+[2017.08.01-13.44.47:973][463]LogInit: XAudio2 using 'Headset Earphone (3- Microsoft LifeChat LX-3000)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.01-13.44.47:979][463]LogInit: FAudioDevice initialized.
+[2017.08.01-13.44.48:025][463]LogLoad: Game class is 'FOTWOGameMode_C'
+[2017.08.01-13.44.48:028][463]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 up for play (max tick rate 60) at 2017.08.01-15.44.48
+[2017.08.01-13.44.48:029][463]LogWorld: Bringing up level for play took: 0.001745
+[2017.08.01-13.44.48:078][463]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
+[2017.08.01-13.44.48:090][463]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01 0.644
+[2017.08.01-13.44.48:090][463]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.01-13.45.32:339][115]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.01-13.45.32:386][115]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.01-13.47.00:749][338]BlueprintLog: New page: Compile ConfHUD
+[2017.08.01-13.47.01:067][338]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.08.01-13.47.02:404][362]LogSavePackage: Save=824.76ms
+[2017.08.01-13.47.02:404][362]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/ConfHUD8D7EB4144BE083E61D6228A4F3DD09DC.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset'
+[2017.08.01-13.47.02:407][362]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset
+[2017.08.01-13.47.04:404][481]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.01-13.47.04:423][481]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.01-13.47.04:423][481]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.01-13.47.04:423][481]PIE: New page: PIE session: FOTWO01 (1 Aug 2017 17:47:04)
+[2017.08.01-13.47.04:423][481]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01
+[2017.08.01-13.47.04:424][481]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001178s)
+[2017.08.01-13.47.04:424][481]LogAIModule: Creating AISystem for world FOTWO01
+[2017.08.01-13.47.04:424][481]LogPlayLevel: PIE: World Init took: (0.000467s)
+[2017.08.01-13.47.04:425][481]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 (0.001814s)
+[2017.08.01-13.47.04:447][481]LogInit: XAudio2 using 'Headset Earphone (3- Microsoft LifeChat LX-3000)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.01-13.47.04:454][481]LogInit: FAudioDevice initialized.
+[2017.08.01-13.47.04:483][481]LogLoad: Game class is 'FOTWOGameMode_C'
+[2017.08.01-13.47.04:485][481]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 up for play (max tick rate 60) at 2017.08.01-15.47.04
+[2017.08.01-13.47.04:485][481]LogWorld: Bringing up level for play took: 0.000824
+[2017.08.01-13.47.04:517][481]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01 1.071
+[2017.08.01-13.47.04:517][481]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.01-13.47.38:927][545]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.01-13.47.38:968][545]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.01-13.48.19:669][560]BlueprintLog: New page: Compile ConfHUD
+[2017.08.01-13.48.20:011][560]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.08.01-13.48.21:518][591]LogSavePackage: Save=784.27ms
+[2017.08.01-13.48.21:518][591]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/ConfHUD7F2DDE9143188F5D735F86A09A2F7BB5.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset'
+[2017.08.01-13.48.21:522][591]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset
+[2017.08.01-13.48.39:514][307]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.01-13.48.39:590][307]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.01-13.48.39:590][307]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.01-13.48.39:591][307]PIE: New page: PIE session: FOTWO01 (1 Aug 2017 17:48:39)
+[2017.08.01-13.48.39:591][307]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01
+[2017.08.01-13.48.39:593][307]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002378s)
+[2017.08.01-13.48.39:594][307]LogAIModule: Creating AISystem for world FOTWO01
+[2017.08.01-13.48.39:594][307]LogPlayLevel: PIE: World Init took: (0.001159s)
+[2017.08.01-13.48.39:594][307]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 (0.003794s)
+[2017.08.01-13.48.39:631][307]LogInit: XAudio2 using 'Headset Earphone (3- Microsoft LifeChat LX-3000)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.01-13.48.39:638][307]LogInit: FAudioDevice initialized.
+[2017.08.01-13.48.39:670][307]LogLoad: Game class is 'FOTWOGameMode_C'
+[2017.08.01-13.48.39:673][307]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 up for play (max tick rate 60) at 2017.08.01-15.48.39
+[2017.08.01-13.48.39:673][307]LogWorld: Bringing up level for play took: 0.001135
+[2017.08.01-13.48.39:701][307]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01 0.255
+[2017.08.01-13.48.39:702][307]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.01-13.50.17:741][188]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.01-13.50.17:785][188]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.01-13.50.40:404][505]BlueprintLog: New page: Compile NationBAU
+[2017.08.01-13.51.00:613][664]BlueprintLog: New page: Compile NationBAU
+[2017.08.01-13.51.02:162][679]LogSavePackage: Save=383.13ms
+[2017.08.01-13.51.02:162][679]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/NationBAU56BEDDAF4E0D55AFFC374D93C1AE93B3.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/NationBAU.uasset'
+[2017.08.01-13.51.02:165][679]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/NationBAU.uasset
+[2017.08.01-13.51.33:247][139]LogSavePackage: Save=116.42ms
+[2017.08.01-13.51.33:247][139]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/FOTWO01_Auto25D36947A48CAC0C9E388DE9B94ECE957.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Maps/FOTWO01_Auto2.umap'
+[2017.08.01-13.51.33:248][139]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Maps/FOTWO01_Auto2.umap
+[2017.08.01-13.51.33:251][139]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/FOTWO01' took 0.215
+[2017.08.01-13.51.33:251][139]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.215
+[2017.08.01-13.53.03:646][666]BlueprintLog: New page: Compile NationBAU
+[2017.08.01-13.53.05:109][679]LogSavePackage: Save=391.14ms
+[2017.08.01-13.53.05:109][679]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/NationBAU51E23AD94478CAACF2DCB3A78DE05A00.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/NationBAU.uasset'
+[2017.08.01-13.53.05:112][679]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/NationBAU.uasset
+[2017.08.01-13.53.21:870][553]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.01-13.53.21:889][553]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.01-13.53.21:889][553]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.01-13.53.21:889][553]PIE: New page: PIE session: FOTWO01 (1 Aug 2017 17:53:21)
+[2017.08.01-13.53.21:889][553]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01
+[2017.08.01-13.53.21:890][553]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001160s)
+[2017.08.01-13.53.21:891][553]LogAIModule: Creating AISystem for world FOTWO01
+[2017.08.01-13.53.21:891][553]LogPlayLevel: PIE: World Init took: (0.000525s)
+[2017.08.01-13.53.21:891][553]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 (0.001902s)
+[2017.08.01-13.53.21:915][553]LogInit: XAudio2 using 'Headset Earphone (3- Microsoft LifeChat LX-3000)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.01-13.53.21:921][553]LogInit: FAudioDevice initialized.
+[2017.08.01-13.53.21:953][553]LogLoad: Game class is 'FOTWOGameMode_C'
+[2017.08.01-13.53.21:955][553]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 up for play (max tick rate 60) at 2017.08.01-15.53.21
+[2017.08.01-13.53.21:955][553]LogWorld: Bringing up level for play took: 0.000929
+[2017.08.01-13.53.21:967][553]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01 0.521
+[2017.08.01-13.53.21:968][553]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.01-13.56.43:720][563]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.01-13.56.43:799][563]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.01-14.02.53:790][752]BlueprintLog: New page: Compile ConfHUD
+[2017.08.01-14.02.54:287][752]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.08.01-14.02.55:774][773]LogSavePackage: Save=799.34ms
+[2017.08.01-14.02.55:774][773]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/ConfHUD518781E5480F734EFF79E6AC57BFC67A.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset'
+[2017.08.01-14.02.55:776][773]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset
+[2017.08.01-14.05.22:383][201]LogSlate: Took 0.000158 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2017.08.01-14.05.26:919][440]LogSavePackage: Save=115.14ms
+[2017.08.01-14.05.26:919][440]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/FOTWO01_Auto300BF3EC247F37045625E3C835885B18D.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Maps/FOTWO01_Auto3.umap'
+[2017.08.01-14.05.26:920][440]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Maps/FOTWO01_Auto3.umap
+[2017.08.01-14.05.26:922][440]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/FOTWO01' took 0.217
+[2017.08.01-14.05.26:922][440]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.217
+[2017.08.01-14.05.26:924][440]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/Simulation/NationBAU] ([1] browsable assets)...
+[2017.08.01-14.05.26:924][440]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/Simulation/NationBAU]
+[2017.08.01-14.05.27:389][440]LogSavePackage: Save=391.21ms
+[2017.08.01-14.05.27:389][440]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/NationBAU_Auto385F50B5840E454CBFC6306835F7F5068.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Simulation/NationBAU_Auto3.uasset'
+[2017.08.01-14.05.27:390][440]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Simulation/NationBAU_Auto3.uasset
+[2017.08.01-14.05.27:390][440]LogFileHelpers: Auto-saving content packages took 0.467
+[2017.08.01-14.05.27:888][469]BlueprintLog: New page: Compile NationBAU
+[2017.08.01-14.05.31:240][585]LogSavePackage: Save=389.06ms
+[2017.08.01-14.05.31:240][585]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/NationBAU961772B1493CDFA87808E99F62BDA328.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/NationBAU.uasset'
+[2017.08.01-14.05.31:245][585]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/NationBAU.uasset
+[2017.08.01-14.08.38:439][237]BlueprintLog: New page: Compile NationBAU
+[2017.08.01-14.08.43:483][479]BlueprintLog: New page: Compile NationBAU
+[2017.08.01-14.09.25:926][936]BlueprintLog: New page: Compile NationBAU
+[2017.08.01-14.10.53:008][977]BlueprintLog: New page: Compile NationBAU
+[2017.08.01-14.10.54:640][  5]LogSavePackage: Save=383.04ms
+[2017.08.01-14.10.54:640][  5]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/NationBAU243A8BBD4A10AB6EDD272CB3BE905E93.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/NationBAU.uasset'
+[2017.08.01-14.10.54:643][  5]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/NationBAU.uasset
+[2017.08.01-14.13.58:312][620]BlueprintLog: New page: Compile NationBAU
+[2017.08.01-14.13.59:951][645]LogSavePackage: Save=404.00ms
+[2017.08.01-14.13.59:951][645]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/NationBAU5433D92A4E274D9C013716AF1BB0C98C.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/NationBAU.uasset'
+[2017.08.01-14.13.59:954][645]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/NationBAU.uasset
+[2017.08.01-14.18.15:381][686]LogSavePackage: Save=189.98ms
+[2017.08.01-14.18.15:381][686]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/FOTWO01_Auto492A96C3644D41BCFB9FB7F8CA7F8D5D4.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Maps/FOTWO01_Auto4.umap'
+[2017.08.01-14.18.15:383][686]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Maps/FOTWO01_Auto4.umap
+[2017.08.01-14.18.15:387][686]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/FOTWO01' took 0.385
+[2017.08.01-14.18.15:387][686]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.385
+[2017.08.01-14.18.15:391][686]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/Simulation/NationBAU] ([1] browsable assets)...
+[2017.08.01-14.18.15:391][686]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/Simulation/NationBAU]
+[2017.08.01-14.18.15:884][686]LogSavePackage: Save=386.36ms
+[2017.08.01-14.18.15:884][686]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/NationBAU_Auto4736FA3B2446ECD91B60C509948F33816.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Simulation/NationBAU_Auto4.uasset'
+[2017.08.01-14.18.15:885][686]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Simulation/NationBAU_Auto4.uasset
+[2017.08.01-14.18.15:886][686]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD] ([1] browsable assets)...
+[2017.08.01-14.18.15:886][686]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD]
+[2017.08.01-14.18.16:730][686]LogSavePackage: Save=771.30ms
+[2017.08.01-14.18.16:730][686]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/ConfHUD_Auto473656CAA4F0FF9F7F33B579A72E9CE0C.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD_Auto4.uasset'
+[2017.08.01-14.18.16:733][686]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD_Auto4.uasset
+[2017.08.01-14.18.16:733][686]LogFileHelpers: Auto-saving content packages took 1.344
+[2017.08.01-14.23.12:754][985]BlueprintLog: New page: Compile NationBAU
+[2017.08.01-14.23.14:490][997]LogSavePackage: Save=442.29ms
+[2017.08.01-14.23.14:490][997]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/NationBAU6C8EE89A49D2ABA62FA68FA039795861.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/NationBAU.uasset'
+[2017.08.01-14.23.14:497][997]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/NationBAU.uasset
+[2017.08.01-14.25.48:777][553]BlueprintLog: New page: Compile NationBAU
+[2017.08.01-14.26.55:679][310]BlueprintLog: New page: Compile NationBAU
+[2017.08.01-14.26.57:442][336]LogSavePackage: Save=453.42ms
+[2017.08.01-14.26.57:442][336]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/NationBAUDB46DF8C41BB90FBFF6EBFA40A2DDB1C.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/NationBAU.uasset'
+[2017.08.01-14.26.57:445][336]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/NationBAU.uasset
+[2017.08.01-14.28.17:782][884]LogSavePackage: Save=130.91ms
+[2017.08.01-14.28.17:782][884]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/FOTWO01_Auto5919351CE4D710B6ED043E0861036CF73.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Maps/FOTWO01_Auto5.umap'
+[2017.08.01-14.28.17:783][884]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Maps/FOTWO01_Auto5.umap
+[2017.08.01-14.28.17:784][884]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/FOTWO01' took 0.260
+[2017.08.01-14.28.17:785][884]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.260
+[2017.08.01-14.28.17:786][884]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD] ([1] browsable assets)...
+[2017.08.01-14.28.17:786][884]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD]
+[2017.08.01-14.28.18:723][884]LogSavePackage: Save=869.47ms
+[2017.08.01-14.28.18:723][884]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/ConfHUD_Auto568CD13A24E21AA0A27196599B36858EA.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD_Auto5.uasset'
+[2017.08.01-14.28.18:725][884]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD_Auto5.uasset
+[2017.08.01-14.28.18:725][884]LogFileHelpers: Auto-saving content packages took 0.939
+[2017.08.01-15.02.53:568][422]LogSavePackage: Save=710.67ms
+[2017.08.01-15.02.53:568][422]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/ConfHUDF0714ECC41299887BCBBA6AE1B01B063.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset'
+[2017.08.01-15.02.53:573][422]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset
+[2017.08.01-15.09.56:617][396]BlueprintLog: New page: Compile NationBAU
+[2017.08.01-15.09.58:879][430]LogSavePackage: Save=480.55ms
+[2017.08.01-15.09.58:879][430]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/NationBAU711CE2E44581EB63BDC3F7B8E020B8EA.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/NationBAU.uasset'
+[2017.08.01-15.09.58:882][430]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/NationBAU.uasset
+[2017.08.01-15.10.53:184][546]BlueprintLog: New page: Compile NationBAU
+[2017.08.01-15.10.54:659][557]LogSavePackage: Save=450.08ms
+[2017.08.01-15.10.54:660][557]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/NationBAU755FD81D43E103A2F6F32EB670894C81.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/NationBAU.uasset'
+[2017.08.01-15.10.54:662][557]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/NationBAU.uasset
+[2017.08.01-15.11.47:070][446]BlueprintLog: New page: Compile NationBAU
+[2017.08.01-15.11.48:878][468]LogSavePackage: Save=490.28ms
+[2017.08.01-15.11.48:878][468]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/NationBAUE80221DF4050CFE98BE9E587C246EB9E.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/NationBAU.uasset'
+[2017.08.01-15.11.48:881][468]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/NationBAU.uasset
+[2017.08.01-15.12.50:665][ 78]BlueprintLog: New page: Compile ConfHUD
+[2017.08.01-15.12.51:024][ 78]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.08.01-15.12.53:275][162]LogSavePackage: Save=752.80ms
+[2017.08.01-15.12.53:275][162]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/ConfHUD4E1802AE4E31629DB1B90C96CC681937.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset'
+[2017.08.01-15.12.53:278][162]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset
+[2017.08.01-15.14.47:467][856]BlueprintLog: New page: Compile ConfHUD
+[2017.08.01-15.14.47:867][856]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.08.01-15.14.49:104][883]LogSavePackage: Save=632.01ms
+[2017.08.01-15.14.49:104][883]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/ConfHUD0C0D3A9645FF9C642352A1A7D0CEA3C7.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset'
+[2017.08.01-15.14.49:107][883]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset
+[2017.08.01-15.21.37:941][316]BlueprintLog: New page: Compile ConfHUD
+[2017.08.01-15.21.38:355][316]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.08.01-15.21.39:820][357]LogSavePackage: Save=604.44ms
+[2017.08.01-15.21.39:820][357]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/ConfHUDD853190146070C1FE6B63FAFED6961AE.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset'
+[2017.08.01-15.21.39:823][357]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset
+[2017.08.01-15.25.09:364][595]BlueprintLog: New page: Compile ConfHUD
+[2017.08.01-15.25.09:766][595]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.08.01-15.25.10:940][621]LogSavePackage: Save=580.26ms
+[2017.08.01-15.25.10:940][621]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/ConfHUDDC44E948427A6964D44B14875DBA5FD0.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset'
+[2017.08.01-15.25.10:942][621]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset
+[2017.08.01-15.28.53:385][956]BlueprintLog: New page: Compile ConfHUD
+[2017.08.01-15.28.53:672][956]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.08.01-15.28.55:369][ 12]LogSavePackage: Save=647.71ms
+[2017.08.01-15.28.55:369][ 12]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/ConfHUD7874B68844E9869883C481A93211F0F6.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset'
+[2017.08.01-15.28.55:371][ 12]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset
+[2017.08.01-15.29.05:241][604]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.01-15.29.05:274][604]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.01-15.29.05:274][604]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.01-15.29.05:274][604]PIE: New page: PIE session: FOTWO01 (1 Aug 2017 19:29:05)
+[2017.08.01-15.29.05:274][604]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01
+[2017.08.01-15.29.05:278][604]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003297s)
+[2017.08.01-15.29.05:280][604]LogAIModule: Creating AISystem for world FOTWO01
+[2017.08.01-15.29.05:280][604]LogPlayLevel: PIE: World Init took: (0.002541s)
+[2017.08.01-15.29.05:281][604]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 (0.006297s)
+[2017.08.01-15.29.05:319][604]LogInit: XAudio2 using 'Headset Earphone (3- Microsoft LifeChat LX-3000)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.01-15.29.05:327][604]LogInit: FAudioDevice initialized.
+[2017.08.01-15.29.05:364][604]LogLoad: Game class is 'FOTWOGameMode_C'
+[2017.08.01-15.29.05:366][604]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 up for play (max tick rate 60) at 2017.08.01-17.29.05
+[2017.08.01-15.29.05:366][604]LogWorld: Bringing up level for play took: 0.001490
+[2017.08.01-15.29.05:381][604]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01 -0.065
+[2017.08.01-15.29.05:382][604]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.01-15.29.23:673][700]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.01-15.29.23:738][700]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.01-15.31.22:127][356]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.01-15.31.22:154][356]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.01-15.31.22:154][356]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.01-15.31.22:154][356]PIE: New page: PIE session: FOTWO01 (1 Aug 2017 19:31:22)
+[2017.08.01-15.31.22:154][356]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01
+[2017.08.01-15.31.22:156][356]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001283s)
+[2017.08.01-15.31.22:156][356]LogAIModule: Creating AISystem for world FOTWO01
+[2017.08.01-15.31.22:156][356]LogPlayLevel: PIE: World Init took: (0.000693s)
+[2017.08.01-15.31.22:157][356]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 (0.002132s)
+[2017.08.01-15.31.22:184][356]LogInit: XAudio2 using 'Headset Earphone (3- Microsoft LifeChat LX-3000)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.01-15.31.22:191][356]LogInit: FAudioDevice initialized.
+[2017.08.01-15.31.22:227][356]LogLoad: Game class is 'FOTWOGameMode_C'
+[2017.08.01-15.31.22:230][356]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 up for play (max tick rate 60) at 2017.08.01-17.31.22
+[2017.08.01-15.31.22:230][356]LogWorld: Bringing up level for play took: 0.001331
+[2017.08.01-15.31.22:242][356]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01 0.796
+[2017.08.01-15.31.22:243][356]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.01-15.31.58:340][239]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.01-15.31.58:418][239]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.01-15.32.30:818][ 48]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.01-15.32.30:847][ 48]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.01-15.32.30:847][ 48]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.01-15.32.30:847][ 48]PIE: New page: PIE session: FOTWO01 (1 Aug 2017 19:32:30)
+[2017.08.01-15.32.30:848][ 48]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01
+[2017.08.01-15.32.30:849][ 48]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001116s)
+[2017.08.01-15.32.30:849][ 48]LogAIModule: Creating AISystem for world FOTWO01
+[2017.08.01-15.32.30:849][ 48]LogPlayLevel: PIE: World Init took: (0.000541s)
+[2017.08.01-15.32.30:849][ 48]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 (0.001789s)
+[2017.08.01-15.32.30:877][ 48]LogInit: XAudio2 using 'Headset Earphone (3- Microsoft LifeChat LX-3000)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.01-15.32.30:883][ 48]LogInit: FAudioDevice initialized.
+[2017.08.01-15.32.30:919][ 48]LogLoad: Game class is 'FOTWOGameMode_C'
+[2017.08.01-15.32.30:926][ 48]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 up for play (max tick rate 60) at 2017.08.01-17.32.30
+[2017.08.01-15.32.30:926][ 48]LogWorld: Bringing up level for play took: 0.002704
+[2017.08.01-15.32.30:963][ 48]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01 -0.483
+[2017.08.01-15.32.30:964][ 48]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.01-15.32.56:107][308]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.01-15.32.56:152][308]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.01-15.33.29:692][286]BlueprintLog: New page: Compile ConfHUD
+[2017.08.01-15.33.29:968][286]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.08.01-15.33.31:218][319]LogSavePackage: Save=607.30ms
+[2017.08.01-15.33.31:218][319]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/ConfHUD72F681BF41C59D5FC39F708301EA67D2.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset'
+[2017.08.01-15.33.31:219][319]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset
+[2017.08.01-15.34.16:409][877]LogUObjectBase:Warning: Object is not registered
+[2017.08.01-15.34.16:613][877]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.203 s
+[2017.08.01-15.34.16:613][877]LogOutputDevice:Error: === Handled ensure: ===
+[2017.08.01-15.34.16:613][877]LogOutputDevice:Error: 
+[2017.08.01-15.34.16:613][877]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1037]
+[2017.08.01-15.34.16:613][877]LogOutputDevice:Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2017.08.01-15.34.16:613][877]LogOutputDevice:Error: Stack: 
+[2017.08.01-15.34.16:613][877]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000090CFE2B6
+[2017.08.01-15.34.16:613][877]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000090AAB8C2
+[2017.08.01-15.34.16:613][877]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000090AC1E86
+[2017.08.01-15.34.16:613][877]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x0000000081E77556
+[2017.08.01-15.34.16:613][877]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x000000007F3AD27B
+[2017.08.01-15.34.16:613][877]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x000000007EA524AA
+[2017.08.01-15.34.16:613][877]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x000000007E8F72CC
+[2017.08.01-15.34.16:613][877]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x000000007E8FA6D9
+[2017.08.01-15.34.16:613][877]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x000000007EA18035
+[2017.08.01-15.34.16:613][877]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000008FE3DB57
+[2017.08.01-15.34.16:613][877]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000008FE44B61
+[2017.08.01-15.34.16:613][877]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000900648D3
+[2017.08.01-15.34.16:613][877]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000008FE9F604
+[2017.08.01-15.34.16:613][877]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000008FE777FC
+[2017.08.01-15.34.16:613][877]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000008FE6814C
+[2017.08.01-15.34.16:613][877]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000090CF15B0
+[2017.08.01-15.34.16:613][877]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000090CDB7D1
+[2017.08.01-15.34.16:613][877]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000090CF33DB
+[2017.08.01-15.34.16:613][877]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000090CD7B22
+[2017.08.01-15.34.16:613][877]LogOutputDevice:Error: USER32.dll!0x00000000CC6EBC50
+[2017.08.01-15.34.16:613][877]LogOutputDevice:Error: USER32.dll!0x00000000CC6EB5CF
+[2017.08.01-15.34.16:613][877]LogOutputDevice:Error: UE4Editor-Core.dll!0x0000000090CF3CE6
+[2017.08.01-15.34.16:613][877]LogOutputDevice:Error: UE4Editor.exe!0x000000001093DB44
+[2017.08.01-15.34.16:613][877]LogOutputDevice:Error: UE4Editor.exe!0x000000001092F0B0
+[2017.08.01-15.34.16:613][877]LogOutputDevice:Error: UE4Editor.exe!0x000000001092F12A
+[2017.08.01-15.34.16:613][877]LogOutputDevice:Error: UE4Editor.exe!0x0000000010940CF9
+[2017.08.01-15.34.16:613][877]LogOutputDevice:Error: UE4Editor.exe!0x00000000109425F7
+[2017.08.01-15.34.16:613][877]LogOutputDevice:Error: KERNEL32.DLL!0x00000000CC642774
+[2017.08.01-15.34.16:613][877]LogOutputDevice:Error: ntdll.dll!0x00000000CEF40D51
+[2017.08.01-15.34.16:613][877]LogOutputDevice:Error: 
+[2017.08.01-15.34.16:615][877]LogStats:                SubmitErrorReport -  0.000 s
