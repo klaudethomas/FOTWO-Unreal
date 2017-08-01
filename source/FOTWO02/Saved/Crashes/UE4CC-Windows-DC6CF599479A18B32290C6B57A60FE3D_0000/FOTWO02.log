@@ -1,0 +1,430 @@
+﻿Log file open, 08/01/17 10:22:48
+LogInit:Display: Running engine for game: FOTWO02
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(720374820) SRandInit(720374820).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.109841
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.01-08.22.48:806][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.01-08.22.48:806][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.01-08.22.48:883][  0]LogInit: Computer: KLAUDE2017ALIEN
+[2017.08.01-08.22.48:883][  0]LogInit: User: vonkl
+[2017.08.01-08.22.48:884][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.01-08.22.48:884][  0]LogInit: High frequency timer resolution =2.742183 MHz
+[2017.08.01-08.22.48:884][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.08.01-08.22.48:884][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.01-08.22.48:884][  0]LogMemory: Process Physical Memory: 274.30 MB used, 274.30 MB peak
+[2017.08.01-08.22.48:884][  0]LogMemory: Process Virtual Memory: 260.82 MB used, 260.82 MB peak
+[2017.08.01-08.22.48:884][  0]LogMemory: Physical Memory: 6013.44 MB used,  10243.54 MB free, 16256.98 MB total
+[2017.08.01-08.22.48:884][  0]LogMemory: Virtual Memory: 638.49 MB used,  10243.54 MB free, 134217728.00 MB total
+[2017.08.01-08.22.49:204][  0]LogInit: Using OS detected language (en-GB).
+[2017.08.01-08.22.49:204][  0]LogInit: Using OS detected locale (en-GB).
+[2017.08.01-08.22.49:265][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2017.08.01-08.22.52:005][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.01-08.22.52:047][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2017.08.01-08.22.52:047][  0]LogD3D11RHI:       6084/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.08.01-08.22.52:075][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2017.08.01-08.22.52:075][  0]LogD3D11RHI:       128/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.08.01-08.22.52:078][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.01-08.22.52:078][  0]LogD3D11RHI:       0/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.01-08.22.52:078][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.01-08.22.52:088][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.01-08.22.52:088][  0]LogD3D11RHI:     GPU DeviceId: 0x1c60 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.01-08.22.52:088][  0]LogWindows: EnumDisplayDevices:
+[2017.08.01-08.22.52:088][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060' (P:0 D:1)
+[2017.08.01-08.22.52:088][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060' (P:1 D:1)
+[2017.08.01-08.22.52:088][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2017.08.01-08.22.52:088][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2017.08.01-08.22.52:089][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.08.01-08.22.52:089][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.08.01-08.22.52:090][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.08.01-08.22.52:090][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.08.01-08.22.52:090][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2017.08.01-08.22.52:090][  0]LogD3D11RHI:   Driver Version: 382.53 (internal:22.21.13.8253, unified:382.53)
+[2017.08.01-08.22.52:090][  0]LogD3D11RHI:      Driver Date: 6-7-2017
+[2017.08.01-08.22.52:090][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.01-08.22.52:119][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.01-08.22.52:131][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.08.01-08.22.52:225][  0]LogShaderCompilers: Guid format shader working directory is 1 characters bigger than the processId version (../../../../../../Unreal/FOTWO/source/FOTWO02/Intermediate/Shaders/WorkingDirectory/2328/).
+[2017.08.01-08.22.52:226][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/vonkl/AppData/Local/Temp/UnrealShaderWorkingDir/9CCB2B78498B7A49084287B920A692DD/'.
+[2017.08.01-08.22.52:226][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.01-08.22.54:644][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.01-08.22.54:689][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.01-08.22.54:736][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.01-08.22.54:783][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.01-08.22.54:832][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.01-08.22.54:877][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.01-08.22.54:960][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.01-08.22.55:005][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.01-08.22.55:059][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.01-08.22.55:167][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.01-08.22.55:217][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.01-08.22.55:261][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.01-08.22.55:304][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.01-08.22.55:348][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.01-08.22.55:391][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.01-08.22.55:477][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.01-08.22.55:477][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.01-08.22.55:512][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.01-08.22.55:601][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.01-08.22.55:628][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.01-08.22.55:677][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.01-08.22.55:733][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.01-08.22.55:776][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.01-08.22.55:822][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.01-08.22.55:822][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.01-08.22.56:509][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.01-08.22.57:415][  0]LogDerivedDataCache: Loaded boot cache 0.91s 90MB C:/Users/vonkl/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.01-08.22.57:415][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/vonkl/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.01-08.22.57:415][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Unreal/FOTWO/source/FOTWO02/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.01-08.22.57:415][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.01-08.22.57:416][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Unreal/FOTWO/source/FOTWO02/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.01-08.22.57:416][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.01-08.22.57:459][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.01-08.22.57:471][  0]LogDerivedDataCache: Using Local data cache path C:/Users/vonkl/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.01-08.22.57:489][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.01-08.22.57:490][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.01-08.22.57:505][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.01-08.22.57:505][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.01-08.22.58:004][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.01-08.22.58:161][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.01-08.22.58:388][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.01-08.22.58:436][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.01-08.22.58:480][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.01-08.22.58:480][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.01-08.22.58:480][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.01-08.22.59:690][  0]LogNetVersion: FOTWO02 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2990255715)
+[2017.08.01-08.22.59:791][  0]LogAssetRegistry: FAssetRegistry took 0.0298 seconds to start up
+[2017.08.01-08.22.59:861][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.043367 seconds
+[2017.08.01-08.22.59:865][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.01-08.22.59:866][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.08.01-08.22.59:866][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.01-08.22.59:923][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.01-08.23.04:736][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.01-08.23.04:776][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.01-08.23.05:472][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.01-08.23.05:925][  0]SourceControl: Info Source control is disabled
+[2017.08.01-08.23.05:987][  0]SourceControl: Info Source control is disabled
+[2017.08.01-08.23.06:031][  0]SourceControl: Info Source control is disabled
+[2017.08.01-08.23.06:073][  0]SourceControl: Info Source control is disabled
+[2017.08.01-08.23.06:889][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.01-08.23.07:638][  0]LogEngine: Initializing Engine...
+[2017.08.01-08.23.07:639][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.01-08.23.07:985][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.01-08.23.07:985][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.01-08.23.08:111][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.01-08.23.08:129][  0]LogInit: XAudio2 using 'Headset Earphone (3- Microsoft LifeChat LX-3000)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.01-08.23.08:169][  0]LogInit: FAudioDevice initialized.
+[2017.08.01-08.23.08:206][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/vonkl/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.01-08.23.08:213][  0]LogInit: Texture streaming: Enabled
+[2017.08.01-08.23.08:300][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.01-08.23.08:542][  0]LogInit: Transaction tracking system initialized
+[2017.08.01-08.23.08:820][  0]BlueprintLog: New page: Editor Load
+[2017.08.01-08.23.09:841][  0]LocalizationService: Info Localization service is disabled
+[2017.08.01-08.23.10:492][  0]LogConsoleResponse:Display: 
+[2017.08.01-08.23.10:851][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.01-08.23.10:851][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.01-08.23.11:437][  0]LogFileCache: Scanning file cache for directory 'C:/Unreal/FOTWO/source/FOTWO02/Content/' took 0.02s
+[2017.08.01-08.23.11:895][  0]SourceControl: Info Source control is disabled
+[2017.08.01-08.23.11:895][  0]Cmd: MAP LOAD FILE="../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.01-08.23.11:895][  0]LogEditorServer:Warning: Can't find file '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
+[2017.08.01-08.23.11:895][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.01-08.23.11:933][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 38.059ms to complete.
+[2017.08.01-08.23.11:933][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 0.038
+[2017.08.01-08.23.12:012][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.01-08.23.12:157][  0]LogCollectionManager: Loaded 0 collections in 0.001605 seconds
+[2017.08.01-08.23.12:226][  0]LogFileCache: Scanning file cache for directory 'C:/Unreal/FOTWO/source/FOTWO02/Saved/Collections/' took 0.01s
+[2017.08.01-08.23.12:226][  0]LogFileCache: Scanning file cache for directory 'C:/Unreal/FOTWO/source/FOTWO02/Content/Developers/vonkl/Collections/' took 0.01s
+[2017.08.01-08.23.12:226][  0]LogFileCache: Scanning file cache for directory 'C:/Unreal/FOTWO/source/FOTWO02/Content/Collections/' took 0.00s
+[2017.08.01-08.23.12:226][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2017.08.01-08.23.12:235][  0]LogContentBrowser: Native class hierarchy populated in 0.0082 seconds. Added 2329 classes and 491 folders.
+[2017.08.01-08.23.12:295][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.08.01-08.23.12:685][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.08.01-08.23.12:739][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.08.01-08.23.12:833][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.01-08.23.12:845][  0]LogSlate: Took 0.006241 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.01-08.23.12:852][  0]LogSlate: Took 0.005024 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.01-08.23.12:862][  0]LogSlate: Took 0.005025 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.01-08.23.13:034][  0]LogRenderer: Reallocating scene render targets to support 1656x932 NumSamples 1 (Frame:1).
+[2017.08.01-08.23.13:157][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.08.01-08.23.13:217][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.08.01-08.23.13:217][  0]LogLoad: (Engine Initialization) Total time: 26.72 seconds
+[2017.08.01-08.23.13:217][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.07 seconds
+[2017.08.01-08.23.13:217][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.08.01-08.23.13:217][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.08.01-08.23.13:238][  0]LogOcInput: OculusInput pre-init called
+[2017.08.01-08.23.13:238][  0]LogHMD: Starting GearVRController plugin
+[2017.08.01-08.23.13:255][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.01-08.23.13:313][  1]LogAssetRegistry: Asset discovery search completed in 13.5445 seconds
+[2017.08.01-08.23.13:315][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.08.01-08.23.13:315][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000077 seconds (updated 0 objects)
+[2017.08.01-08.23.16:553][187]LogSlate: Took 0.007523 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.01-08.23.17:469][187]LogSlate: Took 0.000231 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.01-08.23.17:525][187]LogAIModule: Creating AISystem for world FOTWO01
+[2017.08.01-08.23.17:563][187]Cmd: MAP LOAD FILE="../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Maps/FOTWO01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.01-08.23.17:563][187]LightingResults: New page: Lighting Build
+[2017.08.01-08.23.17:601][187]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0005 seconds. Added 5 classes and 0 folders.
+[2017.08.01-08.23.17:602][187]LoadErrors: New page: Loading map: FOTWO01.umap
+[2017.08.01-08.23.17:602][187]MapCheck: New page: Map Check
+[2017.08.01-08.23.17:602][187]LightingResults: New page: Lighting Build
+[2017.08.01-08.23.17:674][187]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.01-08.23.17:711][187]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.01-08.23.17:754][187]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 42.604ms to complete.
+[2017.08.01-08.23.17:755][187]LogFileHelpers: Loading map 'FOTWO01' took 0.192
+[2017.08.01-08.23.22:455][430]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 112 classes and 0 folders.
+[2017.08.01-08.23.23:096][430]LogSlate: Took 0.000265 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.01-08.23.23:104][430]LogSlate: Took 0.007604 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.01-08.23.28:440][681]LogSlate: Took 0.004391 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.01-08.23.42:453][469]LogSlate: Took 0.012329 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.08.01-08.25.50:157][797]BlueprintLog: New page: Compile ConfHUD
+[2017.08.01-08.25.50:408][797]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.08.01-08.25.51:516][816]LogSavePackage: Save=592.53ms
+[2017.08.01-08.25.51:516][816]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/ConfHUDC4D2D7E0487D5372B9FE8D8102196B18.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset'
+[2017.08.01-08.25.51:519][816]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset
+[2017.08.01-08.27.23:483][ 47]BlueprintLog: New page: Compile ConfHUD
+[2017.08.01-08.27.23:780][ 47]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.08.01-08.27.25:869][127]LogSavePackage: Save=603.84ms
+[2017.08.01-08.27.25:869][127]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/ConfHUD674E19464C727B7EC15D9BA0FC1D771F.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset'
+[2017.08.01-08.27.25:872][127]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset
+[2017.08.01-08.30.56:234][127]BlueprintLog: New page: Compile ConfHUD
+[2017.08.01-08.30.56:347][127]LogBlueprint:Error: [Compiler ConfHUD] Error Binding: Property ' bIsEnabledDelegate ' on Widget ' ButtonVoteEurope ': Binding: 'None' : 'None' was not found on 'Conf HUD'.
+[2017.08.01-08.30.56:716][127]BlueprintEditorCompileResults:Error: Error Binding: Property ' bIsEnabledDelegate ' on Widget ' ButtonVoteEurope ': Binding: 'None' : 'None' was not found on 'Conf HUD'.
+[2017.08.01-08.30.56:716][127]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.08.01-08.30.56:716][127]LogBlueprint:Warning: [Compiler ConfHUD] Warning [0490.22] Compile of ConfHUD failed. 1 Fatal Issue(s) 0 Warning(s) [in 482 ms] (/Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD)
+[2017.08.01-08.32.17:258][304]BlueprintLog: New page: Compile ConfHUD
+[2017.08.01-08.32.17:375][304]LogBlueprint:Error: [Compiler ConfHUD] Error Binding: Property ' bIsEnabledDelegate ' on Widget ' ButtonVoteEurope ': Binding: 'None' : 'None' was not found on 'Conf HUD'.
+[2017.08.01-08.32.17:644][304]BlueprintEditorCompileResults:Error: Error Binding: Property ' bIsEnabledDelegate ' on Widget ' ButtonVoteEurope ': Binding: 'None' : 'None' was not found on 'Conf HUD'.
+[2017.08.01-08.32.17:644][304]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.08.01-08.32.17:644][304]LogBlueprint:Warning: [Compiler ConfHUD] Warning [0571.14] Compile of ConfHUD failed. 1 Fatal Issue(s) 0 Warning(s) [in 386 ms] (/Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD)
+[2017.08.01-08.32.18:828][325]LogSavePackage: Save=656.56ms
+[2017.08.01-08.32.18:828][325]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/ConfHUDDD6009414F3284943A7D1BA3FC2A689F.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset'
+[2017.08.01-08.32.18:831][325]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset
+[2017.08.01-08.33.16:553][ 99]BlueprintLog: New page: Compile ConfHUD
+[2017.08.01-08.33.16:839][ 99]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.08.01-08.33.18:208][132]LogSavePackage: Save=628.34ms
+[2017.08.01-08.33.18:208][132]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/ConfHUD8FA2516B46D8F5FC00890DA375930B8A.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset'
+[2017.08.01-08.33.18:210][132]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset
+[2017.08.01-08.33.20:824][279]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.01-08.33.20:888][279]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.01-08.33.20:888][279]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.01-08.33.20:889][279]PIE: New page: PIE session: FOTWO01 (1 Aug 2017 12:33:20)
+[2017.08.01-08.33.20:889][279]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01
+[2017.08.01-08.33.20:890][279]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001263s)
+[2017.08.01-08.33.20:890][279]LogAIModule: Creating AISystem for world FOTWO01
+[2017.08.01-08.33.20:891][279]LogPlayLevel: PIE: World Init took: (0.000587s)
+[2017.08.01-08.33.20:891][279]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 (0.002080s)
+[2017.08.01-08.33.20:914][279]LogInit: XAudio2 using 'Headset Earphone (3- Microsoft LifeChat LX-3000)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.01-08.33.20:920][279]LogInit: FAudioDevice initialized.
+[2017.08.01-08.33.20:967][279]LogLoad: Game class is 'FOTWOGameMode_C'
+[2017.08.01-08.33.20:972][279]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 up for play (max tick rate 60) at 2017.08.01-10.33.20
+[2017.08.01-08.33.20:972][279]LogWorld: Bringing up level for play took: 0.002467
+[2017.08.01-08.33.21:057][279]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.08.01-08.33.21:070][279]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01 -0.376
+[2017.08.01-08.33.21:070][279]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.01-08.36.00:995][870]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.01-08.36.01:041][870]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.01-08.38.07:824][453]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/FOTWO01' took 0.025
+[2017.08.01-08.38.07:826][453]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD] ([1] browsable assets)...
+[2017.08.01-08.38.07:826][453]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD]
+[2017.08.01-08.38.08:527][453]LogSavePackage: Save=616.58ms
+[2017.08.01-08.38.08:527][453]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/ConfHUD_Auto1561AF23D426E86569F3512B9600891B3.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD_Auto1.uasset'
+[2017.08.01-08.38.08:529][453]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD_Auto1.uasset
+[2017.08.01-08.38.08:529][453]LogFileHelpers: Auto-saving content packages took 0.705
+[2017.08.01-08.46.58:040][833]BlueprintLog: New page: Compile ConfHUD
+[2017.08.01-08.46.58:312][833]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.08.01-08.46.59:892][875]LogSavePackage: Save=636.92ms
+[2017.08.01-08.46.59:892][875]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/ConfHUDF46E1B0F4983C4E030CDBDAB131E8559.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset'
+[2017.08.01-08.46.59:895][875]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset
+[2017.08.01-09.47.49:747][164]LogEditorTransaction: Undo Move Node
+[2017.08.01-09.50.03:368][941]LogBlueprint:Warning: [Compiler ] Warning Pasted node  CustomEvent   conflicted with  On Clicked (DollarsGiveButton)  and was replaced as a Custom Event!
+[2017.08.01-09.50.03:368][941]LogBlueprint:Warning: [Compiler ] Warning Pasted node  CustomEvent_1   conflicted with  On Clicked (DollarsTakeButton)  and was replaced as a Custom Event!
+[2017.08.01-09.50.03:464][941]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent   conflicted with  On Clicked (DollarsGiveButton)  and was replaced as a Custom Event!
+[2017.08.01-09.50.03:464][941]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent_1   conflicted with  On Clicked (DollarsTakeButton)  and was replaced as a Custom Event!
+[2017.08.01-09.50.08:380][181]LogBlueprint:Warning: [Compiler ] Warning Pasted node  CustomEvent_2   conflicted with  On Clicked (DollarsGiveButton)  and was replaced as a Custom Event!
+[2017.08.01-09.50.08:380][181]LogBlueprint:Warning: [Compiler ] Warning Pasted node  CustomEvent_3   conflicted with  On Clicked (DollarsTakeButton)  and was replaced as a Custom Event!
+[2017.08.01-09.50.08:445][181]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent   conflicted with  On Clicked (DollarsGiveButton)  and was replaced as a Custom Event!
+[2017.08.01-09.50.08:445][181]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent_1   conflicted with  On Clicked (DollarsTakeButton)  and was replaced as a Custom Event!
+[2017.08.01-09.50.08:445][181]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent_2   conflicted with  On Clicked (DollarsGiveButton)  and was replaced as a Custom Event!
+[2017.08.01-09.50.08:446][181]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent_3   conflicted with  On Clicked (DollarsTakeButton)  and was replaced as a Custom Event!
+[2017.08.01-09.50.13:420][385]LogBlueprint:Warning: [Compiler ] Warning Pasted node  CustomEvent_4   conflicted with  On Clicked (DollarsGiveButton)  and was replaced as a Custom Event!
+[2017.08.01-09.50.13:420][385]LogBlueprint:Warning: [Compiler ] Warning Pasted node  CustomEvent_5   conflicted with  On Clicked (DollarsTakeButton)  and was replaced as a Custom Event!
+[2017.08.01-09.50.13:491][385]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent   conflicted with  On Clicked (DollarsGiveButton)  and was replaced as a Custom Event!
+[2017.08.01-09.50.13:491][385]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent_1   conflicted with  On Clicked (DollarsTakeButton)  and was replaced as a Custom Event!
+[2017.08.01-09.50.13:491][385]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent_2   conflicted with  On Clicked (DollarsGiveButton)  and was replaced as a Custom Event!
+[2017.08.01-09.50.13:491][385]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent_3   conflicted with  On Clicked (DollarsTakeButton)  and was replaced as a Custom Event!
+[2017.08.01-09.50.13:491][385]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent_4   conflicted with  On Clicked (DollarsGiveButton)  and was replaced as a Custom Event!
+[2017.08.01-09.50.13:491][385]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent_5   conflicted with  On Clicked (DollarsTakeButton)  and was replaced as a Custom Event!
+[2017.08.01-09.50.19:364][636]LogBlueprint:Warning: [Compiler ] Warning Pasted node  CustomEvent_6   conflicted with  On Clicked (DollarsGiveButton)  and was replaced as a Custom Event!
+[2017.08.01-09.50.19:365][636]LogBlueprint:Warning: [Compiler ] Warning Pasted node  CustomEvent_7   conflicted with  On Clicked (DollarsTakeButton)  and was replaced as a Custom Event!
+[2017.08.01-09.50.19:438][636]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent   conflicted with  On Clicked (DollarsGiveButton)  and was replaced as a Custom Event!
+[2017.08.01-09.50.19:438][636]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent_1   conflicted with  On Clicked (DollarsTakeButton)  and was replaced as a Custom Event!
+[2017.08.01-09.50.19:438][636]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent_2   conflicted with  On Clicked (DollarsGiveButton)  and was replaced as a Custom Event!
+[2017.08.01-09.50.19:438][636]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent_3   conflicted with  On Clicked (DollarsTakeButton)  and was replaced as a Custom Event!
+[2017.08.01-09.50.19:438][636]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent_4   conflicted with  On Clicked (DollarsGiveButton)  and was replaced as a Custom Event!
+[2017.08.01-09.50.19:438][636]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent_5   conflicted with  On Clicked (DollarsTakeButton)  and was replaced as a Custom Event!
+[2017.08.01-09.50.19:438][636]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent_6   conflicted with  On Clicked (DollarsGiveButton)  and was replaced as a Custom Event!
+[2017.08.01-09.50.19:438][636]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent_7   conflicted with  On Clicked (DollarsTakeButton)  and was replaced as a Custom Event!
+[2017.08.01-09.50.22:836][795]LogBlueprint:Warning: [Compiler ] Warning Pasted node  CustomEvent_8   conflicted with  On Clicked (DollarsGiveButton)  and was replaced as a Custom Event!
+[2017.08.01-09.50.22:836][795]LogBlueprint:Warning: [Compiler ] Warning Pasted node  CustomEvent_9   conflicted with  On Clicked (DollarsTakeButton)  and was replaced as a Custom Event!
+[2017.08.01-09.50.22:914][795]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent   conflicted with  On Clicked (DollarsGiveButton)  and was replaced as a Custom Event!
+[2017.08.01-09.50.22:914][795]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent_1   conflicted with  On Clicked (DollarsTakeButton)  and was replaced as a Custom Event!
+[2017.08.01-09.50.22:914][795]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent_2   conflicted with  On Clicked (DollarsGiveButton)  and was replaced as a Custom Event!
+[2017.08.01-09.50.22:914][795]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent_3   conflicted with  On Clicked (DollarsTakeButton)  and was replaced as a Custom Event!
+[2017.08.01-09.50.22:914][795]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent_4   conflicted with  On Clicked (DollarsGiveButton)  and was replaced as a Custom Event!
+[2017.08.01-09.50.22:914][795]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent_5   conflicted with  On Clicked (DollarsTakeButton)  and was replaced as a Custom Event!
+[2017.08.01-09.50.22:914][795]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent_6   conflicted with  On Clicked (DollarsGiveButton)  and was replaced as a Custom Event!
+[2017.08.01-09.50.22:914][795]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent_7   conflicted with  On Clicked (DollarsTakeButton)  and was replaced as a Custom Event!
+[2017.08.01-09.50.22:914][795]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent_8   conflicted with  On Clicked (DollarsGiveButton)  and was replaced as a Custom Event!
+[2017.08.01-09.50.22:914][795]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent_9   conflicted with  On Clicked (DollarsTakeButton)  and was replaced as a Custom Event!
+[2017.08.01-09.54.00:016][823]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/FOTWO01' took 0.057
+[2017.08.01-09.54.00:018][823]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD] ([1] browsable assets)...
+[2017.08.01-09.54.00:018][823]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD]
+[2017.08.01-09.54.00:923][823]LogSavePackage: Save=826.73ms
+[2017.08.01-09.54.00:923][823]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/ConfHUD_Auto2FBE6FC2649A5BB069C87E49A7A72EE96.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD_Auto2.uasset'
+[2017.08.01-09.54.00:925][823]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD_Auto2.uasset
+[2017.08.01-09.54.00:925][823]LogFileHelpers: Auto-saving content packages took 0.908
+[2017.08.01-09.54.55:530][663]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent   conflicted with  On Clicked (DollarsGiveButton)  and was replaced as a Custom Event!
+[2017.08.01-09.54.55:530][663]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent_1   conflicted with  On Clicked (DollarsTakeButton)  and was replaced as a Custom Event!
+[2017.08.01-09.54.55:530][663]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent_2   conflicted with  On Clicked (DollarsGiveButton)  and was replaced as a Custom Event!
+[2017.08.01-09.54.55:530][663]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent_3   conflicted with  On Clicked (DollarsTakeButton)  and was replaced as a Custom Event!
+[2017.08.01-09.54.55:530][663]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent_4   conflicted with  On Clicked (DollarsGiveButton)  and was replaced as a Custom Event!
+[2017.08.01-09.54.55:530][663]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent_5   conflicted with  On Clicked (DollarsTakeButton)  and was replaced as a Custom Event!
+[2017.08.01-09.54.55:530][663]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent_6   conflicted with  On Clicked (DollarsGiveButton)  and was replaced as a Custom Event!
+[2017.08.01-09.54.55:530][663]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent_7   conflicted with  On Clicked (DollarsTakeButton)  and was replaced as a Custom Event!
+[2017.08.01-09.54.55:530][663]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent_8   conflicted with  On Clicked (DollarsGiveButton)  and was replaced as a Custom Event!
+[2017.08.01-09.54.55:530][663]BlueprintEditorCompileResults:Warning: Warning Pasted node  CustomEvent_9   conflicted with  On Clicked (DollarsTakeButton)  and was replaced as a Custom Event!
+[2017.08.01-09.55.25:461][385]BlueprintLog: New page: Compile ConfHUD
+[2017.08.01-09.55.25:878][385]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.08.01-09.55.27:609][416]LogSavePackage: Save=862.12ms
+[2017.08.01-09.55.27:609][416]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/ConfHUD74A94C9B4E83C28D53F337B68676EE6E.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset'
+[2017.08.01-09.55.27:615][416]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset
+[2017.08.01-09.59.25:489][135]BlueprintLog: New page: Compile NationBAU
+[2017.08.01-09.59.25:557][135]LogBlueprint:Error: [Compiler NationBAU] Error  OfferDollarsBn  : unable to determine expected signature - is the delegate pin connected?
+[2017.08.01-09.59.25:557][135]LogBlueprint:Error: [Compiler NationBAU] Error Could not find an event-dispatcher named "DollarsOfferUSABn" in 'ConfHUD_C'.
+Make sure 'ConfHUD_C' has been compiled for  Bind Event to DollarsOfferUSABn
+[2017.08.01-09.59.25:557][135]LogBlueprint:Error: [Compiler NationBAU] Error  RequestDollarsBn  : unable to determine expected signature - is the delegate pin connected?
+[2017.08.01-09.59.25:557][135]LogBlueprint:Error: [Compiler NationBAU] Error Could not find an event-dispatcher named "DollarsRequestUSABn" in 'ConfHUD_C'.
+Make sure 'ConfHUD_C' has been compiled for  Bind Event to DollarsRequestUSABn
+[2017.08.01-09.59.25:557][135]LogBlueprint:Error: [Compiler NationBAU] Error  ResetDollarsBn  : unable to determine expected signature - is the delegate pin connected?
+[2017.08.01-09.59.25:557][135]LogBlueprint:Error: [Compiler NationBAU] Error Could not find an event-dispatcher named "DollarsResetUSABn" in 'ConfHUD_C'.
+Make sure 'ConfHUD_C' has been compiled for  Bind Event to DollarsResetUSABn
+[2017.08.01-09.59.25:558][135]LogBlueprint:Error: [Compiler NationBAU] Error Failed to create property K2Node_CreateDelegate_OutputDelegate4 from  <None>  due to a bad or unknown type (Delegate)
+[2017.08.01-09.59.25:558][135]LogBlueprint:Error: [Compiler NationBAU] Error Failed to create property K2Node_CreateDelegate_OutputDelegate5 from  <None>  due to a bad or unknown type (Delegate)
+[2017.08.01-09.59.25:558][135]LogBlueprint:Error: [Compiler NationBAU] Error Failed to create property K2Node_CreateDelegate_OutputDelegate6 from  <None>  due to a bad or unknown type (Delegate)
+[2017.08.01-09.59.25:561][135]LogBlueprint:Error: [Compiler NationBAU] Error  ResetDollarsBn  Signature Error: Unable to determine expected signature - is the delegate pin connected?
+[2017.08.01-09.59.25:561][135]LogBlueprint:Error: [Compiler NationBAU] Error  RequestDollarsBn  Signature Error: Unable to determine expected signature - is the delegate pin connected?
+[2017.08.01-09.59.25:561][135]LogBlueprint:Error: [Compiler NationBAU] Error  OfferDollarsBn  Signature Error: Unable to determine expected signature - is the delegate pin connected?
+[2017.08.01-09.59.27:026][135]BlueprintEditorCompileResults:Error: Error  OfferDollarsBn  : unable to determine expected signature - is the delegate pin connected?
+[2017.08.01-09.59.27:026][135]BlueprintEditorCompileResults:Error: Error Could not find an event-dispatcher named "DollarsOfferUSABn" in 'ConfHUD_C'.
+Make sure 'ConfHUD_C' has been compiled for  Bind Event to DollarsOfferUSABn
+[2017.08.01-09.59.27:026][135]BlueprintEditorCompileResults:Error: Error  RequestDollarsBn  : unable to determine expected signature - is the delegate pin connected?
+[2017.08.01-09.59.27:026][135]BlueprintEditorCompileResults:Error: Error Could not find an event-dispatcher named "DollarsRequestUSABn" in 'ConfHUD_C'.
+Make sure 'ConfHUD_C' has been compiled for  Bind Event to DollarsRequestUSABn
+[2017.08.01-09.59.27:026][135]BlueprintEditorCompileResults:Error: Error  ResetDollarsBn  : unable to determine expected signature - is the delegate pin connected?
+[2017.08.01-09.59.27:026][135]BlueprintEditorCompileResults:Error: Error Could not find an event-dispatcher named "DollarsResetUSABn" in 'ConfHUD_C'.
+Make sure 'ConfHUD_C' has been compiled for  Bind Event to DollarsResetUSABn
+[2017.08.01-09.59.27:026][135]BlueprintEditorCompileResults:Error: Error Failed to create property K2Node_CreateDelegate_OutputDelegate4 from  <None>  due to a bad or unknown type (Delegate)
+[2017.08.01-09.59.27:026][135]BlueprintEditorCompileResults:Error: Error Failed to create property K2Node_CreateDelegate_OutputDelegate5 from  <None>  due to a bad or unknown type (Delegate)
+[2017.08.01-09.59.27:026][135]BlueprintEditorCompileResults:Error: Error Failed to create property K2Node_CreateDelegate_OutputDelegate6 from  <None>  due to a bad or unknown type (Delegate)
+[2017.08.01-09.59.27:026][135]BlueprintEditorCompileResults:Error: Error  ResetDollarsBn  Signature Error: Unable to determine expected signature - is the delegate pin connected?
+[2017.08.01-09.59.27:026][135]BlueprintEditorCompileResults:Error: Error  RequestDollarsBn  Signature Error: Unable to determine expected signature - is the delegate pin connected?
+[2017.08.01-09.59.27:026][135]BlueprintEditorCompileResults:Error: Error  OfferDollarsBn  Signature Error: Unable to determine expected signature - is the delegate pin connected?
+[2017.08.01-09.59.27:026][135]LogBlueprint:Warning: [Compiler NationBAU] Warning [5800.53] Compile of NationBAU failed. 12 Fatal Issue(s) 0 Warning(s) [in 1,537 ms] (/Game/2DSideScrollerBP/Blueprints/Simulation/NationBAU.NationBAU)
+[2017.08.01-09.59.37:203][703]BlueprintLog: New page: Compile ConfHUD
+[2017.08.01-09.59.37:619][703]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.08.01-09.59.39:041][725]LogSavePackage: Save=863.43ms
+[2017.08.01-09.59.39:041][725]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/ConfHUDE55406FF4E22E663F15EB39E56F4A6B8.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset'
+[2017.08.01-09.59.39:044][725]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.uasset
+[2017.08.01-09.59.49:077][265]BlueprintLog: New page: Compile NationBAU
+[2017.08.01-09.59.49:780][265]LoadErrors:Error: Error /Game/2DSideScrollerBP/Blueprints/Simulation/NationBAU : Failed import for Function /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:OfferDollarsBn__DelegateSignature
+[2017.08.01-09.59.49:780][265]LoadErrors:Error: Error /Game/2DSideScrollerBP/Blueprints/Simulation/NationBAU : Failed import for Function /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:RequestDollarsBn__DelegateSignature
+[2017.08.01-09.59.49:780][265]LoadErrors:Error: Error /Game/2DSideScrollerBP/Blueprints/Simulation/NationBAU : Failed import for Function /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:ResetDollarsBn__DelegateSignature
+[2017.08.01-09.59.49:780][265]LoadErrors:Error: Error /Game/2DSideScrollerBP/Blueprints/Simulation/NationBAU : Failed import for MulticastDelegateProperty /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:OfferDollarsBn
+[2017.08.01-09.59.49:780][265]LoadErrors:Error: Error /Game/2DSideScrollerBP/Blueprints/Simulation/NationBAU : Failed import for MulticastDelegateProperty /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:RequestDollarsBn
+[2017.08.01-09.59.49:780][265]LoadErrors:Error: Error /Game/2DSideScrollerBP/Blueprints/Simulation/NationBAU : Failed import for MulticastDelegateProperty /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:ResetDollarsBn
+[2017.08.01-09.59.51:726][347]LogSavePackage: Save=375.10ms
+[2017.08.01-09.59.51:726][347]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/NationBAUB1BFDD2143349452FC6A0FB39FD56826.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/NationBAU.uasset'
+[2017.08.01-09.59.51:730][347]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/NationBAU.uasset
+[2017.08.01-10.01.06:365][616]LogUObjectArray:Warning: Other object in slot
+[2017.08.01-10.01.06:565][616]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.201 s
+[2017.08.01-10.01.06:565][616]LogOutputDevice:Error: === Handled ensure: ===
+[2017.08.01-10.01.06:565][616]LogOutputDevice:Error: 
+[2017.08.01-10.01.06:565][616]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1037]
+[2017.08.01-10.01.06:565][616]LogOutputDevice:Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2017.08.01-10.01.06:565][616]LogOutputDevice:Error: Stack: 
+[2017.08.01-10.01.06:565][616]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000009A66E2B6
+[2017.08.01-10.01.06:565][616]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000009A41B8C2
+[2017.08.01-10.01.06:565][616]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000009A431E86
+[2017.08.01-10.01.06:565][616]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x000000007B7A7556
+[2017.08.01-10.01.06:565][616]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x000000007607D27B
+[2017.08.01-10.01.06:565][616]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000757224AA
+[2017.08.01-10.01.06:565][616]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000755C72CC
+[2017.08.01-10.01.06:565][616]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000755CA6D9
+[2017.08.01-10.01.06:565][616]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000756E8035
+[2017.08.01-10.01.06:565][616]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000090CFDB57
+[2017.08.01-10.01.06:565][616]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000090D04B61
+[2017.08.01-10.01.06:565][616]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000090F248D3
+[2017.08.01-10.01.06:565][616]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000090D5F604
+[2017.08.01-10.01.06:565][616]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000090D377FC
+[2017.08.01-10.01.06:565][616]LogOutputDevice:Error: UE4Editor-Slate.dll!0x0000000090D2814C
+[2017.08.01-10.01.06:565][616]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000009A6615B0
+[2017.08.01-10.01.06:565][616]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000009A64B7D1
+[2017.08.01-10.01.06:565][616]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000009A6633DB
+[2017.08.01-10.01.06:565][616]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000009A647B22
+[2017.08.01-10.01.06:565][616]LogOutputDevice:Error: USER32.dll!0x00000000CC6EBC50
+[2017.08.01-10.01.06:565][616]LogOutputDevice:Error: USER32.dll!0x00000000CC6EB5CF
+[2017.08.01-10.01.06:565][616]LogOutputDevice:Error: UE4Editor-Core.dll!0x000000009A663CE6
+[2017.08.01-10.01.06:565][616]LogOutputDevice:Error: UE4Editor.exe!0x000000001093DB44
+[2017.08.01-10.01.06:565][616]LogOutputDevice:Error: UE4Editor.exe!0x000000001092F0B0
+[2017.08.01-10.01.06:565][616]LogOutputDevice:Error: UE4Editor.exe!0x000000001092F12A
+[2017.08.01-10.01.06:565][616]LogOutputDevice:Error: UE4Editor.exe!0x0000000010940CF9
+[2017.08.01-10.01.06:565][616]LogOutputDevice:Error: UE4Editor.exe!0x00000000109425F7
+[2017.08.01-10.01.06:565][616]LogOutputDevice:Error: KERNEL32.DLL!0x00000000CC642774
+[2017.08.01-10.01.06:565][616]LogOutputDevice:Error: ntdll.dll!0x00000000CEF40D51
+[2017.08.01-10.01.06:565][616]LogOutputDevice:Error: 
+[2017.08.01-10.01.06:573][616]LogStats:                SubmitErrorReport -  0.000 s
