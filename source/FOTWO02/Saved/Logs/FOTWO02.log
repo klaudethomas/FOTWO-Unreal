@@ -1,9 +1,9 @@
-﻿Log file open, 08/23/17 11:26:14
+﻿Log file open, 08/23/17 15:30:16
 LogInit:Display: Running engine for game: FOTWO02
 LogPlatformFile: Not using cached read wrapper
-LogInit:Display: RandInit(1852568513) SRandInit(1852568514).
+LogInit:Display: RandInit(-944049378) SRandInit(-944049378).
 LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
-LogStats: Stats thread started at 0.954248
+LogStats: Stats thread started at 0.088149
 LogInit: Using libcurl 7.47.1
 LogInit:  - built for x86_64-pc-win32
 LogInit:  - supports SSL with OpenSSL/1.0.2g
@@ -50,726 +50,581 @@ LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win
 LogInit: Installed Engine Build: 1
 LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
 LogInit: Object subsystem initialized
-[2017.08.23-09.26.15:427][  0]LogInit: Selected Device Profile: [Windows]
-[2017.08.23-09.26.15:427][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2017.08.23-09.26.15:476][  0]LogInit: Computer: KLAUDE2017ALIEN
-[2017.08.23-09.26.15:476][  0]LogInit: User: vonkl
-[2017.08.23-09.26.15:476][  0]LogInit: CPU Page size=4096, Cores=4
-[2017.08.23-09.26.15:476][  0]LogInit: High frequency timer resolution =2.742185 MHz
-[2017.08.23-09.26.15:476][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
-[2017.08.23-09.26.15:476][  0]LogMemory: Platform Memory Stats for Windows
-[2017.08.23-09.26.15:476][  0]LogMemory: Process Physical Memory: 272.94 MB used, 272.94 MB peak
-[2017.08.23-09.26.15:476][  0]LogMemory: Process Virtual Memory: 260.77 MB used, 260.77 MB peak
-[2017.08.23-09.26.15:476][  0]LogMemory: Physical Memory: 5619.75 MB used,  10637.23 MB free, 16256.98 MB total
-[2017.08.23-09.26.15:476][  0]LogMemory: Virtual Memory: 638.49 MB used,  10637.23 MB free, 134217728.00 MB total
-[2017.08.23-09.26.15:847][  0]LogInit: Using OS detected language (en-GB).
-[2017.08.23-09.26.15:847][  0]LogInit: Using OS detected locale (en-GB).
-[2017.08.23-09.26.15:937][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
-[2017.08.23-09.26.18:697][  0]LogD3D11RHI: D3D11 adapters:
-[2017.08.23-09.26.19:304][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
-[2017.08.23-09.26.19:304][  0]LogD3D11RHI:       6084/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
-[2017.08.23-09.26.19:342][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
-[2017.08.23-09.26.19:342][  0]LogD3D11RHI:       128/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
-[2017.08.23-09.26.19:345][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2017.08.23-09.26.19:345][  0]LogD3D11RHI:       0/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2017.08.23-09.26.19:345][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2017.08.23-09.26.19:359][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2017.08.23-09.26.19:359][  0]LogD3D11RHI:     GPU DeviceId: 0x1c60 (for the marketing name, search the web for "GPU Device Id")
-[2017.08.23-09.26.19:359][  0]LogWindows: EnumDisplayDevices:
-[2017.08.23-09.26.19:359][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060' (P:0 D:1)
-[2017.08.23-09.26.19:360][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060' (P:1 D:1)
-[2017.08.23-09.26.19:360][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
-[2017.08.23-09.26.19:360][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
-[2017.08.23-09.26.19:360][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2017.08.23-09.26.19:360][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2017.08.23-09.26.19:361][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
-[2017.08.23-09.26.19:361][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
-[2017.08.23-09.26.19:361][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
-[2017.08.23-09.26.19:361][  0]LogD3D11RHI:   Driver Version: 382.53 (internal:22.21.13.8253, unified:382.53)
-[2017.08.23-09.26.19:361][  0]LogD3D11RHI:      Driver Date: 6-7-2017
-[2017.08.23-09.26.19:361][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
-[2017.08.23-09.26.19:939][  0]LogD3D11RHI: Async texture creation enabled
-[2017.08.23-09.26.20:010][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
-[2017.08.23-09.26.20:112][  0]LogShaderCompilers: Guid format shader working directory is 0 characters bigger than the processId version (../../../../../../Unreal/FOTWO/source/FOTWO02/Intermediate/Shaders/WorkingDirectory/10204/).
-[2017.08.23-09.26.20:113][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/vonkl/AppData/Local/Temp/UnrealShaderWorkingDir/3D0F166C4F3EF6E47B0702B6F9A8983C/'.
-[2017.08.23-09.26.20:114][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
-[2017.08.23-09.26.22:212][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
-[2017.08.23-09.26.22:259][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
-[2017.08.23-09.26.22:305][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
-[2017.08.23-09.26.22:349][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
-[2017.08.23-09.26.22:402][  0]LogTemp:Display: Loaded TP MacTargetPlatform
-[2017.08.23-09.26.22:450][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
-[2017.08.23-09.26.22:499][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
-[2017.08.23-09.26.22:543][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
-[2017.08.23-09.26.22:583][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
-[2017.08.23-09.26.22:631][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
-[2017.08.23-09.26.22:677][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
-[2017.08.23-09.26.22:739][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
-[2017.08.23-09.26.22:783][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
-[2017.08.23-09.26.22:828][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
-[2017.08.23-09.26.22:871][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
-[2017.08.23-09.26.22:960][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
-[2017.08.23-09.26.22:960][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
-[2017.08.23-09.26.22:998][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
-[2017.08.23-09.26.23:090][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
-[2017.08.23-09.26.23:119][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
-[2017.08.23-09.26.23:164][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
-[2017.08.23-09.26.23:207][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
-[2017.08.23-09.26.23:253][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
-[2017.08.23-09.26.23:300][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
-[2017.08.23-09.26.23:300][  0]LogTargetPlatformManager:Display: Building Assets For Windows
-[2017.08.23-09.26.23:910][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
-[2017.08.23-09.26.24:758][  0]LogDerivedDataCache: Loaded boot cache 0.85s 90MB C:/Users/vonkl/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2017.08.23-09.26.24:758][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/vonkl/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
-[2017.08.23-09.26.24:758][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Unreal/FOTWO/source/FOTWO02/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2017.08.23-09.26.24:758][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2017.08.23-09.26.24:758][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Unreal/FOTWO/source/FOTWO02/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2017.08.23-09.26.24:758][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2017.08.23-09.26.24:787][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2017.08.23-09.26.24:800][  0]LogDerivedDataCache: Using Local data cache path C:/Users/vonkl/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2017.08.23-09.26.24:824][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2017.08.23-09.26.24:829][  0]LogSlate: Using Freetype 2.6.0
-[2017.08.23-09.26.24:851][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.08.23-09.26.24:851][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2017.08.23-09.26.26:124][  0]LogInit: Selected Device Profile: [Windows]
-[2017.08.23-09.26.26:417][  0]LogContentStreaming: Texture pool size is 0.00 MB
-[2017.08.23-09.26.26:658][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
-[2017.08.23-09.26.26:712][  0]LogSimplygon: Simplygon DLL not present - disabling.
-[2017.08.23-09.26.26:782][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
-[2017.08.23-09.26.26:782][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
-[2017.08.23-09.26.26:782][  0]LogMeshUtilities: No automatic mesh merging module available
-[2017.08.23-09.26.28:803][  0]LogNetVersion: FOTWO02 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2990255715)
-[2017.08.23-09.26.28:913][  0]LogAssetRegistry: FAssetRegistry took 0.0294 seconds to start up
-[2017.08.23-09.26.28:980][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.044144 seconds
-[2017.08.23-09.26.28:986][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
-[2017.08.23-09.26.28:986][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
-[2017.08.23-09.26.28:986][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2017.08.23-09.26.29:049][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
-[2017.08.23-09.26.35:381][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2017.08.23-09.26.35:425][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2017.08.23-09.26.36:189][  0]LogMaterial: Uniform references updated for custom material expression Custom.
-[2017.08.23-09.26.36:688][  0]SourceControl: Info Source control is disabled
-[2017.08.23-09.26.36:744][  0]SourceControl: Info Source control is disabled
-[2017.08.23-09.26.36:798][  0]SourceControl: Info Source control is disabled
-[2017.08.23-09.26.36:846][  0]SourceControl: Info Source control is disabled
-[2017.08.23-09.26.37:671][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2017.08.23-09.26.38:441][  0]LogEngine: Initializing Engine...
-[2017.08.23-09.26.38:442][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2017.08.23-09.26.38:795][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
-[2017.08.23-09.26.38:796][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
-[2017.08.23-09.26.38:961][  0]LogAIModule: Creating AISystem for world Untitled
-[2017.08.23-09.26.38:981][  0]LogInit: XAudio2 using 'Headset Earphone (3- Microsoft LifeChat LX-3000)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.08.23-09.26.38:995][  0]LogInit: FAudioDevice initialized.
-[2017.08.23-09.26.39:036][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/vonkl/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
-[2017.08.23-09.26.39:043][  0]LogInit: Texture streaming: Enabled
-[2017.08.23-09.26.39:138][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2017.08.23-09.26.39:386][  0]LogInit: Transaction tracking system initialized
-[2017.08.23-09.26.39:737][  0]BlueprintLog: New page: Editor Load
-[2017.08.23-09.26.40:748][  0]LocalizationService: Info Localization service is disabled
-[2017.08.23-09.26.41:476][  0]LogConsoleResponse:Display: 
-[2017.08.23-09.26.41:851][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2017.08.23-09.26.41:851][  0]LogCook:Display: Mobile HDR setting 1
-[2017.08.23-09.26.42:894][  0]LogFileCache: Scanning file cache for directory 'C:/Unreal/FOTWO/source/FOTWO02/Content/' took 0.02s
-[2017.08.23-09.26.42:953][  0]SourceControl: Info Source control is disabled
-[2017.08.23-09.26.42:955][  0]Cmd: MAP LOAD FILE="../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.08.23-09.26.42:955][  0]LogEditorServer:Warning: Can't find file '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
-[2017.08.23-09.26.42:955][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.08.23-09.26.42:993][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 37.379ms to complete.
-[2017.08.23-09.26.42:993][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 0.039
-[2017.08.23-09.26.43:319][  0]LogCollectionManager: Loaded 0 collections in 0.001888 seconds
-[2017.08.23-09.26.43:460][  0]LogFileCache: Scanning file cache for directory 'C:/Unreal/FOTWO/source/FOTWO02/Saved/Collections/' took 0.01s
-[2017.08.23-09.26.43:460][  0]LogFileCache: Scanning file cache for directory 'C:/Unreal/FOTWO/source/FOTWO02/Content/Developers/vonkl/Collections/' took 0.03s
-[2017.08.23-09.26.43:460][  0]LogFileCache: Scanning file cache for directory 'C:/Unreal/FOTWO/source/FOTWO02/Content/Collections/' took 0.02s
-[2017.08.23-09.26.43:460][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
-[2017.08.23-09.26.43:471][  0]LogContentBrowser: Native class hierarchy populated in 0.0088 seconds. Added 2329 classes and 491 folders.
-[2017.08.23-09.26.43:568][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0010 seconds. Added 0 classes and 0 folders.
-[2017.08.23-09.26.43:995][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
-[2017.08.23-09.26.44:059][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2017.08.23-09.26.44:248][  0]LogCrashTracker: Crashtracker disabled due to settings.
-[2017.08.23-09.26.44:267][  0]LogSlate: Took 0.008337 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.08.23-09.26.44:274][  0]LogSlate: Took 0.005269 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2017.08.23-09.26.44:285][  0]LogSlate: Took 0.005115 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2017.08.23-09.26.44:435][  0]LogRenderer: Reallocating scene render targets to support 1648x932 NumSamples 1 (Frame:1).
-[2017.08.23-09.26.44:540][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
-[2017.08.23-09.26.44:604][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
-[2017.08.23-09.26.44:604][  0]LogLoad: (Engine Initialization) Total time: 32.82 seconds
-[2017.08.23-09.26.44:604][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.12 seconds
-[2017.08.23-09.26.44:604][  0]LogExternalProfiler: Found external profiler: VSPerf
-[2017.08.23-09.26.44:604][  0]LogExternalProfiler: Using external profiler: VSPerf
-[2017.08.23-09.26.44:945][  0]LogOcInput: OculusInput pre-init called
-[2017.08.23-09.26.44:945][  0]LogHMD: Starting GearVRController plugin
-[2017.08.23-09.26.44:965][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2017.08.23-09.26.45:626][  2]LogAssetRegistry: Asset discovery search completed in 16.7362 seconds
-[2017.08.23-09.26.45:630][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
-[2017.08.23-09.26.45:630][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000055 seconds (updated 0 objects)
-[2017.08.23-09.26.45:983][  3]LogSlate: Took 0.014629 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.08.23-09.28.18:537][442]LogSlate: Took 0.000243 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
-[2017.08.23-09.28.19:466][442]LogSlate: Took 0.000113 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2017.08.23-09.28.20:271][442]LogAIModule: Creating AISystem for world FOTWO01
-[2017.08.23-09.28.20:319][442]Cmd: MAP LOAD FILE="../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Maps/FOTWO01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2017.08.23-09.28.20:319][442]LightingResults: New page: Lighting Build
-[2017.08.23-09.28.20:359][442]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0005 seconds. Added 5 classes and 0 folders.
-[2017.08.23-09.28.20:360][442]LoadErrors: New page: Loading map: FOTWO01.umap
-[2017.08.23-09.28.20:361][442]MapCheck: New page: Map Check
-[2017.08.23-09.28.20:361][442]LightingResults: New page: Lighting Build
-[2017.08.23-09.28.20:441][442]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2017.08.23-09.28.20:477][442]Cmd: MAP CHECKDEP NOCLEARLOG
-[2017.08.23-09.28.20:523][442]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 45.086ms to complete.
-[2017.08.23-09.28.20:523][442]LogFileHelpers: Loading map 'FOTWO01' took 0.206
-[2017.08.23-09.39.29:053][379]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 112 classes and 0 folders.
-[2017.08.23-09.39.29:767][379]LogSlate: Took 0.004709 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2017.08.23-09.43.05:564][544]LogSlate: Took 0.009263 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
-[2017.08.23-10.40.47:518][561]LogSlate: Took 0.003580 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2017.08.23-10.41.15:819][168]BlueprintLog: New page: Compile EventHUD
-[2017.08.23-10.41.16:935][168]LogSavePackage: Save=575.60ms
-[2017.08.23-10.41.16:935][168]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/EventHUD90478BBD473083CE7FC8C9B40E90847B.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/EventHUD.uasset'
-[2017.08.23-10.41.16:937][168]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/EventHUD.uasset
-[2017.08.23-10.41.16:942][168]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
-[2017.08.23-10.42.19:798][786]BlueprintLog: New page: Compile ArchHUD
-[2017.08.23-10.42.19:839][786]LogBlueprint:Error: [Compiler ArchHUD] Error The type of  Object  is undetermined.  Connect something to  Cast To EventHUD  to imply a specific type.
-[2017.08.23-10.42.19:839][786]LogBlueprint:Error: [Compiler ArchHUD] Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
-[2017.08.23-10.42.20:042][786]BlueprintEditorCompileResults:Error: Error The type of  Object  is undetermined.  Connect something to  Cast To EventHUD  to imply a specific type.
-[2017.08.23-10.42.20:042][786]BlueprintEditorCompileResults:Error: Error The current value of the ' Object ' pin is invalid: Unsupported type Object Wildcard on pin Object
-[2017.08.23-10.42.20:042][786]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
-[2017.08.23-10.42.20:042][786]LogBlueprint:Warning: [Compiler ArchHUD] Warning [4568.26] Compile of ArchHUD failed. 2 Fatal Issue(s) 0 Warning(s) [in 243 ms] (/Game/2DSideScrollerBP/Blueprints/User_Interface/ArchHUD.ArchHUD)
-[2017.08.23-10.43.41:926][486]BlueprintLog: New page: Compile ArchHUD
-[2017.08.23-10.43.42:272][486]LogSavePackage: Save=139.70ms
-[2017.08.23-10.43.42:272][486]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/ArchHUD7F274FFA4B549386700DBEBB9524F7D9.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ArchHUD.uasset'
-[2017.08.23-10.43.42:275][486]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ArchHUD.uasset
-[2017.08.23-10.43.42:278][486]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
-[2017.08.23-10.45.14:798][915]LogSlate: Took 0.005109 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
-[2017.08.23-10.45.55:189][243]BlueprintLog: New page: Compile ArchHUD
-[2017.08.23-10.45.55:769][243]LogSavePackage: Save=144.57ms
-[2017.08.23-10.45.55:769][243]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/ArchHUD6D7A3AFD4B7D610AE28A7B913D809D83.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ArchHUD.uasset'
-[2017.08.23-10.45.55:771][243]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ArchHUD.uasset
-[2017.08.23-10.45.55:777][243]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
-[2017.08.23-10.46.22:865][736]BlueprintLog: New page: Compile ArchHUD
-[2017.08.23-10.46.23:428][736]LogSavePackage: Save=154.97ms
-[2017.08.23-10.46.23:428][736]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/ArchHUD4B9B2A584611E2BC1BDCA9B732EE24B8.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ArchHUD.uasset'
-[2017.08.23-10.46.23:431][736]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ArchHUD.uasset
-[2017.08.23-10.46.23:436][736]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
-[2017.08.23-10.46.33:359][325]BlueprintLog: New page: Compile ArchHUD
-[2017.08.23-10.46.33:719][325]LogSavePackage: Save=142.16ms
-[2017.08.23-10.46.33:719][325]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/ArchHUDEC753D7F4AB793B4EF30EDB7F0385F83.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ArchHUD.uasset'
-[2017.08.23-10.46.33:722][325]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ArchHUD.uasset
-[2017.08.23-10.46.33:728][325]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
-[2017.08.23-10.50.51:103][919]BlueprintLog: New page: Compile ArchHUD
-[2017.08.23-10.50.51:478][919]LogSavePackage: Save=157.38ms
-[2017.08.23-10.50.51:478][919]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/ArchHUDDE0F825B4919E3604202F989CDC11BEB.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ArchHUD.uasset'
-[2017.08.23-10.50.51:481][919]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ArchHUD.uasset
-[2017.08.23-10.50.51:484][919]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
-[2017.08.23-10.51.13:562][123]BlueprintLog: New page: Compile ArchHUD
-[2017.08.23-10.51.13:911][123]LogSavePackage: Save=142.70ms
-[2017.08.23-10.51.13:911][123]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/ArchHUD0120CD22453BDC6D6F8475A0DB7E1582.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ArchHUD.uasset'
-[2017.08.23-10.51.13:914][123]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ArchHUD.uasset
-[2017.08.23-10.51.13:918][123]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
-[2017.08.23-10.51.25:816][823]BlueprintLog: New page: Compile ArchHUD
-[2017.08.23-10.51.26:170][823]LogSavePackage: Save=154.57ms
-[2017.08.23-10.51.26:170][823]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/ArchHUDABC5DF7F42F394E3D197EB8632FEB667.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ArchHUD.uasset'
-[2017.08.23-10.51.26:173][823]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ArchHUD.uasset
-[2017.08.23-10.51.26:177][823]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
-[2017.08.23-10.51.31:751][148]LogTemp: Repeting last play command: Selected Viewport
-[2017.08.23-10.51.31:824][148]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
-[2017.08.23-10.51.31:824][148]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.08.23-10.51.31:825][148]PIE: New page: PIE session: FOTWO01 (23 Aug 2017 14:51:31)
-[2017.08.23-10.51.31:825][148]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01
-[2017.08.23-10.51.31:828][148]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003261s)
-[2017.08.23-10.51.31:829][148]LogAIModule: Creating AISystem for world FOTWO01
-[2017.08.23-10.51.31:829][148]LogPlayLevel: PIE: World Init took: (0.000911s)
-[2017.08.23-10.51.31:830][148]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 (0.004413s)
-[2017.08.23-10.51.31:851][148]LogInit: XAudio2 using 'Headset Earphone (3- Microsoft LifeChat LX-3000)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.08.23-10.51.31:857][148]LogInit: FAudioDevice initialized.
-[2017.08.23-10.51.31:901][148]LogLoad: Game class is 'FOTWOGameMode_C'
-[2017.08.23-10.51.31:906][148]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 up for play (max tick rate 60) at 2017.08.23-12.51.31
-[2017.08.23-10.51.31:907][148]LogWorld: Bringing up level for play took: 0.002534
-[2017.08.23-10.51.31:976][148]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0007 seconds. Added 11 classes and 0 folders.
-[2017.08.23-10.51.31:988][148]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01 -0.431
-[2017.08.23-10.51.31:989][148]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
-[2017.08.23-10.51.58:452][733]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
-[2017.08.23-10.51.58:491][733]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
-[2017.08.23-10.53.41:006][560]BlueprintLog: New page: Compile ArchHUD
-[2017.08.23-10.53.41:567][560]LogSavePackage: Save=165.48ms
-[2017.08.23-10.53.41:568][560]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/ArchHUD57BE44B143F9453E3FA32AA7EB71E98F.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ArchHUD.uasset'
-[2017.08.23-10.53.41:571][560]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ArchHUD.uasset
-[2017.08.23-10.53.41:576][560]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
-[2017.08.23-10.55.49:906][404]LogSavePackage: Save=148.20ms
-[2017.08.23-10.55.49:906][404]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/FOTWO01_Auto155EFD9C14DB0B07B72F5A6A08CA12EAB.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Maps/FOTWO01_Auto1.umap'
-[2017.08.23-10.55.49:908][404]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Maps/FOTWO01_Auto1.umap
-[2017.08.23-10.55.49:910][404]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/FOTWO01' took 0.277
-[2017.08.23-10.55.49:910][404]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.277
-[2017.08.23-10.55.49:913][404]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/Simulation/NationBAU] ([1] browsable assets)...
-[2017.08.23-10.55.49:913][404]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/Simulation/NationBAU]
-[2017.08.23-10.55.50:695][404]LogSavePackage: Save=743.44ms
-[2017.08.23-10.55.50:695][404]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/NationBAU_Auto14D0630AB47CDBF0840497AA126CBD0DD.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Simulation/NationBAU_Auto1.uasset'
-[2017.08.23-10.55.50:697][404]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Simulation/NationBAU_Auto1.uasset
-[2017.08.23-10.55.50:697][404]LogFileHelpers: Auto-saving content packages took 0.786
-[2017.08.23-10.58.07:117][326]BlueprintLog: New page: Compile NationBAU
-[2017.08.23-10.58.08:630][326]LogSavePackage: Save=570.51ms
-[2017.08.23-10.58.08:630][326]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/NationBAU711EEA114C83794180050086F874AE1C.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/NationBAU.uasset'
-[2017.08.23-10.58.08:635][326]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/NationBAU.uasset
-[2017.08.23-11.05.52:018][833]LogSavePackage: Save=107.11ms
-[2017.08.23-11.05.52:019][833]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/FOTWO01_Auto20D0072C84C8165EA95B597A0FC6BCBBE.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Maps/FOTWO01_Auto2.umap'
-[2017.08.23-11.05.52:020][833]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Maps/FOTWO01_Auto2.umap
-[2017.08.23-11.05.52:023][833]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/FOTWO01' took 0.176
-[2017.08.23-11.05.52:023][833]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.176
-[2017.08.23-11.55.53:035][927]LogTemp: Repeting last play command: Selected Viewport
-[2017.08.23-11.55.53:062][927]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
-[2017.08.23-11.55.53:062][927]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.08.23-11.55.53:062][927]PIE: New page: PIE session: FOTWO01 (23 Aug 2017 15:55:53)
-[2017.08.23-11.55.53:062][927]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01
-[2017.08.23-11.55.53:064][927]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001729s)
-[2017.08.23-11.55.53:065][927]LogAIModule: Creating AISystem for world FOTWO01
-[2017.08.23-11.55.53:065][927]LogPlayLevel: PIE: World Init took: (0.000615s)
-[2017.08.23-11.55.53:065][927]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 (0.002569s)
-[2017.08.23-11.55.53:090][927]LogInit: XAudio2 using 'Headset Earphone (3- Microsoft LifeChat LX-3000)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.08.23-11.55.53:096][927]LogInit: FAudioDevice initialized.
-[2017.08.23-11.55.53:130][927]LogLoad: Game class is 'FOTWOGameMode_C'
-[2017.08.23-11.55.53:132][927]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 up for play (max tick rate 60) at 2017.08.23-13.55.53
-[2017.08.23-11.55.53:132][927]LogWorld: Bringing up level for play took: 0.001104
-[2017.08.23-11.55.53:159][927]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01 0.739
-[2017.08.23-11.55.53:160][927]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
-[2017.08.23-11.56.27:764][918]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
-[2017.08.23-11.56.27:877][918]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
-[2017.08.23-12.01.42:779][130]BlueprintLog: New page: Compile NationBAU
-[2017.08.23-12.01.44:284][130]LogSavePackage: Save=579.64ms
-[2017.08.23-12.01.44:284][130]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/NationBAUE6D617614F22850449BBB38DFB699CF9.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/NationBAU.uasset'
-[2017.08.23-12.01.44:288][130]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/NationBAU.uasset
-[2017.08.23-12.01.49:461][411]LogTemp: Repeting last play command: Selected Viewport
-[2017.08.23-12.01.49:495][411]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
-[2017.08.23-12.01.49:495][411]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.08.23-12.01.49:495][411]PIE: New page: PIE session: FOTWO01 (23 Aug 2017 16:01:49)
-[2017.08.23-12.01.49:495][411]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01
-[2017.08.23-12.01.49:497][411]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001390s)
-[2017.08.23-12.01.49:497][411]LogAIModule: Creating AISystem for world FOTWO01
-[2017.08.23-12.01.49:497][411]LogPlayLevel: PIE: World Init took: (0.000605s)
-[2017.08.23-12.01.49:497][411]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 (0.002134s)
-[2017.08.23-12.01.49:524][411]LogInit: XAudio2 using 'Headset Earphone (3- Microsoft LifeChat LX-3000)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.08.23-12.01.49:529][411]LogInit: FAudioDevice initialized.
-[2017.08.23-12.01.49:564][411]LogLoad: Game class is 'FOTWOGameMode_C'
-[2017.08.23-12.01.49:570][411]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 up for play (max tick rate 60) at 2017.08.23-14.01.49
-[2017.08.23-12.01.49:571][411]LogWorld: Bringing up level for play took: 0.002730
-[2017.08.23-12.01.49:602][411]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01 -0.817
-[2017.08.23-12.01.49:603][411]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
-[2017.08.23-12.03.03:150][522]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
-[2017.08.23-12.03.03:236][522]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
-[2017.08.23-12.03.30:181][749]LogSavePackage: Save=122.15ms
-[2017.08.23-12.03.30:181][749]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/FOTWO01_Auto3A49A781C49051F037EA02BA295429CAD.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Maps/FOTWO01_Auto3.umap'
-[2017.08.23-12.03.30:182][749]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Maps/FOTWO01_Auto3.umap
-[2017.08.23-12.03.30:185][749]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/FOTWO01' took 0.195
-[2017.08.23-12.03.30:185][749]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.195
-[2017.08.23-12.10.20:514][427]LogTemp: Repeting last play command: Selected Viewport
-[2017.08.23-12.10.20:541][427]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
-[2017.08.23-12.10.20:541][427]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.08.23-12.10.20:542][427]PIE: New page: PIE session: FOTWO01 (23 Aug 2017 16:10:20)
-[2017.08.23-12.10.20:542][427]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01
-[2017.08.23-12.10.20:543][427]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001573s)
-[2017.08.23-12.10.20:544][427]LogAIModule: Creating AISystem for world FOTWO01
-[2017.08.23-12.10.20:544][427]LogPlayLevel: PIE: World Init took: (0.000735s)
-[2017.08.23-12.10.20:544][427]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 (0.002688s)
-[2017.08.23-12.10.20:570][427]LogInit: XAudio2 using 'Headset Earphone (3- Microsoft LifeChat LX-3000)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.08.23-12.10.20:576][427]LogInit: FAudioDevice initialized.
-[2017.08.23-12.10.20:608][427]LogLoad: Game class is 'FOTWOGameMode_C'
-[2017.08.23-12.10.20:611][427]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 up for play (max tick rate 60) at 2017.08.23-14.10.20
-[2017.08.23-12.10.20:611][427]LogWorld: Bringing up level for play took: 0.001070
-[2017.08.23-12.10.20:636][427]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01 0.216
-[2017.08.23-12.10.20:636][427]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
-[2017.08.23-12.11.13:721][610]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
-[2017.08.23-12.11.13:805][610]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
-[2017.08.23-12.16.13:186][  2]BlueprintLog: New page: Compile ArchHUD
-[2017.08.23-12.16.13:817][  2]LogSavePackage: Save=144.86ms
-[2017.08.23-12.16.13:817][  2]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/ArchHUDDFD4745840BAA052E0D9CCBF633A2BCD.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ArchHUD.uasset'
-[2017.08.23-12.16.13:820][  2]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/ArchHUD.uasset
-[2017.08.23-12.16.13:825][  2]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
-[2017.08.23-12.16.43:116][349]LogSavePackage: Save=115.25ms
-[2017.08.23-12.16.43:116][349]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/FOTWO01_Auto4059C13A14E05B6FC86E05F8823E1FE48.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Maps/FOTWO01_Auto4.umap'
-[2017.08.23-12.16.43:117][349]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Maps/FOTWO01_Auto4.umap
-[2017.08.23-12.16.43:119][349]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/FOTWO01' took 0.182
-[2017.08.23-12.16.43:119][349]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.182
-[2017.08.23-12.31.18:070][878]BlueprintLog: New page: Compile NationBAU
-[2017.08.23-12.31.19:552][878]LogSavePackage: Save=571.61ms
-[2017.08.23-12.31.19:552][878]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/NationBAU348905EE40B20BFF3F7A2DB17CAA9079.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/NationBAU.uasset'
-[2017.08.23-12.31.19:554][878]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/NationBAU.uasset
-[2017.08.23-12.31.48:873][194]LogSavePackage: Save=107.68ms
-[2017.08.23-12.31.48:873][194]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/FOTWO01_Auto536EEEBA143BBB9C78631E1867200711C.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Maps/FOTWO01_Auto5.umap'
-[2017.08.23-12.31.48:874][194]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Maps/FOTWO01_Auto5.umap
-[2017.08.23-12.31.48:876][194]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/FOTWO01' took 0.164
-[2017.08.23-12.31.48:876][194]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.164
-[2017.08.23-12.34.29:872][ 20]LogTemp: Repeting last play command: Selected Viewport
-[2017.08.23-12.34.29:897][ 20]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
-[2017.08.23-12.34.29:897][ 20]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.08.23-12.34.29:897][ 20]PIE: New page: PIE session: FOTWO01 (23 Aug 2017 16:34:29)
-[2017.08.23-12.34.29:897][ 20]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01
-[2017.08.23-12.34.29:899][ 20]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001809s)
-[2017.08.23-12.34.29:900][ 20]LogAIModule: Creating AISystem for world FOTWO01
-[2017.08.23-12.34.29:900][ 20]LogPlayLevel: PIE: World Init took: (0.000634s)
-[2017.08.23-12.34.29:900][ 20]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 (0.002580s)
-[2017.08.23-12.34.29:926][ 20]LogInit: XAudio2 using 'Headset Earphone (3- Microsoft LifeChat LX-3000)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.08.23-12.34.29:932][ 20]LogInit: FAudioDevice initialized.
-[2017.08.23-12.34.29:964][ 20]LogLoad: Game class is 'FOTWOGameMode_C'
-[2017.08.23-12.34.29:966][ 20]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 up for play (max tick rate 60) at 2017.08.23-14.34.29
-[2017.08.23-12.34.29:966][ 20]LogWorld: Bringing up level for play took: 0.000857
-[2017.08.23-12.34.29:977][ 20]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01 -0.442
-[2017.08.23-12.34.29:977][ 20]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
-[2017.08.23-12.35.16:910][835]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
-[2017.08.23-12.35.16:997][835]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
-[2017.08.23-12.46.09:626][185]BlueprintLog: New page: Compile NationBAU
-[2017.08.23-12.46.11:221][185]LogSavePackage: Save=586.33ms
-[2017.08.23-12.46.11:222][185]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/NationBAUED45BAF140BBFB51C6B5E18190784FF0.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/NationBAU.uasset'
-[2017.08.23-12.46.11:224][185]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/NationBAU.uasset
-[2017.08.23-12.46.13:486][299]LogTemp: Repeting last play command: Selected Viewport
-[2017.08.23-12.46.13:512][299]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
-[2017.08.23-12.46.13:512][299]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.08.23-12.46.13:512][299]PIE: New page: PIE session: FOTWO01 (23 Aug 2017 16:46:13)
-[2017.08.23-12.46.13:512][299]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01
-[2017.08.23-12.46.13:514][299]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001675s)
-[2017.08.23-12.46.13:515][299]LogAIModule: Creating AISystem for world FOTWO01
-[2017.08.23-12.46.13:515][299]LogPlayLevel: PIE: World Init took: (0.000709s)
-[2017.08.23-12.46.13:515][299]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 (0.002563s)
-[2017.08.23-12.46.13:544][299]LogInit: XAudio2 using 'Headset Earphone (3- Microsoft LifeChat LX-3000)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.08.23-12.46.13:550][299]LogInit: FAudioDevice initialized.
-[2017.08.23-12.46.13:580][299]LogLoad: Game class is 'FOTWOGameMode_C'
-[2017.08.23-12.46.13:583][299]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 up for play (max tick rate 60) at 2017.08.23-14.46.13
-[2017.08.23-12.46.13:583][299]LogWorld: Bringing up level for play took: 0.001207
-[2017.08.23-12.46.13:596][299]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01 -0.824
-[2017.08.23-12.46.13:596][299]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
-[2017.08.23-12.50.57:521][  7]LogSavePackage: Save=109.40ms
-[2017.08.23-12.50.57:521][  7]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/FOTWO0153D56E8F48A0C7AD5B9EC181368111CD.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Maps/FOTWO01.umap'
-[2017.08.23-12.50.57:526][  7]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Maps/FOTWO01.umap
-[2017.08.23-12.50.57:594][  7]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScrollerBP/Maps/FOTWO01_BuiltData" FILE="../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Maps/FOTWO01_BuiltData.uasset" SILENT=true
-[2017.08.23-12.50.57:675][  7]LogSavePackage: Save=8.61ms
-[2017.08.23-12.50.57:675][  7]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/FOTWO01_BuiltData2903F51342E62D7C0D1E2F8CABA83BA0.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Maps/FOTWO01_BuiltData.uasset'
-[2017.08.23-12.50.57:677][  7]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Maps/FOTWO01_BuiltData.uasset
-[2017.08.23-12.51.05:995][505]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
-[2017.08.23-12.51.06:084][505]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
-[2017.08.23-12.51.07:413][581]LogTemp: Repeting last play command: Selected Viewport
-[2017.08.23-12.51.07:435][581]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
-[2017.08.23-12.51.07:435][581]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.08.23-12.51.07:435][581]PIE: New page: PIE session: FOTWO01 (23 Aug 2017 16:51:07)
-[2017.08.23-12.51.07:435][581]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01
-[2017.08.23-12.51.07:436][581]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001333s)
-[2017.08.23-12.51.07:437][581]LogAIModule: Creating AISystem for world FOTWO01
-[2017.08.23-12.51.07:437][581]LogPlayLevel: PIE: World Init took: (0.000549s)
-[2017.08.23-12.51.07:437][581]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 (0.002024s)
-[2017.08.23-12.51.07:463][581]LogInit: XAudio2 using 'Headset Earphone (3- Microsoft LifeChat LX-3000)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.08.23-12.51.07:469][581]LogInit: FAudioDevice initialized.
-[2017.08.23-12.51.07:504][581]LogLoad: Game class is 'FOTWOGameMode_C'
-[2017.08.23-12.51.07:506][581]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 up for play (max tick rate 60) at 2017.08.23-14.51.07
-[2017.08.23-12.51.07:506][581]LogWorld: Bringing up level for play took: 0.000928
-[2017.08.23-12.51.07:518][581]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01 -0.902
-[2017.08.23-12.51.07:518][581]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
-[2017.08.23-12.51.29:565][903]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
-[2017.08.23-12.51.29:610][903]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
-[2017.08.23-12.52.11:038][254]BlueprintLog: New page: Compile NationBAU
-[2017.08.23-12.52.12:535][254]LogSavePackage: Save=582.68ms
-[2017.08.23-12.52.12:535][254]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/NationBAUA98782EB413BCE2F906EF4B561A6E343.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/NationBAU.uasset'
-[2017.08.23-12.52.12:539][254]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/NationBAU.uasset
-[2017.08.23-12.52.16:833][491]LogTemp: Repeting last play command: Selected Viewport
-[2017.08.23-12.52.16:857][491]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
-[2017.08.23-12.52.16:857][491]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2017.08.23-12.52.16:857][491]PIE: New page: PIE session: FOTWO01 (23 Aug 2017 16:52:16)
-[2017.08.23-12.52.16:857][491]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01
-[2017.08.23-12.52.16:858][491]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001196s)
-[2017.08.23-12.52.16:858][491]LogAIModule: Creating AISystem for world FOTWO01
-[2017.08.23-12.52.16:859][491]LogPlayLevel: PIE: World Init took: (0.000549s)
-[2017.08.23-12.52.16:859][491]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 (0.001876s)
-[2017.08.23-12.52.16:887][491]LogInit: XAudio2 using 'Headset Earphone (3- Microsoft LifeChat LX-3000)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
-[2017.08.23-12.52.16:893][491]LogInit: FAudioDevice initialized.
-[2017.08.23-12.52.16:932][491]LogLoad: Game class is 'FOTWOGameMode_C'
-[2017.08.23-12.52.16:937][491]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 up for play (max tick rate 60) at 2017.08.23-14.52.16
-[2017.08.23-12.52.16:938][491]LogWorld: Bringing up level for play took: 0.002173
-[2017.08.23-12.52.16:967][491]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01 0.547
-[2017.08.23-12.52.16:967][491]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
-[2017.08.23-12.52.50:251][487]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
-[2017.08.23-12.52.50:339][487]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
-[2017.08.23-12.53.25:180][342]LogSavePackage: Save=92.99ms
-[2017.08.23-12.53.25:180][342]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/FOTWO015BB23AEE4A1DD8EC941E63A03D6B73C5.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Maps/FOTWO01.umap'
-[2017.08.23-12.53.25:182][342]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Maps/FOTWO01.umap
-[2017.08.23-12.53.25:212][342]LogFileHelpers: Saving map 'FOTWO01' took 0.217
-[2017.08.23-12.53.25:296][342]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
-[2017.08.23-12.53.25:607][343]Cmd: QUIT_EDITOR
-[2017.08.23-12.53.26:089][343]LogExit: Preparing to exit.
-[2017.08.23-12.53.26:770][343]LogDirectoryWatcher: A directory notification failed for 'C:/Unreal/FOTWO/source/FOTWO02/Content/', and we were unable to create a new request.
-[2017.08.23-12.53.26:865][343]LogExit: Editor shut down
-[2017.08.23-12.53.26:895][343]LogExit: Transaction tracking system shut down
-[2017.08.23-12.53.27:077][343]LogObj: Freed 0b from 0 cluster array pools.
-[2017.08.23-12.53.27:077][343]LogExit: Object subsystem successfully closed.
-[2017.08.23-12.53.27:107][343]LogD3D11RHI: Shutdown
-[2017.08.23-12.53.27:107][343]LogD3D11RHI: CleanupD3DDevice
-[2017.08.23-12.53.27:179][343]LogD3D11RHI: ~FD3D11DynamicRHI
-[2017.08.23-12.53.27:201][343]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (532)
-[2017.08.23-12.53.27:201][343]LogModuleManager: Shutting down and abandoning module SequencerWidgets (530)
-[2017.08.23-12.53.27:201][343]LogModuleManager: Shutting down and abandoning module BlueprintGraph (528)
-[2017.08.23-12.53.27:201][343]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (526)
-[2017.08.23-12.53.27:201][343]LogModuleManager: Shutting down and abandoning module StatsViewer (524)
-[2017.08.23-12.53.27:201][343]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (522)
-[2017.08.23-12.53.27:201][343]LogModuleManager: Shutting down and abandoning module CrashTracker (520)
-[2017.08.23-12.53.27:201][343]LogModuleManager: Shutting down and abandoning module SceneOutliner (518)
-[2017.08.23-12.53.27:201][343]LogModuleManager: Shutting down and abandoning module AddContentDialog (516)
-[2017.08.23-12.53.27:202][343]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
-[2017.08.23-12.53.27:207][343]LogModuleManager: Shutting down and abandoning module WidgetCarousel (515)
-[2017.08.23-12.53.27:207][343]LogModuleManager: Shutting down and abandoning module EditorWidgets (512)
-[2017.08.23-12.53.27:207][343]LogModuleManager: Shutting down and abandoning module CollectionManager (510)
-[2017.08.23-12.53.27:207][343]LogDirectoryWatcher: A directory notification for 'C:/Unreal/FOTWO/source/FOTWO02/Content/Collections/' was aborted.
-[2017.08.23-12.53.27:208][343]LogDirectoryWatcher: A directory notification for 'C:/Unreal/FOTWO/source/FOTWO02/Content/Developers/vonkl/Collections/' was aborted.
-[2017.08.23-12.53.27:208][343]LogDirectoryWatcher: A directory notification for 'C:/Unreal/FOTWO/source/FOTWO02/Saved/Collections/' was aborted.
-[2017.08.23-12.53.27:208][343]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
-[2017.08.23-12.53.27:208][343]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
-[2017.08.23-12.53.27:208][343]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
-[2017.08.23-12.53.27:208][343]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
-[2017.08.23-12.53.27:208][343]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
-[2017.08.23-12.53.27:208][343]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
-[2017.08.23-12.53.27:208][343]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
-[2017.08.23-12.53.27:208][343]LogModuleManager: Shutting down and abandoning module BspMode (494)
-[2017.08.23-12.53.27:208][343]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
-[2017.08.23-12.53.27:208][343]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
-[2017.08.23-12.53.27:208][343]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
-[2017.08.23-12.53.27:208][343]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
-[2017.08.23-12.53.27:208][343]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
-[2017.08.23-12.53.27:209][343]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
-[2017.08.23-12.53.27:209][343]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
-[2017.08.23-12.53.27:209][343]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
-[2017.08.23-12.53.27:209][343]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
-[2017.08.23-12.53.27:209][343]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
-[2017.08.23-12.53.27:209][343]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
-[2017.08.23-12.53.27:209][343]LogModuleManager: Shutting down and abandoning module Media (471)
-[2017.08.23-12.53.27:209][343]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
-[2017.08.23-12.53.27:209][343]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
-[2017.08.23-12.53.27:209][343]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
-[2017.08.23-12.53.27:209][343]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
-[2017.08.23-12.53.27:209][343]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
-[2017.08.23-12.53.27:209][343]LogModuleManager: Shutting down and abandoning module SessionServices (458)
-[2017.08.23-12.53.27:209][343]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
-[2017.08.23-12.53.27:209][343]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
-[2017.08.23-12.53.27:209][343]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
-[2017.08.23-12.53.27:210][343]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
-[2017.08.23-12.53.27:210][343]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
-[2017.08.23-12.53.27:210][343]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
-[2017.08.23-12.53.27:211][343]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
-[2017.08.23-12.53.27:211][343]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
-[2017.08.23-12.53.27:212][343]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
-[2017.08.23-12.53.27:212][343]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
-[2017.08.23-12.53.27:212][343]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
-[2017.08.23-12.53.28:113][343]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
-[2017.08.23-12.53.28:113][343]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
-[2017.08.23-12.53.28:113][343]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
-[2017.08.23-12.53.28:114][343]LogModuleManager: Shutting down and abandoning module MergeActors (428)
-[2017.08.23-12.53.28:115][343]LogModuleManager: Shutting down and abandoning module SizeMap (426)
-[2017.08.23-12.53.28:115][343]LogModuleManager: Shutting down and abandoning module TreeMap (424)
-[2017.08.23-12.53.28:115][343]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
-[2017.08.23-12.53.28:115][343]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
-[2017.08.23-12.53.28:116][343]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
-[2017.08.23-12.53.28:116][343]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
-[2017.08.23-12.53.28:116][343]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
-[2017.08.23-12.53.28:117][343]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
-[2017.08.23-12.53.28:117][343]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
-[2017.08.23-12.53.28:117][343]LogModuleManager: Shutting down and abandoning module XmlParser (408)
-[2017.08.23-12.53.28:117][343]LogModuleManager: Shutting down and abandoning module Blutility (406)
-[2017.08.23-12.53.28:117][343]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
-[2017.08.23-12.53.28:118][343]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
-[2017.08.23-12.53.28:118][343]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
-[2017.08.23-12.53.28:119][343]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
-[2017.08.23-12.53.28:119][343]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
-[2017.08.23-12.53.28:120][343]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
-[2017.08.23-12.53.28:120][343]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
-[2017.08.23-12.53.28:121][343]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
-[2017.08.23-12.53.28:122][343]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
-[2017.08.23-12.53.28:174][343]LogModuleManager: Shutting down and abandoning module AutomationController (386)
-[2017.08.23-12.53.28:174][343]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
-[2017.08.23-12.53.28:175][343]LogModuleManager: Shutting down and abandoning module Layers (382)
-[2017.08.23-12.53.28:176][343]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
-[2017.08.23-12.53.28:176][343]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
-[2017.08.23-12.53.28:176][343]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
-[2017.08.23-12.53.28:177][343]LogModuleManager: Shutting down and abandoning module Persona (374)
-[2017.08.23-12.53.28:178][343]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
-[2017.08.23-12.53.28:178][343]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
-[2017.08.23-12.53.28:178][343]LogModuleManager: Shutting down and abandoning module Kismet (368)
-[2017.08.23-12.53.28:209][343]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
-[2017.08.23-12.53.28:209][343]LogModuleManager: Shutting down and abandoning module Toolbox (364)
-[2017.08.23-12.53.28:209][343]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
-[2017.08.23-12.53.28:210][343]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
-[2017.08.23-12.53.28:210][343]LogModuleManager: Shutting down and abandoning module OutputLog (358)
-[2017.08.23-12.53.28:210][343]LogModuleManager: Shutting down and abandoning module GammaUI (356)
-[2017.08.23-12.53.28:210][343]LogModuleManager: Shutting down and abandoning module Documentation (354)
-[2017.08.23-12.53.28:211][343]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
-[2017.08.23-12.53.28:211][343]LogModuleManager: Shutting down and abandoning module MovieScene (350)
-[2017.08.23-12.53.28:211][343]LogModuleManager: Shutting down and abandoning module Niagara (348)
-[2017.08.23-12.53.28:211][343]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
-[2017.08.23-12.53.28:212][343]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
-[2017.08.23-12.53.28:212][343]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
-[2017.08.23-12.53.28:212][343]LogModuleManager: Shutting down and abandoning module PortalServices (340)
-[2017.08.23-12.53.28:212][343]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
-[2017.08.23-12.53.28:212][343]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
-[2017.08.23-12.53.28:212][343]LogModuleManager: Shutting down and abandoning module AIModule (334)
-[2017.08.23-12.53.28:212][343]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
-[2017.08.23-12.53.28:212][343]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
-[2017.08.23-12.53.28:212][343]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
-[2017.08.23-12.53.28:456][343]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
-[2017.08.23-12.53.28:456][343]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
-[2017.08.23-12.53.28:457][343]LogModuleManager: Shutting down and abandoning module SteamVR (322)
-[2017.08.23-12.53.28:457][343]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
-[2017.08.23-12.53.28:457][343]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
-[2017.08.23-12.53.28:457][343]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
-[2017.08.23-12.53.28:457][343]LogModuleManager: Shutting down and abandoning module OculusInput (314)
-[2017.08.23-12.53.28:457][343]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
-[2017.08.23-12.53.28:457][343]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
-[2017.08.23-12.53.28:457][343]LogModuleManager: Shutting down and abandoning module CableComponent (308)
-[2017.08.23-12.53.28:457][343]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
-[2017.08.23-12.53.28:457][343]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
-[2017.08.23-12.53.28:457][343]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
-[2017.08.23-12.53.28:457][343]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
-[2017.08.23-12.53.28:457][343]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
-[2017.08.23-12.53.28:458][343]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
-[2017.08.23-12.53.28:458][343]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
-[2017.08.23-12.53.28:458][343]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
-[2017.08.23-12.53.28:458][343]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
-[2017.08.23-12.53.28:458][343]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
-[2017.08.23-12.53.28:459][343]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
-[2017.08.23-12.53.28:459][343]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
-[2017.08.23-12.53.28:459][343]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
-[2017.08.23-12.53.28:459][343]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
-[2017.08.23-12.53.28:459][343]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
-[2017.08.23-12.53.28:459][343]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
-[2017.08.23-12.53.28:459][343]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
-[2017.08.23-12.53.28:459][343]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
-[2017.08.23-12.53.28:459][343]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
-[2017.08.23-12.53.28:459][343]LogModuleManager: Shutting down and abandoning module SourceControl (267)
-[2017.08.23-12.53.28:459][343]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
-[2017.08.23-12.53.28:459][343]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
-[2017.08.23-12.53.28:459][343]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
-[2017.08.23-12.53.28:459][343]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
-[2017.08.23-12.53.28:460][343]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
-[2017.08.23-12.53.28:460][343]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
-[2017.08.23-12.53.28:462][343]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
-[2017.08.23-12.53.28:462][343]LogModuleManager: Shutting down and abandoning module MainFrame (252)
-[2017.08.23-12.53.28:462][343]LogModuleManager: Shutting down and abandoning module HotReload (251)
-[2017.08.23-12.53.28:463][343]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
-[2017.08.23-12.53.28:463][343]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
-[2017.08.23-12.53.28:463][343]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
-[2017.08.23-12.53.28:463][343]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
-[2017.08.23-12.53.28:463][343]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
-[2017.08.23-12.53.28:463][343]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
-[2017.08.23-12.53.28:564][343]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
-[2017.08.23-12.53.28:664][343]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
-[2017.08.23-12.53.28:665][343]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
-[2017.08.23-12.53.28:665][343]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
-[2017.08.23-12.53.28:665][343]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
-[2017.08.23-12.53.28:666][343]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
-[2017.08.23-12.53.28:666][343]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
-[2017.08.23-12.53.28:674][343]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
-[2017.08.23-12.53.28:674][343]LogModuleManager: Shutting down and abandoning module Paper2D (218)
-[2017.08.23-12.53.28:674][343]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
-[2017.08.23-12.53.28:674][343]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
-[2017.08.23-12.53.28:675][343]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
-[2017.08.23-12.53.28:675][343]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
-[2017.08.23-12.53.28:676][343]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
-[2017.08.23-12.53.28:676][343]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
-[2017.08.23-12.53.28:676][343]LogModuleManager: Shutting down and abandoning module VREditor (204)
-[2017.08.23-12.53.28:677][343]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
-[2017.08.23-12.53.28:677][343]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
-[2017.08.23-12.53.28:677][343]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
-[2017.08.23-12.53.28:678][343]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
-[2017.08.23-12.53.28:678][343]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
-[2017.08.23-12.53.28:679][343]LogModuleManager: Shutting down and abandoning module UMG (192)
-[2017.08.23-12.53.28:679][343]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
-[2017.08.23-12.53.28:679][343]LogModuleManager: Shutting down and abandoning module Sequencer (190)
-[2017.08.23-12.53.28:680][343]LogModuleManager: Shutting down and abandoning module AssetTools (188)
-[2017.08.23-12.53.28:681][343]LogModuleManager: Shutting down and abandoning module MessageLog (187)
-[2017.08.23-12.53.28:681][343]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
-[2017.08.23-12.53.28:681][343]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
-[2017.08.23-12.53.28:682][343]LogModuleManager: Shutting down and abandoning module Slate (178)
-[2017.08.23-12.53.28:682][343]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
-[2017.08.23-12.53.28:690][343]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
-[2017.08.23-12.53.28:690][343]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
-[2017.08.23-12.53.28:690][343]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
-[2017.08.23-12.53.28:690][343]LogModuleManager: Shutting down and abandoning module Networking (168)
-[2017.08.23-12.53.28:690][343]LogModuleManager: Shutting down and abandoning module Core (164)
-[2017.08.23-12.53.28:690][343]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
-[2017.08.23-12.53.28:920][343]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
-[2017.08.23-12.53.28:920][343]LogDirectoryWatcher: A directory notification for '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/' was aborted.
-[2017.08.23-12.53.28:920][343]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
-[2017.08.23-12.53.28:920][343]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
-[2017.08.23-12.53.28:930][343]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
-[2017.08.23-12.53.28:936][343]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
-[2017.08.23-12.53.28:936][343]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
-[2017.08.23-12.53.28:936][343]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
-[2017.08.23-12.53.28:936][343]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
-[2017.08.23-12.53.28:937][343]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
-[2017.08.23-12.53.28:937][343]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
-[2017.08.23-12.53.28:937][343]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
-[2017.08.23-12.53.28:937][343]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
-[2017.08.23-12.53.29:015][343]LogDerivedDataCache: Shutdown
-[2017.08.23-12.53.29:015][343]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
-[2017.08.23-12.53.29:016][343]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
-[2017.08.23-12.53.29:016][343]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
-[2017.08.23-12.53.29:017][343]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
-[2017.08.23-12.53.29:018][343]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
-[2017.08.23-12.53.29:018][343]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
-[2017.08.23-12.53.29:019][343]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
-[2017.08.23-12.53.29:019][343]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
-[2017.08.23-12.53.29:019][343]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
-[2017.08.23-12.53.29:019][343]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
-[2017.08.23-12.53.29:019][343]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
-[2017.08.23-12.53.29:020][343]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
-[2017.08.23-12.53.29:020][343]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
-[2017.08.23-12.53.29:020][343]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
-[2017.08.23-12.53.29:020][343]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
-[2017.08.23-12.53.29:020][343]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
-[2017.08.23-12.53.29:020][343]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
-[2017.08.23-12.53.29:020][343]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
-[2017.08.23-12.53.29:020][343]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
-[2017.08.23-12.53.29:020][343]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
-[2017.08.23-12.53.29:020][343]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
-[2017.08.23-12.53.29:021][343]LogModuleManager: Shutting down and abandoning module Messaging (101)
-[2017.08.23-12.53.29:021][343]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
-[2017.08.23-12.53.29:021][343]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
-[2017.08.23-12.53.29:021][343]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
-[2017.08.23-12.53.29:021][343]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
-[2017.08.23-12.53.29:021][343]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
-[2017.08.23-12.53.29:021][343]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
-[2017.08.23-12.53.29:021][343]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
-[2017.08.23-12.53.29:022][343]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
-[2017.08.23-12.53.29:022][343]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
-[2017.08.23-12.53.29:022][343]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
-[2017.08.23-12.53.29:022][343]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
-[2017.08.23-12.53.29:022][343]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
-[2017.08.23-12.53.29:022][343]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
-[2017.08.23-12.53.29:022][343]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
-[2017.08.23-12.53.29:022][343]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
-[2017.08.23-12.53.29:023][343]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
-[2017.08.23-12.53.29:023][343]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
-[2017.08.23-12.53.29:023][343]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
-[2017.08.23-12.53.29:023][343]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
-[2017.08.23-12.53.29:023][343]LogModuleManager: Shutting down and abandoning module InputCore (60)
-[2017.08.23-12.53.29:023][343]LogModuleManager: Shutting down and abandoning module Settings (58)
-[2017.08.23-12.53.29:023][343]LogModuleManager: Shutting down and abandoning module OculusRift (56)
-[2017.08.23-12.53.29:023][343]LogModuleManager: Shutting down and abandoning module GearVRController (54)
-[2017.08.23-12.53.29:023][343]LogModuleManager: Shutting down and abandoning module GearVR (52)
-[2017.08.23-12.53.29:023][343]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
-[2017.08.23-12.53.29:023][343]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
-[2017.08.23-12.53.29:023][343]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
-[2017.08.23-12.53.29:023][343]LogOnline:Display: Unloading online subsystem: NULL
-[2017.08.23-12.53.29:024][343]LogModuleManager: Shutting down and abandoning module XMPP (43)
-[2017.08.23-12.53.29:025][343]LogModuleManager: Shutting down and abandoning module HTTP (41)
-[2017.08.23-12.53.29:025][343]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
-[2017.08.23-12.53.29:025][343]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B33E266D1-4B9C-F90E-D69F-04A7C3BDD373%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=f07af55e4db0c636e0c073a1312074d9%7Caa7a108f70184e1b92fdd786c25cd9b8%7Caeab9882-b6f4-4a22-991a-718da4fba234&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
-[2017.08.23-12.53.29:031][343]LogModuleManager: Shutting down and abandoning module SSL (40)
-[2017.08.23-12.53.29:036][343]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
-[2017.08.23-12.53.29:037][343]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
-[2017.08.23-12.53.29:037][343]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
-[2017.08.23-12.53.29:038][343]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
-[2017.08.23-12.53.29:038][343]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
-[2017.08.23-12.53.29:038][343]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
-[2017.08.23-12.53.29:038][343]LogModuleManager: Shutting down and abandoning module Landscape (24)
-[2017.08.23-12.53.29:038][343]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
-[2017.08.23-12.53.29:077][343]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
-[2017.08.23-12.53.29:078][343]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
-[2017.08.23-12.53.29:078][343]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
-[2017.08.23-12.53.29:078][343]LogModuleManager: Shutting down and abandoning module Renderer (14)
-[2017.08.23-12.53.29:078][343]LogModuleManager: Shutting down and abandoning module Engine (12)
-[2017.08.23-12.53.29:078][343]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
-[2017.08.23-12.53.29:078][343]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
-[2017.08.23-12.53.29:078][343]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
-[2017.08.23-12.53.29:078][343]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
-[2017.08.23-12.53.29:078][343]LogModuleManager: Shutting down and abandoning module PakFile (2)
-[2017.08.23-12.53.29:080][343]LogExit: Exiting.
-[2017.08.23-12.53.29:109][343]Log file closed, 08/23/17 14:53:29
+[2017.08.23-13.30.17:002][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.23-13.30.17:002][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.23-13.30.17:022][  0]LogInit: Computer: KLAUDE2017ALIEN
+[2017.08.23-13.30.17:022][  0]LogInit: User: vonkl
+[2017.08.23-13.30.17:022][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.23-13.30.17:022][  0]LogInit: High frequency timer resolution =2.742185 MHz
+[2017.08.23-13.30.17:022][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.08.23-13.30.17:022][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.23-13.30.17:022][  0]LogMemory: Process Physical Memory: 273.12 MB used, 273.12 MB peak
+[2017.08.23-13.30.17:022][  0]LogMemory: Process Virtual Memory: 260.94 MB used, 260.94 MB peak
+[2017.08.23-13.30.17:022][  0]LogMemory: Physical Memory: 6547.60 MB used,  9709.38 MB free, 16256.98 MB total
+[2017.08.23-13.30.17:022][  0]LogMemory: Virtual Memory: 638.49 MB used,  9709.38 MB free, 134217728.00 MB total
+[2017.08.23-13.30.17:101][  0]LogInit: Using OS detected language (en-GB).
+[2017.08.23-13.30.17:101][  0]LogInit: Using OS detected locale (en-GB).
+[2017.08.23-13.30.17:103][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2017.08.23-13.30.18:003][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.23-13.30.18:605][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2017.08.23-13.30.18:605][  0]LogD3D11RHI:       6084/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.08.23-13.30.18:627][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2017.08.23-13.30.18:627][  0]LogD3D11RHI:       128/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.08.23-13.30.18:628][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.23-13.30.18:628][  0]LogD3D11RHI:       0/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.23-13.30.18:628][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.23-13.30.18:634][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.23-13.30.18:635][  0]LogD3D11RHI:     GPU DeviceId: 0x1c60 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.23-13.30.18:635][  0]LogWindows: EnumDisplayDevices:
+[2017.08.23-13.30.18:635][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060' (P:0 D:1)
+[2017.08.23-13.30.18:635][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060' (P:1 D:1)
+[2017.08.23-13.30.18:635][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2017.08.23-13.30.18:635][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2017.08.23-13.30.18:636][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.08.23-13.30.18:636][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.08.23-13.30.18:636][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.08.23-13.30.18:636][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.08.23-13.30.18:636][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2017.08.23-13.30.18:636][  0]LogD3D11RHI:   Driver Version: 382.53 (internal:22.21.13.8253, unified:382.53)
+[2017.08.23-13.30.18:636][  0]LogD3D11RHI:      Driver Date: 6-7-2017
+[2017.08.23-13.30.18:636][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.23-13.30.19:236][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.23-13.30.19:280][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2017.08.23-13.30.19:373][  0]LogShaderCompilers: Guid format shader working directory is 0 characters bigger than the processId version (../../../../../../Unreal/FOTWO/source/FOTWO02/Intermediate/Shaders/WorkingDirectory/13792/).
+[2017.08.23-13.30.19:374][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/vonkl/AppData/Local/Temp/UnrealShaderWorkingDir/33CB77EC44C74D6EE64ACD874A222F98/'.
+[2017.08.23-13.30.19:374][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.23-13.30.20:417][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.23-13.30.20:468][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.23-13.30.20:517][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.23-13.30.20:565][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.23-13.30.20:614][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.23-13.30.20:664][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.23-13.30.20:713][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.23-13.30.20:761][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.23-13.30.20:804][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.23-13.30.20:850][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.23-13.30.20:899][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.23-13.30.20:947][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.23-13.30.20:996][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.23-13.30.21:044][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.23-13.30.21:094][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.23-13.30.21:196][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.23-13.30.21:197][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.23-13.30.21:236][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.23-13.30.21:331][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.23-13.30.21:362][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.23-13.30.21:413][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.23-13.30.21:461][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.23-13.30.21:526][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.23-13.30.21:582][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.23-13.30.21:582][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.23-13.30.22:095][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.23-13.30.22:192][  0]LogDerivedDataCache: Loaded boot cache 0.10s 90MB C:/Users/vonkl/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.23-13.30.22:192][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/vonkl/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.23-13.30.22:192][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Unreal/FOTWO/source/FOTWO02/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.23-13.30.22:192][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.23-13.30.22:192][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Unreal/FOTWO/source/FOTWO02/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.23-13.30.22:192][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.23-13.30.22:210][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.23-13.30.22:222][  0]LogDerivedDataCache: Using Local data cache path C:/Users/vonkl/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.23-13.30.22:233][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.23-13.30.22:233][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.23-13.30.22:234][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.23-13.30.22:234][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.23-13.30.22:558][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.23-13.30.22:624][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.23-13.30.22:781][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.23-13.30.22:824][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.23-13.30.22:884][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.23-13.30.22:884][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.23-13.30.22:884][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.23-13.30.23:464][  0]LogNetVersion: FOTWO02 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2990255715)
+[2017.08.23-13.30.23:530][  0]LogAssetRegistry: FAssetRegistry took 0.0258 seconds to start up
+[2017.08.23-13.30.23:604][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.045899 seconds
+[2017.08.23-13.30.23:609][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.23-13.30.23:609][  0]LogUObjectAllocator: 7260416 out of 0 bytes used by permanent object pool.
+[2017.08.23-13.30.23:609][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.23-13.30.23:680][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.23-13.30.26:451][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.23-13.30.26:500][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.23-13.30.27:147][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.23-13.30.27:593][  0]SourceControl: Info Source control is disabled
+[2017.08.23-13.30.27:619][  0]SourceControl: Info Source control is disabled
+[2017.08.23-13.30.27:677][  0]SourceControl: Info Source control is disabled
+[2017.08.23-13.30.27:733][  0]SourceControl: Info Source control is disabled
+[2017.08.23-13.30.28:579][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.23-13.30.29:177][  0]LogEngine: Initializing Engine...
+[2017.08.23-13.30.29:177][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.23-13.30.29:414][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.23-13.30.29:414][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.23-13.30.29:536][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.23-13.30.29:549][  0]LogInit: XAudio2 using 'Headset Earphone (3- Microsoft LifeChat LX-3000)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.23-13.30.29:559][  0]LogInit: FAudioDevice initialized.
+[2017.08.23-13.30.29:598][  0]LogDerivedDataCache: Saved boot cache 0.04s 90MB C:/Users/vonkl/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.23-13.30.29:605][  0]LogInit: Texture streaming: Enabled
+[2017.08.23-13.30.29:701][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.23-13.30.29:905][  0]LogInit: Transaction tracking system initialized
+[2017.08.23-13.30.30:220][  0]BlueprintLog: New page: Editor Load
+[2017.08.23-13.30.31:127][  0]LocalizationService: Info Localization service is disabled
+[2017.08.23-13.30.31:831][  0]LogConsoleResponse:Display: 
+[2017.08.23-13.30.32:001][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.23-13.30.32:001][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.23-13.30.32:954][  0]LogFileCache: Scanning file cache for directory 'C:/Unreal/FOTWO/source/FOTWO02/Content/' took 0.02s
+[2017.08.23-13.30.32:996][  0]SourceControl: Info Source control is disabled
+[2017.08.23-13.30.32:996][  0]Cmd: MAP LOAD FILE="../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.23-13.30.32:996][  0]LogEditorServer:Warning: Can't find file '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
+[2017.08.23-13.30.32:996][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.23-13.30.33:038][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 41.919ms to complete.
+[2017.08.23-13.30.33:038][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 0.042
+[2017.08.23-13.30.33:125][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.23-13.30.33:206][  0]LogCollectionManager: Loaded 0 collections in 0.001554 seconds
+[2017.08.23-13.30.33:275][  0]LogFileCache: Scanning file cache for directory 'C:/Unreal/FOTWO/source/FOTWO02/Saved/Collections/' took 0.01s
+[2017.08.23-13.30.33:275][  0]LogFileCache: Scanning file cache for directory 'C:/Unreal/FOTWO/source/FOTWO02/Content/Developers/vonkl/Collections/' took 0.01s
+[2017.08.23-13.30.33:275][  0]LogFileCache: Scanning file cache for directory 'C:/Unreal/FOTWO/source/FOTWO02/Content/Collections/' took 0.00s
+[2017.08.23-13.30.33:275][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.08.23-13.30.33:284][  0]LogContentBrowser: Native class hierarchy populated in 0.0089 seconds. Added 2329 classes and 491 folders.
+[2017.08.23-13.30.33:347][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.08.23-13.30.33:386][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.08.23-13.30.33:449][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0006 seconds. Added 1 classes and 2 folders.
+[2017.08.23-13.30.33:523][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.23-13.30.33:528][  0]LogSlate: Took 0.000204 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.23-13.30.33:532][  0]LogSlate: Took 0.000312 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.23-13.30.33:538][  0]LogSlate: Took 0.000217 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.23-13.30.33:691][  0]LogRenderer: Reallocating scene render targets to support 1648x932 NumSamples 1 (Frame:1).
+[2017.08.23-13.30.33:767][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.08.23-13.30.33:831][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.08.23-13.30.33:831][  0]LogLoad: (Engine Initialization) Total time: 18.46 seconds
+[2017.08.23-13.30.33:831][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.05 seconds
+[2017.08.23-13.30.33:831][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.08.23-13.30.33:831][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.08.23-13.30.33:852][  0]LogOcInput: OculusInput pre-init called
+[2017.08.23-13.30.33:853][  0]LogHMD: Starting GearVRController plugin
+[2017.08.23-13.30.33:869][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.23-13.30.33:898][  1]LogAssetRegistry: Asset discovery search completed in 10.3898 seconds
+[2017.08.23-13.30.33:901][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.08.23-13.30.33:901][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000032 seconds (updated 0 objects)
+[2017.08.23-13.30.34:914][ 57]LogSlate: Took 0.000256 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.23-13.30.36:388][145]LogSlate: Took 0.000130 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.23-13.30.37:386][145]LogSlate: Took 0.000109 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.23-13.30.37:817][145]LogAIModule: Creating AISystem for world FOTWO01
+[2017.08.23-13.30.37:865][145]Cmd: MAP LOAD FILE="../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Maps/FOTWO01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.23-13.30.37:866][145]LightingResults: New page: Lighting Build
+[2017.08.23-13.30.37:905][145]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0005 seconds. Added 5 classes and 0 folders.
+[2017.08.23-13.30.37:905][145]LoadErrors: New page: Loading map: FOTWO01.umap
+[2017.08.23-13.30.37:905][145]MapCheck: New page: Map Check
+[2017.08.23-13.30.37:906][145]LightingResults: New page: Lighting Build
+[2017.08.23-13.30.37:985][145]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.23-13.30.38:022][145]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.23-13.30.38:070][145]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 48.336ms to complete.
+[2017.08.23-13.30.38:071][145]LogFileHelpers: Loading map 'FOTWO01' took 0.206
+[2017.08.23-13.30.44:291][493]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0011 seconds. Added 112 classes and 0 folders.
+[2017.08.23-13.30.44:977][493]LogSlate: Took 0.000153 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.23-13.30.45:591][494]LogSlate: Took 0.000154 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.23-13.40.37:070][226]LogSavePackage: Save=174.32ms
+[2017.08.23-13.40.37:070][226]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/FOTWO01_Auto1225062AA424CA96F2E233FA9C3694395.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Maps/FOTWO01_Auto1.umap'
+[2017.08.23-13.40.37:072][226]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Maps/FOTWO01_Auto1.umap
+[2017.08.23-13.40.37:075][226]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/FOTWO01' took 0.259
+[2017.08.23-13.40.37:075][226]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.259
+[2017.08.23-13.40.37:078][226]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/Simulation/NationBAU] ([1] browsable assets)...
+[2017.08.23-13.40.37:078][226]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/Simulation/NationBAU]
+[2017.08.23-13.40.37:724][226]LogSavePackage: Save=594.98ms
+[2017.08.23-13.40.37:724][226]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/NationBAU_Auto155104FAF4E58ABE681361E9E789F5CF3.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Simulation/NationBAU_Auto1.uasset'
+[2017.08.23-13.40.37:726][226]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/Simulation/NationBAU_Auto1.uasset
+[2017.08.23-13.40.37:726][226]LogFileHelpers: Auto-saving content packages took 0.649
+[2017.08.23-13.43.40:201][299]BlueprintLog: New page: Compile NationBAU
+[2017.08.23-13.43.41:641][299]LogSavePackage: Save=577.89ms
+[2017.08.23-13.43.41:641][299]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/NationBAU17F6D1D041CA05E0E37D86A3215CFCEA.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/NationBAU.uasset'
+[2017.08.23-13.43.41:646][299]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/NationBAU.uasset
+[2017.08.23-13.44.32:194][692]BlueprintLog: New page: Compile NationBAU
+[2017.08.23-13.44.33:676][692]LogSavePackage: Save=583.10ms
+[2017.08.23-13.44.33:676][692]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/NationBAU5C095B05455D77E00C1142ABE6219472.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/NationBAU.uasset'
+[2017.08.23-13.44.33:679][692]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/NationBAU.uasset
+[2017.08.23-13.50.38:691][ 70]LogSavePackage: Save=95.10ms
+[2017.08.23-13.50.38:691][ 70]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/FOTWO01_Auto24002416841AD490E3E6C349A993A2ADD.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Maps/FOTWO01_Auto2.umap'
+[2017.08.23-13.50.38:692][ 70]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Maps/FOTWO01_Auto2.umap
+[2017.08.23-13.50.38:693][ 70]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/FOTWO01' took 0.169
+[2017.08.23-13.50.38:693][ 70]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.169
+[2017.08.23-14.34.49:474][970]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.23-14.34.49:519][970]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.23-14.34.49:519][970]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.23-14.34.49:520][970]PIE: New page: PIE session: FOTWO01 (23 Aug 2017 18:34:49)
+[2017.08.23-14.34.49:520][970]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01
+[2017.08.23-14.34.49:523][970]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003412s)
+[2017.08.23-14.34.49:524][970]LogAIModule: Creating AISystem for world FOTWO01
+[2017.08.23-14.34.49:525][970]LogPlayLevel: PIE: World Init took: (0.001287s)
+[2017.08.23-14.34.49:525][970]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 (0.005057s)
+[2017.08.23-14.34.49:547][970]LogInit: XAudio2 using 'Headset Earphone (3- Microsoft LifeChat LX-3000)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.23-14.34.49:554][970]LogInit: FAudioDevice initialized.
+[2017.08.23-14.34.49:596][970]LogLoad: Game class is 'FOTWOGameMode_C'
+[2017.08.23-14.34.49:603][970]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 up for play (max tick rate 60) at 2017.08.23-16.34.49
+[2017.08.23-14.34.49:603][970]LogWorld: Bringing up level for play took: 0.002974
+[2017.08.23-14.34.49:657][970]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0011 seconds. Added 11 classes and 0 folders.
+[2017.08.23-14.34.49:671][970]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01 -0.749
+[2017.08.23-14.34.49:671][970]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.23-14.36.09:802][773]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.23-14.36.09:890][773]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.23-14.37.25:484][325]LogSavePackage: Save=97.45ms
+[2017.08.23-14.37.25:484][325]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/FOTWO015BBA7F044586444B43A144810473B7F4.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Maps/FOTWO01.umap'
+[2017.08.23-14.37.25:489][325]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Maps/FOTWO01.umap
+[2017.08.23-14.37.25:522][325]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScrollerBP/Maps/FOTWO01_BuiltData" FILE="../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Maps/FOTWO01_BuiltData.uasset" SILENT=true
+[2017.08.23-14.37.25:558][325]LogSavePackage: Save=4.73ms
+[2017.08.23-14.37.25:558][325]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/FOTWO01_BuiltData065DA7964A102CCF9A232A86F88E0911.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Maps/FOTWO01_BuiltData.uasset'
+[2017.08.23-14.37.25:559][325]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Maps/FOTWO01_BuiltData.uasset
+[2017.08.23-14.40.09:828][683]LogRenderer: Reallocating scene render targets to support 1728x1000 NumSamples 1 (Frame:1).
+[2017.08.23-14.52.10:629][662]LogUObjectArray:Warning: Invalid object index -842150451
+[2017.08.23-14.52.10:863][662]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.233 s
+[2017.08.23-14.52.10:863][662]LogOutputDevice:Error: === Handled ensure: ===
+[2017.08.23-14.52.10:863][662]LogOutputDevice:Error: 
+[2017.08.23-14.52.10:863][662]LogOutputDevice:Error: Ensure condition failed: false [File:D:\Build\++UE4+Release-4.16+Compile\Sync\Engine\Source\Editor\UnrealEd\Private\Kismet2\KismetDebugUtilities.cpp] [Line: 1037]
+[2017.08.23-14.52.10:863][662]LogOutputDevice:Error: Error: Invalid (but non-null) property associated with pin; cannot get variable value
+[2017.08.23-14.52.10:863][662]LogOutputDevice:Error: Stack: 
+[2017.08.23-14.52.10:863][662]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000FC96E2B6
+[2017.08.23-14.52.10:863][662]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000FC71B8C2
+[2017.08.23-14.52.10:863][662]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000FC731E86
+[2017.08.23-14.52.10:863][662]LogOutputDevice:Error: UE4Editor-UnrealEd.dll!0x00000000F84D7556
+[2017.08.23-14.52.10:863][662]LogOutputDevice:Error: UE4Editor-BlueprintGraph.dll!0x00000000EE7DD27B
+[2017.08.23-14.52.10:863][662]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000EDB624AA
+[2017.08.23-14.52.10:863][662]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000EDA072CC
+[2017.08.23-14.52.10:863][662]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000EDA0A6D9
+[2017.08.23-14.52.10:863][662]LogOutputDevice:Error: UE4Editor-GraphEditor.dll!0x00000000EDB28035
+[2017.08.23-14.52.10:863][662]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000010CDB57
+[2017.08.23-14.52.10:863][662]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000010D4B61
+[2017.08.23-14.52.10:863][662]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000012F48D3
+[2017.08.23-14.52.10:863][662]LogOutputDevice:Error: UE4Editor-Slate.dll!0x000000000112F604
+[2017.08.23-14.52.10:863][662]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000011077FC
+[2017.08.23-14.52.10:863][662]LogOutputDevice:Error: UE4Editor-Slate.dll!0x00000000010F814C
+[2017.08.23-14.52.10:863][662]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000FC9615B0
+[2017.08.23-14.52.10:863][662]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000FC94B7D1
+[2017.08.23-14.52.10:863][662]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000FC9633DB
+[2017.08.23-14.52.10:863][662]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000FC947B22
+[2017.08.23-14.52.10:863][662]LogOutputDevice:Error: USER32.dll!0x000000003B8FBC50
+[2017.08.23-14.52.10:863][662]LogOutputDevice:Error: USER32.dll!0x000000003B8FB5CF
+[2017.08.23-14.52.10:863][662]LogOutputDevice:Error: UE4Editor-Core.dll!0x00000000FC963CE6
+[2017.08.23-14.52.10:863][662]LogOutputDevice:Error: UE4Editor.exe!0x00000000FDF5DB44
+[2017.08.23-14.52.10:863][662]LogOutputDevice:Error: UE4Editor.exe!0x00000000FDF4F0B0
+[2017.08.23-14.52.10:863][662]LogOutputDevice:Error: UE4Editor.exe!0x00000000FDF4F12A
+[2017.08.23-14.52.10:863][662]LogOutputDevice:Error: UE4Editor.exe!0x00000000FDF60CF9
+[2017.08.23-14.52.10:863][662]LogOutputDevice:Error: UE4Editor.exe!0x00000000FDF625F7
+[2017.08.23-14.52.10:863][662]LogOutputDevice:Error: KERNEL32.DLL!0x000000003CE92774
+[2017.08.23-14.52.10:863][662]LogOutputDevice:Error: ntdll.dll!0x000000003DB00D51
+[2017.08.23-14.52.10:863][662]LogOutputDevice:Error: 
+[2017.08.23-14.52.10:872][662]LogStats:                SubmitErrorReport -  0.000 s
+[2017.08.23-14.52.11:354][662]LogStats:                    SendNewReport -  0.483 s
+[2017.08.23-14.52.11:354][662]LogStats:             FDebug::EnsureFailed -  0.725 s
+[2017.08.23-14.52.11:354][662]LogUObjectArray:Warning: Invalid object index -842150451
+[2017.08.23-14.52.56:856][899]BlueprintLog: New page: Compile NationBAU
+[2017.08.23-14.52.58:379][899]LogSavePackage: Save=595.36ms
+[2017.08.23-14.52.58:379][899]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/NationBAU00A896FD4ADAC56AFF282BBAC82E4FB3.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/NationBAU.uasset'
+[2017.08.23-14.52.58:382][899]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/Simulation/NationBAU.uasset
+[2017.08.23-14.53.00:565][984]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.23-14.53.00:582][984]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.23-14.53.00:582][984]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.23-14.53.00:582][984]PIE: New page: PIE session: FOTWO01 (23 Aug 2017 18:53:00)
+[2017.08.23-14.53.00:582][984]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01
+[2017.08.23-14.53.00:584][984]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001578s)
+[2017.08.23-14.53.00:585][984]LogAIModule: Creating AISystem for world FOTWO01
+[2017.08.23-14.53.00:585][984]LogPlayLevel: PIE: World Init took: (0.000679s)
+[2017.08.23-14.53.00:585][984]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 (0.002388s)
+[2017.08.23-14.53.00:606][984]LogInit: XAudio2 using 'Headset Earphone (3- Microsoft LifeChat LX-3000)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.23-14.53.00:613][984]LogInit: FAudioDevice initialized.
+[2017.08.23-14.53.00:644][984]LogLoad: Game class is 'FOTWOGameMode_C'
+[2017.08.23-14.53.00:645][984]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 up for play (max tick rate 60) at 2017.08.23-16.53.00
+[2017.08.23-14.53.00:645][984]LogWorld: Bringing up level for play took: 0.000967
+[2017.08.23-14.53.00:658][984]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01 0.238
+[2017.08.23-14.53.00:658][984]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.23-14.53.37:464][192]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.23-14.53.37:549][192]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.23-14.53.39:356][289]LogSavePackage: Save=93.33ms
+[2017.08.23-14.53.39:356][289]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/FOTWO01C10110F448775795BE84BD8F26BC860E.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Maps/FOTWO01.umap'
+[2017.08.23-14.53.39:358][289]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Maps/FOTWO01.umap
+[2017.08.23-14.53.39:390][289]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/2DSideScrollerBP/Maps/FOTWO01_BuiltData" FILE="../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Maps/FOTWO01_BuiltData.uasset" SILENT=true
+[2017.08.23-14.53.39:425][289]LogSavePackage: Save=5.20ms
+[2017.08.23-14.53.39:425][289]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/FOTWO01_BuiltData2A7F66EE46C88A56DAD4DC8898B43395.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Maps/FOTWO01_BuiltData.uasset'
+[2017.08.23-14.53.39:426][289]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Maps/FOTWO01_BuiltData.uasset
+[2017.08.23-14.53.40:896][365]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.23-14.53.41:149][366]Cmd: QUIT_EDITOR
+[2017.08.23-14.53.41:387][366]LogExit: Preparing to exit.
+[2017.08.23-14.53.41:905][366]LogDirectoryWatcher: A directory notification for 'C:/Unreal/FOTWO/source/FOTWO02/Content/' was aborted.
+[2017.08.23-14.53.42:000][366]LogExit: Editor shut down
+[2017.08.23-14.53.42:030][366]LogExit: Transaction tracking system shut down
+[2017.08.23-14.53.42:189][366]LogObj: Freed 0b from 0 cluster array pools.
+[2017.08.23-14.53.42:190][366]LogExit: Object subsystem successfully closed.
+[2017.08.23-14.53.42:216][366]LogD3D11RHI: Shutdown
+[2017.08.23-14.53.42:216][366]LogD3D11RHI: CleanupD3DDevice
+[2017.08.23-14.53.42:268][366]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.08.23-14.53.42:283][366]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (530)
+[2017.08.23-14.53.42:283][366]LogModuleManager: Shutting down and abandoning module BlueprintGraph (528)
+[2017.08.23-14.53.42:283][366]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (526)
+[2017.08.23-14.53.42:283][366]LogModuleManager: Shutting down and abandoning module StatsViewer (524)
+[2017.08.23-14.53.42:283][366]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (522)
+[2017.08.23-14.53.42:283][366]LogModuleManager: Shutting down and abandoning module CrashTracker (520)
+[2017.08.23-14.53.42:283][366]LogModuleManager: Shutting down and abandoning module SceneOutliner (518)
+[2017.08.23-14.53.42:283][366]LogModuleManager: Shutting down and abandoning module AddContentDialog (516)
+[2017.08.23-14.53.42:283][366]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.08.23-14.53.42:288][366]LogModuleManager: Shutting down and abandoning module WidgetCarousel (515)
+[2017.08.23-14.53.42:288][366]LogModuleManager: Shutting down and abandoning module EditorWidgets (512)
+[2017.08.23-14.53.42:288][366]LogModuleManager: Shutting down and abandoning module CollectionManager (510)
+[2017.08.23-14.53.42:288][366]LogDirectoryWatcher: A directory notification for 'C:/Unreal/FOTWO/source/FOTWO02/Content/Collections/' was aborted.
+[2017.08.23-14.53.42:288][366]LogDirectoryWatcher: A directory notification for 'C:/Unreal/FOTWO/source/FOTWO02/Content/Developers/vonkl/Collections/' was aborted.
+[2017.08.23-14.53.42:288][366]LogDirectoryWatcher: A directory notification for 'C:/Unreal/FOTWO/source/FOTWO02/Saved/Collections/' was aborted.
+[2017.08.23-14.53.42:289][366]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.08.23-14.53.42:289][366]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.08.23-14.53.42:289][366]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.08.23-14.53.42:289][366]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.08.23-14.53.42:289][366]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.08.23-14.53.42:289][366]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.08.23-14.53.42:289][366]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.08.23-14.53.42:289][366]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.08.23-14.53.42:289][366]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.08.23-14.53.42:289][366]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.08.23-14.53.42:289][366]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.08.23-14.53.42:289][366]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.08.23-14.53.42:289][366]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.08.23-14.53.42:289][366]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.08.23-14.53.42:289][366]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.08.23-14.53.42:289][366]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.08.23-14.53.42:289][366]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.08.23-14.53.42:289][366]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.08.23-14.53.42:289][366]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.08.23-14.53.42:289][366]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.08.23-14.53.42:289][366]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.08.23-14.53.42:289][366]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.08.23-14.53.42:289][366]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.08.23-14.53.42:289][366]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.08.23-14.53.42:289][366]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.08.23-14.53.42:289][366]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.08.23-14.53.42:289][366]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.08.23-14.53.42:289][366]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.08.23-14.53.42:289][366]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.08.23-14.53.42:289][366]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.08.23-14.53.42:289][366]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.08.23-14.53.42:289][366]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.08.23-14.53.42:289][366]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.08.23-14.53.42:289][366]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.08.23-14.53.42:289][366]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.08.23-14.53.42:289][366]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.08.23-14.53.42:289][366]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.08.23-14.53.42:496][366]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.08.23-14.53.42:496][366]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.08.23-14.53.42:496][366]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.08.23-14.53.42:496][366]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.08.23-14.53.42:496][366]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.08.23-14.53.42:496][366]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.08.23-14.53.42:496][366]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.08.23-14.53.42:496][366]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.08.23-14.53.42:496][366]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.08.23-14.53.42:496][366]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.08.23-14.53.42:496][366]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.08.23-14.53.42:496][366]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.08.23-14.53.42:496][366]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.08.23-14.53.42:496][366]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.08.23-14.53.42:496][366]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.08.23-14.53.42:496][366]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.08.23-14.53.42:496][366]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.08.23-14.53.42:497][366]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.08.23-14.53.42:497][366]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.08.23-14.53.42:497][366]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.08.23-14.53.42:497][366]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.08.23-14.53.42:497][366]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.08.23-14.53.42:497][366]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.08.23-14.53.42:497][366]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.08.23-14.53.42:549][366]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.08.23-14.53.42:549][366]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.08.23-14.53.42:549][366]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.08.23-14.53.42:549][366]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.08.23-14.53.42:549][366]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.08.23-14.53.42:550][366]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.08.23-14.53.42:550][366]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.08.23-14.53.42:550][366]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.08.23-14.53.42:550][366]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.08.23-14.53.42:550][366]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.08.23-14.53.42:564][366]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.08.23-14.53.42:564][366]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.08.23-14.53.42:564][366]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.08.23-14.53.42:564][366]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.08.23-14.53.42:564][366]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.08.23-14.53.42:564][366]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.08.23-14.53.42:564][366]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.08.23-14.53.42:564][366]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.08.23-14.53.42:564][366]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.08.23-14.53.42:564][366]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.08.23-14.53.42:564][366]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.08.23-14.53.42:564][366]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.08.23-14.53.42:564][366]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.08.23-14.53.42:564][366]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.08.23-14.53.42:564][366]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.08.23-14.53.42:564][366]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.08.23-14.53.42:564][366]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.08.23-14.53.42:564][366]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.08.23-14.53.42:564][366]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.08.23-14.53.42:564][366]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.08.23-14.53.42:691][366]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.08.23-14.53.42:691][366]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.08.23-14.53.42:691][366]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.08.23-14.53.42:691][366]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.08.23-14.53.42:691][366]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.08.23-14.53.42:691][366]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.08.23-14.53.42:691][366]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.08.23-14.53.42:691][366]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.08.23-14.53.42:691][366]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.08.23-14.53.42:691][366]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.08.23-14.53.42:691][366]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.08.23-14.53.42:691][366]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.08.23-14.53.42:691][366]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.08.23-14.53.42:691][366]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.08.23-14.53.42:691][366]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.08.23-14.53.42:691][366]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.08.23-14.53.42:691][366]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.08.23-14.53.42:691][366]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.08.23-14.53.42:691][366]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.08.23-14.53.42:691][366]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.08.23-14.53.42:692][366]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.08.23-14.53.42:692][366]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.08.23-14.53.42:692][366]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.08.23-14.53.42:692][366]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.08.23-14.53.42:692][366]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.08.23-14.53.42:692][366]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.08.23-14.53.42:692][366]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.08.23-14.53.42:692][366]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.08.23-14.53.42:692][366]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.08.23-14.53.42:692][366]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.08.23-14.53.42:692][366]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.08.23-14.53.42:692][366]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.08.23-14.53.42:692][366]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.08.23-14.53.42:692][366]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.08.23-14.53.42:693][366]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.08.23-14.53.42:693][366]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.08.23-14.53.42:696][366]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.08.23-14.53.42:697][366]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.08.23-14.53.42:697][366]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.08.23-14.53.42:698][366]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.08.23-14.53.42:698][366]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.08.23-14.53.42:698][366]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.08.23-14.53.42:698][366]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.08.23-14.53.42:698][366]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.08.23-14.53.42:698][366]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.08.23-14.53.42:799][366]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.08.23-14.53.42:899][366]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.08.23-14.53.42:899][366]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.08.23-14.53.42:899][366]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.08.23-14.53.42:899][366]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.08.23-14.53.42:899][366]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.08.23-14.53.42:899][366]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.08.23-14.53.42:902][366]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.08.23-14.53.42:902][366]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.08.23-14.53.42:902][366]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.08.23-14.53.42:902][366]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.08.23-14.53.42:902][366]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.08.23-14.53.42:902][366]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.08.23-14.53.42:902][366]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.08.23-14.53.42:902][366]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.08.23-14.53.42:902][366]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.08.23-14.53.42:902][366]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.08.23-14.53.42:902][366]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.08.23-14.53.42:902][366]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.08.23-14.53.42:902][366]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.08.23-14.53.42:902][366]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.08.23-14.53.42:902][366]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.08.23-14.53.42:902][366]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.08.23-14.53.42:902][366]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.08.23-14.53.42:902][366]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.08.23-14.53.42:902][366]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.08.23-14.53.42:902][366]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.08.23-14.53.42:902][366]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.08.23-14.53.42:903][366]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.08.23-14.53.42:903][366]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.08.23-14.53.42:905][366]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.08.23-14.53.42:905][366]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.08.23-14.53.42:905][366]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.08.23-14.53.42:905][366]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.08.23-14.53.42:905][366]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.08.23-14.53.42:905][366]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.08.23-14.53.43:155][366]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.08.23-14.53.43:155][366]LogDirectoryWatcher: A directory notification for '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/' was aborted.
+[2017.08.23-14.53.43:155][366]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.08.23-14.53.43:155][366]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.08.23-14.53.43:159][366]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.08.23-14.53.43:165][366]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.08.23-14.53.43:165][366]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.08.23-14.53.43:165][366]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.08.23-14.53.43:165][366]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.08.23-14.53.43:165][366]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.08.23-14.53.43:165][366]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.08.23-14.53.43:165][366]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.08.23-14.53.43:165][366]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.08.23-14.53.43:175][366]LogDerivedDataCache: Shutdown
+[2017.08.23-14.53.43:175][366]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.08.23-14.53.43:175][366]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.08.23-14.53.43:175][366]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.08.23-14.53.43:175][366]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.08.23-14.53.43:175][366]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.08.23-14.53.43:175][366]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.08.23-14.53.43:175][366]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.08.23-14.53.43:175][366]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.08.23-14.53.43:175][366]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.08.23-14.53.43:175][366]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.08.23-14.53.43:175][366]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.08.23-14.53.43:175][366]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.08.23-14.53.43:175][366]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.08.23-14.53.43:175][366]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.08.23-14.53.43:175][366]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.08.23-14.53.43:175][366]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.08.23-14.53.43:175][366]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.08.23-14.53.43:175][366]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.08.23-14.53.43:175][366]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.08.23-14.53.43:175][366]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.08.23-14.53.43:175][366]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.08.23-14.53.43:175][366]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.08.23-14.53.43:175][366]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.08.23-14.53.43:175][366]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.08.23-14.53.43:175][366]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.08.23-14.53.43:175][366]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.08.23-14.53.43:175][366]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.08.23-14.53.43:175][366]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.08.23-14.53.43:175][366]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.08.23-14.53.43:175][366]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.08.23-14.53.43:175][366]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.08.23-14.53.43:175][366]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.08.23-14.53.43:175][366]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.08.23-14.53.43:176][366]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.08.23-14.53.43:176][366]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.08.23-14.53.43:176][366]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.08.23-14.53.43:176][366]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.08.23-14.53.43:176][366]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.08.23-14.53.43:176][366]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.08.23-14.53.43:176][366]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.08.23-14.53.43:176][366]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.08.23-14.53.43:176][366]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.08.23-14.53.43:176][366]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.08.23-14.53.43:176][366]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.08.23-14.53.43:176][366]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.08.23-14.53.43:176][366]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.08.23-14.53.43:176][366]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.08.23-14.53.43:176][366]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.08.23-14.53.43:176][366]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.08.23-14.53.43:176][366]LogOnline:Display: Unloading online subsystem: NULL
+[2017.08.23-14.53.43:176][366]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.08.23-14.53.43:176][366]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.08.23-14.53.43:176][366]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.08.23-14.53.43:176][366]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B6FECB7B5-4C93-5148-2B55-249DD4E222FD%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=f07af55e4db0c636e0c073a1312074d9%7Caa7a108f70184e1b92fdd786c25cd9b8%7Caeab9882-b6f4-4a22-991a-718da4fba234&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.08.23-14.53.43:196][366]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.08.23-14.53.43:198][366]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.08.23-14.53.43:198][366]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.08.23-14.53.43:198][366]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.08.23-14.53.43:198][366]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.08.23-14.53.43:198][366]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.08.23-14.53.43:198][366]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.08.23-14.53.43:198][366]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.08.23-14.53.43:198][366]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.08.23-14.53.43:202][366]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.08.23-14.53.43:202][366]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.08.23-14.53.43:202][366]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.08.23-14.53.43:202][366]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.08.23-14.53.43:202][366]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.08.23-14.53.43:202][366]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.08.23-14.53.43:202][366]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.08.23-14.53.43:202][366]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.08.23-14.53.43:202][366]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.08.23-14.53.43:202][366]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.08.23-14.53.43:205][366]LogExit: Exiting.
+[2017.08.23-14.53.43:245][366]Log file closed, 08/23/17 16:53:43
