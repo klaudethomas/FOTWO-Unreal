@@ -1,0 +1,906 @@
+﻿Log file open, 08/31/17 13:41:31
+LogInit:Display: Running engine for game: FOTWO02
+LogPlatformFile: Not using cached read wrapper
+LogInit:Display: RandInit(-447773753) SRandInit(-447773752).
+LogTaskGraph: Started task graph with 5 named threads and 8 total threads with 1 sets of task threads.
+LogStats: Stats thread started at 0.880998
+LogInit: Using libcurl 7.47.1
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2g
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit: Build: ++UE4+Release-4.16-CL-3561208
+LogInit: Engine Version: 4.16.3-3561208+++UE4+Release-4.16
+LogInit: Compatible Engine Version: 4.16.0-3452394+++UE4+Release-4.16
+LogInit: Net CL: 3452394
+LogDevObjectVersion: Number of dev versions registered: 16
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 9
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 17
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 23
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 0
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 15
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 4
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 0
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 1
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 3
+LogInit: Compiled (64-bit): Jul 28 2017 11:49:47
+LogInit: Compiled with Visual C++: 19.00.24215.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.16
+LogInit: Command line:  
+LogInit: Base directory: C:/Program Files/Epic Games/UE_4.16/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2017.08.31-11.41.31:577][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.31-11.41.31:577][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2017.08.31-11.41.31:653][  0]LogInit: Computer: KLAUDE2017ALIEN
+[2017.08.31-11.41.31:653][  0]LogInit: User: vonkl
+[2017.08.31-11.41.31:653][  0]LogInit: CPU Page size=4096, Cores=4
+[2017.08.31-11.41.31:653][  0]LogInit: High frequency timer resolution =2.742185 MHz
+[2017.08.31-11.41.31:654][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2017.08.31-11.41.31:654][  0]LogMemory: Platform Memory Stats for Windows
+[2017.08.31-11.41.31:654][  0]LogMemory: Process Physical Memory: 272.85 MB used, 272.85 MB peak
+[2017.08.31-11.41.31:654][  0]LogMemory: Process Virtual Memory: 260.73 MB used, 260.73 MB peak
+[2017.08.31-11.41.31:654][  0]LogMemory: Physical Memory: 6283.53 MB used,  9973.45 MB free, 16256.98 MB total
+[2017.08.31-11.41.31:654][  0]LogMemory: Virtual Memory: 638.49 MB used,  9973.45 MB free, 134217728.00 MB total
+[2017.08.31-11.41.32:030][  0]LogInit: Using OS detected language (en-GB).
+[2017.08.31-11.41.32:030][  0]LogInit: Using OS detected locale (en-GB).
+[2017.08.31-11.41.32:111][  0]LogTextLocalizationManager: No specific localization for 'en-GB' exists, so the 'en' localization will be used.
+[2017.08.31-11.41.35:099][  0]LogD3D11RHI: D3D11 adapters:
+[2017.08.31-11.41.35:707][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060' (Feature Level 11_0)
+[2017.08.31-11.41.35:707][  0]LogD3D11RHI:       6046/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2017.08.31-11.41.35:731][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2017.08.31-11.41.35:731][  0]LogD3D11RHI:       128/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2017.08.31-11.41.35:733][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2017.08.31-11.41.35:733][  0]LogD3D11RHI:       0/0/8128 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2017.08.31-11.41.35:733][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2017.08.31-11.41.35:740][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2017.08.31-11.41.35:740][  0]LogD3D11RHI:     GPU DeviceId: 0x1c60 (for the marketing name, search the web for "GPU Device Id")
+[2017.08.31-11.41.35:740][  0]LogWindows: EnumDisplayDevices:
+[2017.08.31-11.41.35:740][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060' (P:0 D:1)
+[2017.08.31-11.41.35:740][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060' (P:1 D:1)
+[2017.08.31-11.41.35:740][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2017.08.31-11.41.35:740][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060' (P:0 D:0)
+[2017.08.31-11.41.35:741][  0]LogWindows:    4. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.08.31-11.41.35:741][  0]LogWindows:    5. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.08.31-11.41.35:741][  0]LogWindows:    6. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2017.08.31-11.41.35:741][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter FoundDriverCount:4 
+[2017.08.31-11.41.35:741][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060
+[2017.08.31-11.41.35:741][  0]LogD3D11RHI:   Driver Version: 385.41 (internal:22.21.13.8541, unified:385.41)
+[2017.08.31-11.41.35:741][  0]LogD3D11RHI:      Driver Date: 8-21-2017
+[2017.08.31-11.41.35:741][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2017.08.31-11.41.36:323][  0]LogD3D11RHI: Async texture creation enabled
+[2017.08.31-11.41.36:392][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2017.08.31-11.41.36:500][  0]LogShaderCompilers: Guid format shader working directory is 1 characters bigger than the processId version (../../../../../../Unreal/FOTWO/source/FOTWO02/Intermediate/Shaders/WorkingDirectory/4204/).
+[2017.08.31-11.41.36:500][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/vonkl/AppData/Local/Temp/UnrealShaderWorkingDir/40908B374D664AD7871B4486CDA65A7D/'.
+[2017.08.31-11.41.36:501][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2017.08.31-11.41.38:600][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2017.08.31-11.41.38:646][  0]LogTemp:Display: Loaded TP MacClientTargetPlatform
+[2017.08.31-11.41.38:694][  0]LogTemp:Display: Loaded TP MacNoEditorTargetPlatform
+[2017.08.31-11.41.38:741][  0]LogTemp:Display: Loaded TP MacServerTargetPlatform
+[2017.08.31-11.41.38:794][  0]LogTemp:Display: Loaded TP MacTargetPlatform
+[2017.08.31-11.41.38:842][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2017.08.31-11.41.38:891][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2017.08.31-11.41.38:981][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2017.08.31-11.41.39:034][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2017.08.31-11.41.39:088][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2017.08.31-11.41.39:138][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2017.08.31-11.41.39:186][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2017.08.31-11.41.39:234][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2017.08.31-11.41.39:283][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2017.08.31-11.41.39:331][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2017.08.31-11.41.39:422][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2017.08.31-11.41.39:422][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2017.08.31-11.41.39:459][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2017.08.31-11.41.39:555][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2017.08.31-11.41.39:584][  0]LogTemp:Display: Loaded TP TVOSTargetPlatform
+[2017.08.31-11.41.39:629][  0]LogTemp:Display: Loaded TP LinuxClientTargetPlatform
+[2017.08.31-11.41.39:680][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2017.08.31-11.41.39:727][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2017.08.31-11.41.39:782][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2017.08.31-11.41.39:782][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2017.08.31-11.41.40:413][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2017.08.31-11.41.41:170][  0]LogDerivedDataCache: Loaded boot cache 0.76s 90MB C:/Users/vonkl/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.31-11.41.41:170][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/vonkl/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc
+[2017.08.31-11.41.41:171][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Unreal/FOTWO/source/FOTWO02/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2017.08.31-11.41.41:171][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2017.08.31-11.41.41:171][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Unreal/FOTWO/source/FOTWO02/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2017.08.31-11.41.41:171][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2017.08.31-11.41.41:211][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2017.08.31-11.41.41:223][  0]LogDerivedDataCache: Using Local data cache path C:/Users/vonkl/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2017.08.31-11.41.41:236][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2017.08.31-11.41.41:241][  0]LogSlate: Using Freetype 2.6.0
+[2017.08.31-11.41.41:252][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.31-11.41.41:252][  0]LogSlate: SlateFontCache - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2017.08.31-11.41.42:376][  0]LogInit: Selected Device Profile: [Windows]
+[2017.08.31-11.41.42:552][  0]LogContentStreaming: Texture pool size is 0.00 MB
+[2017.08.31-11.41.42:784][  0]LogMeshUtilities: Using QuadricMeshReduction for automatic static mesh reduction
+[2017.08.31-11.41.42:832][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2017.08.31-11.41.42:882][  0]LogMeshUtilities: Using SimplygonSwarm for distributed automatic mesh merging
+[2017.08.31-11.41.42:882][  0]LogMeshUtilities: No automatic skeletal mesh reduction module available
+[2017.08.31-11.41.42:882][  0]LogMeshUtilities: No automatic mesh merging module available
+[2017.08.31-11.41.44:201][  0]LogNetVersion: FOTWO02 , NetCL: 3452394, EngineNetVer: 2, GameNetVer: 0 (Checksum: 2990255715)
+[2017.08.31-11.41.44:296][  0]LogAssetRegistry: FAssetRegistry took 0.0287 seconds to start up
+[2017.08.31-11.41.44:376][  0]LogPackageLocalizationCache: Processed 4 localized package path(s) for 2 prioritized culture(s) in 0.046674 seconds
+[2017.08.31-11.41.44:381][  0]LogUObjectArray: 34194 objects as part of root set at end of initial load.
+[2017.08.31-11.41.44:381][  0]LogUObjectAllocator: 7260424 out of 0 bytes used by permanent object pool.
+[2017.08.31-11.41.44:381][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2017.08.31-11.41.44:446][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2017.08.31-11.41.50:047][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2017.08.31-11.41.50:089][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2017.08.31-11.41.51:001][  0]LogMaterial: Uniform references updated for custom material expression Custom.
+[2017.08.31-11.41.51:518][  0]SourceControl: Info Source control is disabled
+[2017.08.31-11.41.51:585][  0]SourceControl: Info Source control is disabled
+[2017.08.31-11.41.51:635][  0]SourceControl: Info Source control is disabled
+[2017.08.31-11.41.51:682][  0]SourceControl: Info Source control is disabled
+[2017.08.31-11.41.52:455][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2017.08.31-11.41.53:106][  0]LogEngine: Initializing Engine...
+[2017.08.31-11.41.53:107][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2017.08.31-11.41.53:475][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2017.08.31-11.41.53:475][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2017.08.31-11.41.53:641][  0]LogAIModule: Creating AISystem for world Untitled
+[2017.08.31-11.41.53:664][  0]LogInit: XAudio2 using 'Headset Earphone (3- Microsoft LifeChat LX-3000)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.31-11.41.53:713][  0]LogInit: FAudioDevice initialized.
+[2017.08.31-11.41.53:760][  0]LogDerivedDataCache: Saved boot cache 0.05s 90MB C:/Users/vonkl/AppData/Local/UnrealEngine/4.16/DerivedDataCache/Boot.ddc.
+[2017.08.31-11.41.53:768][  0]LogInit: Texture streaming: Enabled
+[2017.08.31-11.41.53:871][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2017.08.31-11.41.53:871][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=AbnormalShutdown, SessionId={C2048DE1-4324-313F-4C71-B1BF45665EBD}
+[2017.08.31-11.41.54:107][  0]LogInit: Transaction tracking system initialized
+[2017.08.31-11.41.54:470][  0]BlueprintLog: New page: Editor Load
+[2017.08.31-11.41.55:560][  0]LocalizationService: Info Localization service is disabled
+[2017.08.31-11.41.56:390][  0]LogConsoleResponse:Display: 
+[2017.08.31-11.41.56:841][  0]LogCook:Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2017.08.31-11.41.56:841][  0]LogCook:Display: Mobile HDR setting 1
+[2017.08.31-11.41.57:936][  0]LogFileCache: Scanning file cache for directory 'C:/Unreal/FOTWO/source/FOTWO02/Content/' took 0.03s
+[2017.08.31-11.41.58:002][  0]SourceControl: Info Source control is disabled
+[2017.08.31-11.41.58:004][  0]Cmd: MAP LOAD FILE="../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.31-11.41.58:004][  0]LogEditorServer:Warning: Can't find file '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Maps/2DSideScrollerExampleMap.umap'
+[2017.08.31-11.41.58:004][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.31-11.41.58:043][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 38.692ms to complete.
+[2017.08.31-11.41.58:043][  0]LogFileHelpers: Loading map '2DSideScrollerExampleMap' took 0.040
+[2017.08.31-11.41.58:202][  0]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.31-11.41.58:437][  0]LogCollectionManager: Loaded 0 collections in 0.001708 seconds
+[2017.08.31-11.41.58:543][  0]LogFileCache: Scanning file cache for directory 'C:/Unreal/FOTWO/source/FOTWO02/Saved/Collections/' took 0.01s
+[2017.08.31-11.41.58:543][  0]LogFileCache: Scanning file cache for directory 'C:/Unreal/FOTWO/source/FOTWO02/Content/Developers/vonkl/Collections/' took 0.01s
+[2017.08.31-11.41.58:543][  0]LogFileCache: Scanning file cache for directory 'C:/Unreal/FOTWO/source/FOTWO02/Content/Collections/' took 0.00s
+[2017.08.31-11.41.58:543][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000001 seconds
+[2017.08.31-11.41.58:552][  0]LogContentBrowser: Native class hierarchy populated in 0.0086 seconds. Added 2329 classes and 491 folders.
+[2017.08.31-11.41.58:616][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2017.08.31-11.41.59:072][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2017.08.31-11.41.59:136][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.08.31-11.41.59:227][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2017.08.31-11.41.59:245][  0]LogSlate: Took 0.006616 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.31-11.41.59:253][  0]LogSlate: Took 0.005523 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2017.08.31-11.41.59:264][  0]LogSlate: Took 0.004720 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2017.08.31-11.41.59:459][  0]LogRenderer: Reallocating scene render targets to support 1648x932 NumSamples 1 (Frame:1).
+[2017.08.31-11.41.59:566][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2017.08.31-11.41.59:633][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 1 classes and 2 folders.
+[2017.08.31-11.41.59:633][  0]LogLoad: (Engine Initialization) Total time: 31.63 seconds
+[2017.08.31-11.41.59:633][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.08 seconds
+[2017.08.31-11.41.59:633][  0]LogExternalProfiler: Found external profiler: VSPerf
+[2017.08.31-11.41.59:633][  0]LogExternalProfiler: Using external profiler: VSPerf
+[2017.08.31-11.41.59:655][  0]LogOcInput: OculusInput pre-init called
+[2017.08.31-11.41.59:655][  0]LogHMD: Starting GearVRController plugin
+[2017.08.31-11.41.59:685][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2017.08.31-11.41.59:715][  1]LogFileCache: Retrieving MD5 hashes for directory 'C:/Unreal/FOTWO/source/FOTWO02/Content/' took 0.05s
+[2017.08.31-11.41.59:727][  1]LogAssetRegistry: Asset discovery search completed in 15.4537 seconds
+[2017.08.31-11.41.59:728][  1]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2017.08.31-11.41.59:728][  1]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000021 seconds (updated 0 objects)
+[2017.08.31-11.42.00:751][ 56]LogSlate: Took 0.009519 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.31-12.10.22:161][384]LogSlate: Took 0.000431 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (159K)
+[2017.08.31-12.10.23:011][384]LogSlate: Took 0.000114 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2017.08.31-12.10.24:083][384]LogAIModule: Creating AISystem for world FOTWO01
+[2017.08.31-12.10.24:131][384]Cmd: MAP LOAD FILE="../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Maps/FOTWO01.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2017.08.31-12.10.24:131][384]LightingResults: New page: Lighting Build
+[2017.08.31-12.10.24:169][384]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0009 seconds. Added 5 classes and 0 folders.
+[2017.08.31-12.10.24:170][384]LoadErrors: New page: Loading map: FOTWO01.umap
+[2017.08.31-12.10.24:171][384]MapCheck: New page: Map Check
+[2017.08.31-12.10.24:171][384]LightingResults: New page: Lighting Build
+[2017.08.31-12.10.24:193][384]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2017.08.31-12.10.24:231][384]Cmd: MAP CHECKDEP NOCLEARLOG
+[2017.08.31-12.10.24:276][384]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 44.281ms to complete.
+[2017.08.31-12.10.24:276][384]LogFileHelpers: Loading map 'FOTWO01' took 0.146
+[2017.08.31-12.10.32:725][871]LogRenderer: Reallocating scene render targets to support 2088x932 NumSamples 1 (Frame:5).
+[2017.08.31-12.10.34:659][982]LogRenderer: Reallocating scene render targets to support 2556x932 NumSamples 1 (Frame:8).
+[2017.08.31-12.10.37:740][162]LogRenderer: Reallocating scene render targets to support 2556x1284 NumSamples 1 (Frame:11).
+[2017.08.31-12.10.59:056][873]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.31-12.10.59:119][873]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.31-12.10.59:119][873]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.31-12.10.59:121][873]PIE: New page: PIE session: FOTWO01 (31 Aug 2017 16:10:59)
+[2017.08.31-12.10.59:121][873]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01
+[2017.08.31-12.10.59:123][873]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002468s)
+[2017.08.31-12.10.59:123][873]LogAIModule: Creating AISystem for world FOTWO01
+[2017.08.31-12.10.59:123][873]LogPlayLevel: PIE: World Init took: (0.000517s)
+[2017.08.31-12.10.59:124][873]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 (0.003151s)
+[2017.08.31-12.10.59:138][873]LogInit: XAudio2 using 'Headset Earphone (3- Microsoft LifeChat LX-3000)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.31-12.10.59:145][873]LogInit: FAudioDevice initialized.
+[2017.08.31-12.10.59:195][873]LogLoad: Game class is 'FOTWOGameMode_C'
+[2017.08.31-12.10.59:203][873]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 up for play (max tick rate 60) at 2017.08.31-14.10.59
+[2017.08.31-12.10.59:204][873]LogWorld: Bringing up level for play took: 0.002764
+[2017.08.31-12.10.59:269][873]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0006 seconds. Added 11 classes and 0 folders.
+[2017.08.31-12.10.59:286][873]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01 -0.177
+[2017.08.31-12.10.59:287][873]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.31-12.11.02:879][ 87]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.31-12.11.02:916][ 87]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.31-12.13.58:058][812]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.31-12.13.58:079][812]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.31-12.13.58:079][812]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.31-12.13.58:079][812]PIE: New page: PIE session: FOTWO01 (31 Aug 2017 16:13:58)
+[2017.08.31-12.13.58:079][812]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01
+[2017.08.31-12.13.58:081][812]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001671s)
+[2017.08.31-12.13.58:081][812]LogAIModule: Creating AISystem for world FOTWO01
+[2017.08.31-12.13.58:081][812]LogPlayLevel: PIE: World Init took: (0.000678s)
+[2017.08.31-12.13.58:081][812]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 (0.002548s)
+[2017.08.31-12.13.58:097][812]LogInit: XAudio2 using 'Headset Earphone (3- Microsoft LifeChat LX-3000)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.31-12.13.58:104][812]LogInit: FAudioDevice initialized.
+[2017.08.31-12.13.58:137][812]LogLoad: Game class is 'FOTWOGameMode_C'
+[2017.08.31-12.13.58:139][812]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 up for play (max tick rate 60) at 2017.08.31-14.13.58
+[2017.08.31-12.13.58:139][812]LogWorld: Bringing up level for play took: 0.001029
+[2017.08.31-12.13.58:155][812]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01 0.691
+[2017.08.31-12.13.58:155][812]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.31-12.30.45:863][259]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.31-12.30.45:900][259]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.31-12.31.26:252][550]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0008 seconds. Added 112 classes and 0 folders.
+[2017.08.31-12.31.26:934][550]LogSlate: Took 0.003549 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2017.08.31-12.31.29:712][707]LogSlate: Took 0.012122 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2017.08.31-12.32.08:070][690]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.HorizontalBox_12 or HorizontalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/MainHUD.MainHUD:WidgetTree.HorizontalBox_12
+[2017.08.31-12.32.08:070][690]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.HorizontalBox_12 or HorizontalBox /Engine/Transient.World_1:EventHUD_C_5.WidgetTree_12.HorizontalBox_12
+[2017.08.31-12.32.08:070][690]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.HorizontalBox_12 or HorizontalBox /Engine/Transient.World_1:EventHUD_C_4.WidgetTree_11.HorizontalBox_12
+[2017.08.31-12.32.08:070][690]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.HorizontalBox_12 or HorizontalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/EventHUD.EventHUD:WidgetTree.HorizontalBox_12
+[2017.08.31-12.32.08:070][690]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.HorizontalBox_12 or HorizontalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:WidgetTree.HorizontalBox_12
+[2017.08.31-12.32.08:070][690]LogUObjectHash:Warning: Ambiguous search, could be HorizontalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.HorizontalBox_12 or HorizontalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/MainHUD.MainHUD_C:WidgetTree.HorizontalBox_12
+[2017.08.31-12.32.08:070][690]LogProperty:Warning: Illegal TEXT reference to a private object in external package (HorizontalBoxSlot /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.HorizontalBox_12.HorizontalBoxSlot_0) from referencer (TextBlock /Engine/UMG/Editor/Transient.TextBlock_26).  Import failed...
+[2017.08.31-12.32.08:070][690]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'HorizontalBoxSlot'HorizontalBox_12.HorizontalBoxSlot_0''
+[2017.08.31-12.33.13:014][ 77]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_6 or VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/EventHUD.EventHUD:WidgetTree.VerticalBox_6
+[2017.08.31-12.33.13:014][ 77]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_6 or VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/MainHUD.MainHUD:WidgetTree.VerticalBox_6
+[2017.08.31-12.33.13:014][ 77]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_6 or VerticalBox /Engine/Transient.World_1:EventHUD_C_5.WidgetTree_12.VerticalBox_6
+[2017.08.31-12.33.13:014][ 77]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_6 or VerticalBox /Engine/Transient.World_1:EventHUD_C_4.WidgetTree_11.VerticalBox_6
+[2017.08.31-12.33.13:014][ 77]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_6 or VerticalBox /Engine/Transient.World_1:EventHUD_C_3.WidgetTree_10.VerticalBox_6
+[2017.08.31-12.33.13:014][ 77]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_6 or VerticalBox /Engine/Transient.World_1:EventHUD_C_2.WidgetTree_9.VerticalBox_6
+[2017.08.31-12.33.13:014][ 77]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_6 or VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:WidgetTree.VerticalBox_6
+[2017.08.31-12.33.13:014][ 77]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_6 or VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/EventHUD.EventHUD_C:WidgetTree.VerticalBox_6
+[2017.08.31-12.33.13:014][ 77]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_6 or VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/MainHUD.MainHUD_C:WidgetTree.VerticalBox_6
+[2017.08.31-12.33.13:014][ 77]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_6 or VerticalBox /Engine/Transient.World_1:EventHUD_C_6.WidgetTree_13.VerticalBox_6
+[2017.08.31-12.33.13:014][ 77]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_6 or VerticalBox /Engine/Transient.World_1:EventHUD_C_7.WidgetTree_14.VerticalBox_6
+[2017.08.31-12.33.13:014][ 77]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Game/2DSideScrollerBP/Blueprints/User_Interface/MainHUD.MainHUD:WidgetTree.VerticalBox_6.VerticalBoxSlot_0 or VerticalBoxSlot /Engine/Transient.World_1:EventHUD_C_7.WidgetTree_14.VerticalBox_6.VerticalBoxSlot_0
+[2017.08.31-12.33.13:014][ 77]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Game/2DSideScrollerBP/Blueprints/User_Interface/MainHUD.MainHUD:WidgetTree.VerticalBox_6.VerticalBoxSlot_0 or VerticalBoxSlot /Engine/Transient.World_1:EventHUD_C_6.WidgetTree_13.VerticalBox_6.VerticalBoxSlot_0
+[2017.08.31-12.33.13:014][ 77]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Game/2DSideScrollerBP/Blueprints/User_Interface/MainHUD.MainHUD:WidgetTree.VerticalBox_6.VerticalBoxSlot_0 or VerticalBoxSlot /Engine/Transient.World_1:EventHUD_C_5.WidgetTree_12.VerticalBox_6.VerticalBoxSlot_0
+[2017.08.31-12.33.13:014][ 77]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Game/2DSideScrollerBP/Blueprints/User_Interface/MainHUD.MainHUD:WidgetTree.VerticalBox_6.VerticalBoxSlot_0 or VerticalBoxSlot /Engine/Transient.World_1:EventHUD_C_4.WidgetTree_11.VerticalBox_6.VerticalBoxSlot_0
+[2017.08.31-12.33.13:014][ 77]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Game/2DSideScrollerBP/Blueprints/User_Interface/MainHUD.MainHUD:WidgetTree.VerticalBox_6.VerticalBoxSlot_0 or VerticalBoxSlot /Game/2DSideScrollerBP/Blueprints/User_Interface/EventHUD.EventHUD:WidgetTree.VerticalBox_6.VerticalBoxSlot_0
+[2017.08.31-12.33.13:014][ 77]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Game/2DSideScrollerBP/Blueprints/User_Interface/MainHUD.MainHUD:WidgetTree.VerticalBox_6.VerticalBoxSlot_0 or VerticalBoxSlot /Game/2DSideScrollerBP/Blueprints/User_Interface/MainHUD.MainHUD_C:WidgetTree.VerticalBox_6.VerticalBoxSlot_0
+[2017.08.31-12.33.13:014][ 77]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Game/2DSideScrollerBP/Blueprints/User_Interface/MainHUD.MainHUD:WidgetTree.VerticalBox_6.VerticalBoxSlot_0) from referencer (HorizontalBox /Engine/UMG/Editor/Transient.HorizontalBox_12).  Import failed...
+[2017.08.31-12.33.13:014][ 77]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBox_6.VerticalBoxSlot_0''
+[2017.08.31-12.33.42:592][623]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_9 or VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/EventHUD.EventHUD:WidgetTree.VerticalBox_9
+[2017.08.31-12.33.42:592][623]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_9 or VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/MainHUD.MainHUD:WidgetTree.VerticalBox_9
+[2017.08.31-12.33.42:592][623]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_9 or VerticalBox /Engine/Transient.World_1:EventHUD_C_10.WidgetTree_17.VerticalBox_9
+[2017.08.31-12.33.42:592][623]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_9 or VerticalBox /Engine/Transient.World_1:EventHUD_C_9.WidgetTree_16.VerticalBox_9
+[2017.08.31-12.33.42:592][623]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_9 or VerticalBox /Engine/Transient.World_1:EventHUD_C_8.WidgetTree_15.VerticalBox_9
+[2017.08.31-12.33.42:592][623]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_9 or VerticalBox /Engine/Transient.World_1:EventHUD_C_7.WidgetTree_14.VerticalBox_9
+[2017.08.31-12.33.42:592][623]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_9 or VerticalBox /Engine/Transient.World_1:EventHUD_C_6.WidgetTree_13.VerticalBox_9
+[2017.08.31-12.33.42:592][623]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_9 or VerticalBox /Engine/Transient.World_1:EventHUD_C_5.WidgetTree_12.VerticalBox_9
+[2017.08.31-12.33.42:592][623]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_9 or VerticalBox /Engine/Transient.World_1:EventHUD_C_4.WidgetTree_11.VerticalBox_9
+[2017.08.31-12.33.42:592][623]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_9 or VerticalBox /Engine/Transient.World_1:EventHUD_C_3.WidgetTree_10.VerticalBox_9
+[2017.08.31-12.33.42:592][623]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_9 or VerticalBox /Engine/Transient.World_1:EventHUD_C_2.WidgetTree_9.VerticalBox_9
+[2017.08.31-12.33.42:592][623]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_9 or VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:WidgetTree.VerticalBox_9
+[2017.08.31-12.33.42:592][623]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_9 or VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/EventHUD.EventHUD_C:WidgetTree.VerticalBox_9
+[2017.08.31-12.33.42:592][623]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_9 or VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/MainHUD.MainHUD_C:WidgetTree.VerticalBox_9
+[2017.08.31-12.33.42:592][623]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Engine/Transient.World_1:EventHUD_C_10.WidgetTree_17.VerticalBox_9.VerticalBoxSlot_1 or VerticalBoxSlot /Engine/Transient.World_1:EventHUD_C_9.WidgetTree_16.VerticalBox_9.VerticalBoxSlot_1
+[2017.08.31-12.33.42:592][623]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Engine/Transient.World_1:EventHUD_C_10.WidgetTree_17.VerticalBox_9.VerticalBoxSlot_1 or VerticalBoxSlot /Engine/Transient.World_1:EventHUD_C_8.WidgetTree_15.VerticalBox_9.VerticalBoxSlot_1
+[2017.08.31-12.33.42:592][623]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Engine/Transient.World_1:EventHUD_C_10.WidgetTree_17.VerticalBox_9.VerticalBoxSlot_1 or VerticalBoxSlot /Game/2DSideScrollerBP/Blueprints/User_Interface/EventHUD.EventHUD:WidgetTree.VerticalBox_9.VerticalBoxSlot_1
+[2017.08.31-12.33.42:592][623]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Engine/Transient.World_1:EventHUD_C_10.WidgetTree_17.VerticalBox_9.VerticalBoxSlot_1) from referencer (HorizontalBox /Engine/UMG/Editor/Transient.HorizontalBox_13).  Import failed...
+[2017.08.31-12.33.42:592][623]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBox_9.VerticalBoxSlot_1''
+[2017.08.31-12.34.05:301][752]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:EventHUD_C_11.WidgetTree_18.VerticalBox_11 or VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/EventHUD.EventHUD:WidgetTree.VerticalBox_11
+[2017.08.31-12.34.05:301][752]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:EventHUD_C_11.WidgetTree_18.VerticalBox_11 or VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/MainHUD.MainHUD:WidgetTree.VerticalBox_11
+[2017.08.31-12.34.05:301][752]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:EventHUD_C_11.WidgetTree_18.VerticalBox_11 or VerticalBox /Engine/Transient.World_1:EventHUD_C_10.WidgetTree_17.VerticalBox_11
+[2017.08.31-12.34.05:301][752]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:EventHUD_C_11.WidgetTree_18.VerticalBox_11 or VerticalBox /Engine/Transient.World_1:EventHUD_C_9.WidgetTree_16.VerticalBox_11
+[2017.08.31-12.34.05:301][752]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:EventHUD_C_11.WidgetTree_18.VerticalBox_11 or VerticalBox /Engine/Transient.World_1:EventHUD_C_8.WidgetTree_15.VerticalBox_11
+[2017.08.31-12.34.05:301][752]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:EventHUD_C_11.WidgetTree_18.VerticalBox_11 or VerticalBox /Engine/Transient.World_1:EventHUD_C_7.WidgetTree_14.VerticalBox_11
+[2017.08.31-12.34.05:301][752]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:EventHUD_C_11.WidgetTree_18.VerticalBox_11 or VerticalBox /Engine/Transient.World_1:EventHUD_C_6.WidgetTree_13.VerticalBox_11
+[2017.08.31-12.34.05:301][752]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:EventHUD_C_11.WidgetTree_18.VerticalBox_11 or VerticalBox /Engine/Transient.World_1:EventHUD_C_5.WidgetTree_12.VerticalBox_11
+[2017.08.31-12.34.05:301][752]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:EventHUD_C_11.WidgetTree_18.VerticalBox_11 or VerticalBox /Engine/Transient.World_1:EventHUD_C_4.WidgetTree_11.VerticalBox_11
+[2017.08.31-12.34.05:301][752]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:EventHUD_C_11.WidgetTree_18.VerticalBox_11 or VerticalBox /Engine/Transient.World_1:EventHUD_C_3.WidgetTree_10.VerticalBox_11
+[2017.08.31-12.34.05:301][752]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:EventHUD_C_11.WidgetTree_18.VerticalBox_11 or VerticalBox /Engine/Transient.World_1:EventHUD_C_2.WidgetTree_9.VerticalBox_11
+[2017.08.31-12.34.05:301][752]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:EventHUD_C_11.WidgetTree_18.VerticalBox_11 or VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/EventHUD.EventHUD_C:WidgetTree.VerticalBox_11
+[2017.08.31-12.34.05:301][752]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:EventHUD_C_11.WidgetTree_18.VerticalBox_11 or VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/MainHUD.MainHUD_C:WidgetTree.VerticalBox_11
+[2017.08.31-12.34.05:301][752]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:EventHUD_C_11.WidgetTree_18.VerticalBox_11 or VerticalBox /Engine/Transient.World_1:EventHUD_C_12.WidgetTree_19.VerticalBox_11
+[2017.08.31-12.34.05:301][752]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:EventHUD_C_11.WidgetTree_18.VerticalBox_11 or VerticalBox /Engine/Transient.World_1:EventHUD_C_13.WidgetTree_20.VerticalBox_11
+[2017.08.31-12.34.05:301][752]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Engine/Transient.World_1:EventHUD_C_11.WidgetTree_18.VerticalBox_11.VerticalBoxSlot_2) from referencer (HorizontalBox /Engine/UMG/Editor/Transient.HorizontalBox_14).  Import failed...
+[2017.08.31-12.34.05:301][752]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBox_11.VerticalBoxSlot_2''
+[2017.08.31-12.34.41:648][585]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:EventHUD_C_11.WidgetTree_18.VerticalBox_11 or VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/EventHUD.EventHUD:WidgetTree.VerticalBox_11
+[2017.08.31-12.34.41:648][585]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:EventHUD_C_11.WidgetTree_18.VerticalBox_11 or VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/MainHUD.MainHUD:WidgetTree.VerticalBox_11
+[2017.08.31-12.34.41:648][585]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:EventHUD_C_11.WidgetTree_18.VerticalBox_11 or VerticalBox /Engine/Transient.World_1:EventHUD_C_10.WidgetTree_17.VerticalBox_11
+[2017.08.31-12.34.41:648][585]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:EventHUD_C_11.WidgetTree_18.VerticalBox_11 or VerticalBox /Engine/Transient.World_1:EventHUD_C_9.WidgetTree_16.VerticalBox_11
+[2017.08.31-12.34.41:648][585]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:EventHUD_C_11.WidgetTree_18.VerticalBox_11 or VerticalBox /Engine/Transient.World_1:EventHUD_C_8.WidgetTree_15.VerticalBox_11
+[2017.08.31-12.34.41:648][585]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:EventHUD_C_11.WidgetTree_18.VerticalBox_11 or VerticalBox /Engine/Transient.World_1:EventHUD_C_7.WidgetTree_14.VerticalBox_11
+[2017.08.31-12.34.41:648][585]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:EventHUD_C_11.WidgetTree_18.VerticalBox_11 or VerticalBox /Engine/Transient.World_1:EventHUD_C_6.WidgetTree_13.VerticalBox_11
+[2017.08.31-12.34.41:648][585]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:EventHUD_C_11.WidgetTree_18.VerticalBox_11 or VerticalBox /Engine/Transient.World_1:EventHUD_C_5.WidgetTree_12.VerticalBox_11
+[2017.08.31-12.34.41:648][585]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:EventHUD_C_11.WidgetTree_18.VerticalBox_11 or VerticalBox /Engine/Transient.World_1:EventHUD_C_4.WidgetTree_11.VerticalBox_11
+[2017.08.31-12.34.41:648][585]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:EventHUD_C_11.WidgetTree_18.VerticalBox_11 or VerticalBox /Engine/Transient.World_1:EventHUD_C_3.WidgetTree_10.VerticalBox_11
+[2017.08.31-12.34.41:648][585]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:EventHUD_C_11.WidgetTree_18.VerticalBox_11 or VerticalBox /Engine/Transient.World_1:EventHUD_C_2.WidgetTree_9.VerticalBox_11
+[2017.08.31-12.34.41:648][585]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:EventHUD_C_11.WidgetTree_18.VerticalBox_11 or VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/EventHUD.EventHUD_C:WidgetTree.VerticalBox_11
+[2017.08.31-12.34.41:648][585]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:EventHUD_C_11.WidgetTree_18.VerticalBox_11 or VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/MainHUD.MainHUD_C:WidgetTree.VerticalBox_11
+[2017.08.31-12.34.41:648][585]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:EventHUD_C_11.WidgetTree_18.VerticalBox_11 or VerticalBox /Engine/Transient.World_1:EventHUD_C_12.WidgetTree_19.VerticalBox_11
+[2017.08.31-12.34.41:648][585]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:EventHUD_C_11.WidgetTree_18.VerticalBox_11 or VerticalBox /Engine/Transient.World_1:EventHUD_C_13.WidgetTree_20.VerticalBox_11
+[2017.08.31-12.34.41:648][585]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:EventHUD_C_11.WidgetTree_18.VerticalBox_11 or VerticalBox /Engine/Transient.World_1:EventHUD_C_14.WidgetTree_21.VerticalBox_11
+[2017.08.31-12.34.41:648][585]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:EventHUD_C_11.WidgetTree_18.VerticalBox_11 or VerticalBox /Engine/Transient.World_1:EventHUD_C_15.WidgetTree_22.VerticalBox_11
+[2017.08.31-12.34.41:648][585]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Engine/Transient.World_1:EventHUD_C_11.WidgetTree_18.VerticalBox_11 or VerticalBox /Engine/Transient.World_1:EventHUD_C_16.WidgetTree_23.VerticalBox_11
+[2017.08.31-12.34.41:648][585]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Engine/Transient.World_1:EventHUD_C_11.WidgetTree_18.VerticalBox_11.VerticalBoxSlot_2) from referencer (HorizontalBox /Engine/UMG/Editor/Transient.HorizontalBox_14).  Import failed...
+[2017.08.31-12.34.41:648][585]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBox_11.VerticalBoxSlot_2''
+[2017.08.31-12.34.57:802][407]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_12 or VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/EventHUD.EventHUD:WidgetTree.VerticalBox_12
+[2017.08.31-12.34.57:802][407]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_12 or VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/MainHUD.MainHUD:WidgetTree.VerticalBox_12
+[2017.08.31-12.34.57:802][407]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_12 or VerticalBox /Engine/Transient.World_1:EventHUD_C_10.WidgetTree_17.VerticalBox_12
+[2017.08.31-12.34.57:802][407]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_12 or VerticalBox /Engine/Transient.World_1:EventHUD_C_9.WidgetTree_16.VerticalBox_12
+[2017.08.31-12.34.57:802][407]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_12 or VerticalBox /Engine/Transient.World_1:EventHUD_C_8.WidgetTree_15.VerticalBox_12
+[2017.08.31-12.34.57:802][407]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_12 or VerticalBox /Engine/Transient.World_1:EventHUD_C_7.WidgetTree_14.VerticalBox_12
+[2017.08.31-12.34.57:802][407]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_12 or VerticalBox /Engine/Transient.World_1:EventHUD_C_6.WidgetTree_13.VerticalBox_12
+[2017.08.31-12.34.57:802][407]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_12 or VerticalBox /Engine/Transient.World_1:EventHUD_C_5.WidgetTree_12.VerticalBox_12
+[2017.08.31-12.34.57:802][407]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_12 or VerticalBox /Engine/Transient.World_1:EventHUD_C_4.WidgetTree_11.VerticalBox_12
+[2017.08.31-12.34.57:802][407]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_12 or VerticalBox /Engine/Transient.World_1:EventHUD_C_3.WidgetTree_10.VerticalBox_12
+[2017.08.31-12.34.57:802][407]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_12 or VerticalBox /Engine/Transient.World_1:EventHUD_C_2.WidgetTree_9.VerticalBox_12
+[2017.08.31-12.34.57:802][407]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_12 or VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:WidgetTree.VerticalBox_12
+[2017.08.31-12.34.57:802][407]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_12 or VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/EventHUD.EventHUD_C:WidgetTree.VerticalBox_12
+[2017.08.31-12.34.57:802][407]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_12 or VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/MainHUD.MainHUD_C:WidgetTree.VerticalBox_12
+[2017.08.31-12.34.57:802][407]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_12 or VerticalBox /Engine/Transient.World_1:EventHUD_C_11.WidgetTree_18.VerticalBox_12
+[2017.08.31-12.34.57:802][407]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_12 or VerticalBox /Engine/Transient.World_1:EventHUD_C_12.WidgetTree_19.VerticalBox_12
+[2017.08.31-12.34.57:802][407]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_12 or VerticalBox /Engine/Transient.World_1:EventHUD_C_13.WidgetTree_20.VerticalBox_12
+[2017.08.31-12.34.57:802][407]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_12 or VerticalBox /Engine/Transient.World_1:EventHUD_C_14.WidgetTree_21.VerticalBox_12
+[2017.08.31-12.34.57:802][407]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_12 or VerticalBox /Engine/Transient.World_1:EventHUD_C_15.WidgetTree_22.VerticalBox_12
+[2017.08.31-12.34.57:802][407]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_12 or VerticalBox /Engine/Transient.World_1:EventHUD_C_16.WidgetTree_23.VerticalBox_12
+[2017.08.31-12.34.57:802][407]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_12 or VerticalBox /Engine/Transient.World_1:EventHUD_C_17.WidgetTree_24.VerticalBox_12
+[2017.08.31-12.34.57:802][407]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_12 or VerticalBox /Engine/Transient.World_1:EventHUD_C_18.WidgetTree_25.VerticalBox_12
+[2017.08.31-12.34.57:802][407]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_12 or VerticalBox /Engine/Transient.World_1:EventHUD_C_19.WidgetTree_26.VerticalBox_12
+[2017.08.31-12.34.57:802][407]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Engine/Transient.World_1:EventHUD_C_17.WidgetTree_24.VerticalBox_12.VerticalBoxSlot_4 or VerticalBoxSlot /Game/2DSideScrollerBP/Blueprints/User_Interface/EventHUD.EventHUD:WidgetTree.VerticalBox_12.VerticalBoxSlot_4
+[2017.08.31-12.34.57:802][407]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Engine/Transient.World_1:EventHUD_C_17.WidgetTree_24.VerticalBox_12.VerticalBoxSlot_4 or VerticalBoxSlot /Engine/Transient.World_1:EventHUD_C_18.WidgetTree_25.VerticalBox_12.VerticalBoxSlot_4
+[2017.08.31-12.34.57:802][407]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Engine/Transient.World_1:EventHUD_C_17.WidgetTree_24.VerticalBox_12.VerticalBoxSlot_4 or VerticalBoxSlot /Engine/Transient.World_1:EventHUD_C_19.WidgetTree_26.VerticalBox_12.VerticalBoxSlot_4
+[2017.08.31-12.34.57:802][407]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Engine/Transient.World_1:EventHUD_C_17.WidgetTree_24.VerticalBox_12.VerticalBoxSlot_4) from referencer (HorizontalBox /Engine/UMG/Editor/Transient.HorizontalBox_16).  Import failed...
+[2017.08.31-12.34.57:802][407]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBox_12.VerticalBoxSlot_4''
+[2017.08.31-12.35.37:546][428]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_12 or VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/EventHUD.EventHUD:WidgetTree.VerticalBox_12
+[2017.08.31-12.35.37:546][428]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_12 or VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/MainHUD.MainHUD:WidgetTree.VerticalBox_12
+[2017.08.31-12.35.37:546][428]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_12 or VerticalBox /Engine/Transient.World_1:EventHUD_C_10.WidgetTree_17.VerticalBox_12
+[2017.08.31-12.35.37:546][428]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_12 or VerticalBox /Engine/Transient.World_1:EventHUD_C_9.WidgetTree_16.VerticalBox_12
+[2017.08.31-12.35.37:546][428]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_12 or VerticalBox /Engine/Transient.World_1:EventHUD_C_8.WidgetTree_15.VerticalBox_12
+[2017.08.31-12.35.37:546][428]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_12 or VerticalBox /Engine/Transient.World_1:EventHUD_C_7.WidgetTree_14.VerticalBox_12
+[2017.08.31-12.35.37:546][428]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_12 or VerticalBox /Engine/Transient.World_1:EventHUD_C_6.WidgetTree_13.VerticalBox_12
+[2017.08.31-12.35.37:546][428]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_12 or VerticalBox /Engine/Transient.World_1:EventHUD_C_5.WidgetTree_12.VerticalBox_12
+[2017.08.31-12.35.37:546][428]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_12 or VerticalBox /Engine/Transient.World_1:EventHUD_C_4.WidgetTree_11.VerticalBox_12
+[2017.08.31-12.35.37:546][428]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_12 or VerticalBox /Engine/Transient.World_1:EventHUD_C_3.WidgetTree_10.VerticalBox_12
+[2017.08.31-12.35.37:546][428]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_12 or VerticalBox /Engine/Transient.World_1:EventHUD_C_2.WidgetTree_9.VerticalBox_12
+[2017.08.31-12.35.37:546][428]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_12 or VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD_C:WidgetTree.VerticalBox_12
+[2017.08.31-12.35.37:546][428]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_12 or VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/EventHUD.EventHUD_C:WidgetTree.VerticalBox_12
+[2017.08.31-12.35.37:546][428]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_12 or VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/MainHUD.MainHUD_C:WidgetTree.VerticalBox_12
+[2017.08.31-12.35.37:546][428]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_12 or VerticalBox /Engine/Transient.World_1:EventHUD_C_11.WidgetTree_18.VerticalBox_12
+[2017.08.31-12.35.37:546][428]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_12 or VerticalBox /Engine/Transient.World_1:EventHUD_C_12.WidgetTree_19.VerticalBox_12
+[2017.08.31-12.35.37:546][428]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_12 or VerticalBox /Engine/Transient.World_1:EventHUD_C_13.WidgetTree_20.VerticalBox_12
+[2017.08.31-12.35.37:546][428]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_12 or VerticalBox /Engine/Transient.World_1:EventHUD_C_14.WidgetTree_21.VerticalBox_12
+[2017.08.31-12.35.37:546][428]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_12 or VerticalBox /Engine/Transient.World_1:EventHUD_C_15.WidgetTree_22.VerticalBox_12
+[2017.08.31-12.35.37:546][428]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_12 or VerticalBox /Engine/Transient.World_1:EventHUD_C_16.WidgetTree_23.VerticalBox_12
+[2017.08.31-12.35.37:546][428]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_12 or VerticalBox /Engine/Transient.World_1:EventHUD_C_17.WidgetTree_24.VerticalBox_12
+[2017.08.31-12.35.37:546][428]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_12 or VerticalBox /Engine/Transient.World_1:EventHUD_C_18.WidgetTree_25.VerticalBox_12
+[2017.08.31-12.35.37:546][428]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_12 or VerticalBox /Engine/Transient.World_1:EventHUD_C_19.WidgetTree_26.VerticalBox_12
+[2017.08.31-12.35.37:546][428]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_12 or VerticalBox /Engine/Transient.World_1:EventHUD_C_20.WidgetTree_27.VerticalBox_12
+[2017.08.31-12.35.37:546][428]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_12 or VerticalBox /Engine/Transient.World_1:EventHUD_C_21.WidgetTree_28.VerticalBox_12
+[2017.08.31-12.35.37:546][428]LogUObjectHash:Warning: Ambiguous search, could be VerticalBox /Game/2DSideScrollerBP/Blueprints/User_Interface/ConfHUD.ConfHUD:WidgetTree.VerticalBox_12 or VerticalBox /Engine/Transient.World_1:EventHUD_C_22.WidgetTree_29.VerticalBox_12
+[2017.08.31-12.35.37:546][428]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Engine/Transient.World_1:EventHUD_C_17.WidgetTree_24.VerticalBox_12.VerticalBoxSlot_4 or VerticalBoxSlot /Game/2DSideScrollerBP/Blueprints/User_Interface/EventHUD.EventHUD:WidgetTree.VerticalBox_12.VerticalBoxSlot_4
+[2017.08.31-12.35.37:546][428]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Engine/Transient.World_1:EventHUD_C_17.WidgetTree_24.VerticalBox_12.VerticalBoxSlot_4 or VerticalBoxSlot /Engine/Transient.World_1:EventHUD_C_18.WidgetTree_25.VerticalBox_12.VerticalBoxSlot_4
+[2017.08.31-12.35.37:546][428]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Engine/Transient.World_1:EventHUD_C_17.WidgetTree_24.VerticalBox_12.VerticalBoxSlot_4 or VerticalBoxSlot /Engine/Transient.World_1:EventHUD_C_19.WidgetTree_26.VerticalBox_12.VerticalBoxSlot_4
+[2017.08.31-12.35.37:546][428]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Engine/Transient.World_1:EventHUD_C_17.WidgetTree_24.VerticalBox_12.VerticalBoxSlot_4 or VerticalBoxSlot /Engine/Transient.World_1:EventHUD_C_20.WidgetTree_27.VerticalBox_12.VerticalBoxSlot_4
+[2017.08.31-12.35.37:546][428]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Engine/Transient.World_1:EventHUD_C_17.WidgetTree_24.VerticalBox_12.VerticalBoxSlot_4 or VerticalBoxSlot /Engine/Transient.World_1:EventHUD_C_21.WidgetTree_28.VerticalBox_12.VerticalBoxSlot_4
+[2017.08.31-12.35.37:546][428]LogUObjectHash:Warning: Ambiguous search, could be VerticalBoxSlot /Engine/Transient.World_1:EventHUD_C_17.WidgetTree_24.VerticalBox_12.VerticalBoxSlot_4 or VerticalBoxSlot /Engine/Transient.World_1:EventHUD_C_22.WidgetTree_29.VerticalBox_12.VerticalBoxSlot_4
+[2017.08.31-12.35.37:546][428]LogProperty:Warning: Illegal TEXT reference to a private object in external package (VerticalBoxSlot /Engine/Transient.World_1:EventHUD_C_17.WidgetTree_24.VerticalBox_12.VerticalBoxSlot_4) from referencer (HorizontalBox /Engine/UMG/Editor/Transient.HorizontalBox_16).  Import failed...
+[2017.08.31-12.35.37:546][428]LogProperty:Warning: ObjectProperty /Script/UMG.Widget:Slot: unresolved reference to 'VerticalBoxSlot'VerticalBox_12.VerticalBoxSlot_4''
+[2017.08.31-12.35.49:136][ 18]BlueprintLog: New page: Compile EventHUD
+[2017.08.31-12.35.50:287][ 18]LogSavePackage: Save=603.52ms
+[2017.08.31-12.35.50:287][ 18]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/EventHUD8FB5B7C24023D1D5538649A57E499A32.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/EventHUD.uasset'
+[2017.08.31-12.35.50:290][ 18]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/EventHUD.uasset
+[2017.08.31-12.35.50:293][ 18]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.08.31-12.36.16:995][550]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.31-12.36.17:016][550]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.31-12.36.17:016][550]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.31-12.36.17:016][550]PIE: New page: PIE session: FOTWO01 (31 Aug 2017 16:36:17)
+[2017.08.31-12.36.17:016][550]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01
+[2017.08.31-12.36.17:017][550]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001278s)
+[2017.08.31-12.36.17:018][550]LogAIModule: Creating AISystem for world FOTWO01
+[2017.08.31-12.36.17:018][550]LogPlayLevel: PIE: World Init took: (0.000557s)
+[2017.08.31-12.36.17:018][550]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 (0.001974s)
+[2017.08.31-12.36.17:041][550]LogInit: XAudio2 using 'Headset Earphone (3- Microsoft LifeChat LX-3000)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.31-12.36.17:048][550]LogInit: FAudioDevice initialized.
+[2017.08.31-12.36.17:080][550]LogLoad: Game class is 'FOTWOGameMode_C'
+[2017.08.31-12.36.17:082][550]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 up for play (max tick rate 60) at 2017.08.31-14.36.17
+[2017.08.31-12.36.17:082][550]LogWorld: Bringing up level for play took: 0.000909
+[2017.08.31-12.36.17:111][550]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01 -0.352
+[2017.08.31-12.36.17:112][550]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.31-12.36.20:256][737]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.31-12.36.20:302][737]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.31-12.36.27:946][181]LogSlate: Took 0.006984 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2017.08.31-12.36.31:828][406]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.31-12.36.31:847][406]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.31-12.36.31:847][406]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.31-12.36.31:847][406]PIE: New page: PIE session: FOTWO01 (31 Aug 2017 16:36:31)
+[2017.08.31-12.36.31:848][406]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01
+[2017.08.31-12.36.31:849][406]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001267s)
+[2017.08.31-12.36.31:849][406]LogAIModule: Creating AISystem for world FOTWO01
+[2017.08.31-12.36.31:849][406]LogPlayLevel: PIE: World Init took: (0.000512s)
+[2017.08.31-12.36.31:850][406]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 (0.001963s)
+[2017.08.31-12.36.31:870][406]LogInit: XAudio2 using 'Headset Earphone (3- Microsoft LifeChat LX-3000)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.31-12.36.31:875][406]LogInit: FAudioDevice initialized.
+[2017.08.31-12.36.31:913][406]LogLoad: Game class is 'FOTWOGameMode_C'
+[2017.08.31-12.36.31:915][406]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 up for play (max tick rate 60) at 2017.08.31-14.36.31
+[2017.08.31-12.36.31:915][406]LogWorld: Bringing up level for play took: 0.000871
+[2017.08.31-12.36.31:927][406]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01 0.464
+[2017.08.31-12.36.31:927][406]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.31-12.37.39:533][461]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.31-12.37.39:574][461]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.31-12.39.31:320][558]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.31-12.39.31:357][558]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.31-12.39.31:357][558]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.31-12.39.31:357][558]PIE: New page: PIE session: FOTWO01 (31 Aug 2017 16:39:31)
+[2017.08.31-12.39.31:358][558]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01
+[2017.08.31-12.39.31:359][558]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001415s)
+[2017.08.31-12.39.31:359][558]LogAIModule: Creating AISystem for world FOTWO01
+[2017.08.31-12.39.31:360][558]LogPlayLevel: PIE: World Init took: (0.000697s)
+[2017.08.31-12.39.31:360][558]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 (0.002317s)
+[2017.08.31-12.39.31:388][558]LogInit: XAudio2 using 'Headset Earphone (3- Microsoft LifeChat LX-3000)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.31-12.39.31:395][558]LogInit: FAudioDevice initialized.
+[2017.08.31-12.39.31:431][558]LogLoad: Game class is 'FOTWOGameMode_C'
+[2017.08.31-12.39.31:436][558]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 up for play (max tick rate 60) at 2017.08.31-14.39.31
+[2017.08.31-12.39.31:437][558]LogWorld: Bringing up level for play took: 0.002174
+[2017.08.31-12.39.31:463][558]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01 0
+[2017.08.31-12.39.31:463][558]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.31-12.39.35:302][786]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.31-12.39.35:337][786]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.31-12.40.51:540][ 40]BlueprintLog: New page: Compile EventHUD
+[2017.08.31-12.40.52:421][ 40]LogSavePackage: Save=584.95ms
+[2017.08.31-12.40.52:421][ 40]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/EventHUD96A76F84472CABD256EC1FB00D6C9902.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/EventHUD.uasset'
+[2017.08.31-12.40.52:424][ 40]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/EventHUD.uasset
+[2017.08.31-12.40.52:428][ 40]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.08.31-12.40.56:919][303]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.31-12.40.56:951][303]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.31-12.40.56:951][303]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.31-12.40.56:951][303]PIE: New page: PIE session: FOTWO01 (31 Aug 2017 16:40:56)
+[2017.08.31-12.40.56:951][303]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01
+[2017.08.31-12.40.56:952][303]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001191s)
+[2017.08.31-12.40.56:952][303]LogAIModule: Creating AISystem for world FOTWO01
+[2017.08.31-12.40.56:953][303]LogPlayLevel: PIE: World Init took: (0.000524s)
+[2017.08.31-12.40.56:953][303]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 (0.001848s)
+[2017.08.31-12.40.56:975][303]LogInit: XAudio2 using 'Headset Earphone (3- Microsoft LifeChat LX-3000)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.31-12.40.56:982][303]LogInit: FAudioDevice initialized.
+[2017.08.31-12.40.57:014][303]LogLoad: Game class is 'FOTWOGameMode_C'
+[2017.08.31-12.40.57:019][303]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 up for play (max tick rate 60) at 2017.08.31-14.40.57
+[2017.08.31-12.40.57:019][303]LogWorld: Bringing up level for play took: 0.002319
+[2017.08.31-12.40.57:047][303]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01 -0.416
+[2017.08.31-12.40.57:047][303]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.31-12.41.09:433][ 46]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.31-12.41.09:469][ 46]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.31-12.41.16:028][432]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.31-12.41.16:052][432]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.31-12.41.16:052][432]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.31-12.41.16:052][432]PIE: New page: PIE session: FOTWO01 (31 Aug 2017 16:41:16)
+[2017.08.31-12.41.16:052][432]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01
+[2017.08.31-12.41.16:053][432]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001319s)
+[2017.08.31-12.41.16:054][432]LogAIModule: Creating AISystem for world FOTWO01
+[2017.08.31-12.41.16:054][432]LogPlayLevel: PIE: World Init took: (0.000474s)
+[2017.08.31-12.41.16:054][432]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 (0.001966s)
+[2017.08.31-12.41.16:076][432]LogInit: XAudio2 using 'Headset Earphone (3- Microsoft LifeChat LX-3000)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.31-12.41.16:082][432]LogInit: FAudioDevice initialized.
+[2017.08.31-12.41.16:111][432]LogLoad: Game class is 'FOTWOGameMode_C'
+[2017.08.31-12.41.16:113][432]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 up for play (max tick rate 60) at 2017.08.31-14.41.16
+[2017.08.31-12.41.16:113][432]LogWorld: Bringing up level for play took: 0.000886
+[2017.08.31-12.41.16:125][432]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01 0.662
+[2017.08.31-12.41.16:126][432]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.31-12.48.09:707][ 26]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.31-12.48.09:740][ 26]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.31-12.55.14:266][725]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/FOTWO01' took 0.041
+[2017.08.31-12.55.14:269][725]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/User_Interface/EventHUD] ([1] browsable assets)...
+[2017.08.31-12.55.14:269][725]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/User_Interface/EventHUD]
+[2017.08.31-12.55.15:019][725]LogSavePackage: Save=710.45ms
+[2017.08.31-12.55.15:019][725]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/EventHUD_Auto15F64A38444D0B613AD89DEA9B087C73A.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/User_Interface/EventHUD_Auto1.uasset'
+[2017.08.31-12.55.15:020][725]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/User_Interface/EventHUD_Auto1.uasset
+[2017.08.31-12.55.15:020][725]LogFileHelpers: Auto-saving content packages took 0.753
+[2017.08.31-12.56.06:557][886]BlueprintLog: New page: Compile EventHUD
+[2017.08.31-12.56.07:508][886]LogSavePackage: Save=596.56ms
+[2017.08.31-12.56.07:508][886]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/EventHUDBECC984942F000E7F4DF08B74E2D9F2B.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/EventHUD.uasset'
+[2017.08.31-12.56.07:512][886]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/EventHUD.uasset
+[2017.08.31-12.56.07:516][886]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.08.31-12.56.10:529][ 53]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.31-12.56.10:552][ 53]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.31-12.56.10:552][ 53]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.31-12.56.10:552][ 53]PIE: New page: PIE session: FOTWO01 (31 Aug 2017 16:56:10)
+[2017.08.31-12.56.10:552][ 53]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01
+[2017.08.31-12.56.10:553][ 53]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001343s)
+[2017.08.31-12.56.10:554][ 53]LogAIModule: Creating AISystem for world FOTWO01
+[2017.08.31-12.56.10:554][ 53]LogPlayLevel: PIE: World Init took: (0.000613s)
+[2017.08.31-12.56.10:554][ 53]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 (0.002147s)
+[2017.08.31-12.56.10:580][ 53]LogInit: XAudio2 using 'Headset Earphone (3- Microsoft LifeChat LX-3000)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.31-12.56.10:587][ 53]LogInit: FAudioDevice initialized.
+[2017.08.31-12.56.10:619][ 53]LogLoad: Game class is 'FOTWOGameMode_C'
+[2017.08.31-12.56.10:621][ 53]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 up for play (max tick rate 60) at 2017.08.31-14.56.10
+[2017.08.31-12.56.10:621][ 53]LogWorld: Bringing up level for play took: 0.000943
+[2017.08.31-12.56.10:633][ 53]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01 -0.83
+[2017.08.31-12.56.10:633][ 53]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.31-12.56.41:377][434]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.31-12.56.41:419][434]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.31-13.18.54:257][356]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/FOTWO01' took 0.029
+[2017.08.31-13.18.54:259][356]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/User_Interface/EventHUD] ([1] browsable assets)...
+[2017.08.31-13.18.54:259][356]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/User_Interface/EventHUD]
+[2017.08.31-13.18.54:870][356]LogSavePackage: Save=576.25ms
+[2017.08.31-13.18.54:870][356]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/EventHUD_Auto24197D9E54BC7F8B5BDC025BD2FCC1F7A.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/User_Interface/EventHUD_Auto2.uasset'
+[2017.08.31-13.18.54:872][356]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/User_Interface/EventHUD_Auto2.uasset
+[2017.08.31-13.18.54:872][356]LogFileHelpers: Auto-saving content packages took 0.614
+[2017.08.31-13.28.55:663][230]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/2DSideScrollerBP/Maps/FOTWO01' took 0.052
+[2017.08.31-13.28.55:665][230]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/2DSideScrollerBP/Blueprints/User_Interface/EventHUD] ([1] browsable assets)...
+[2017.08.31-13.28.55:665][230]OBJ SavePackage: Finished generating thumbnails for package [/Game/2DSideScrollerBP/Blueprints/User_Interface/EventHUD]
+[2017.08.31-13.28.56:275][230]LogSavePackage: Save=575.03ms
+[2017.08.31-13.28.56:275][230]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/EventHUD_Auto38AF50AB3484F956A95BB8DB92FEA674B.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/User_Interface/EventHUD_Auto3.uasset'
+[2017.08.31-13.28.56:277][230]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/Autosaves/Game/2DSideScrollerBP/Blueprints/User_Interface/EventHUD_Auto3.uasset
+[2017.08.31-13.28.56:277][230]LogFileHelpers: Auto-saving content packages took 0.613
+[2017.08.31-13.29.18:450][416]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.31-13.29.18:475][416]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.31-13.29.18:475][416]BlueprintLog: New page: Pre-Play auto-recompile
+[2017.08.31-13.29.18:475][416]LogPlayLevel: [PlayLevel] Compiling EventHUD before play...
+[2017.08.31-13.29.19:328][416]LogSavePackage: Save=565.12ms
+[2017.08.31-13.29.19:328][416]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/EventHUD8051BA7743073F20E535ADB3AE0A21C7.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/EventHUD.uasset'
+[2017.08.31-13.29.19:330][416]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/EventHUD.uasset
+[2017.08.31-13.29.19:354][416]LogPlayLevel: PlayLevel: Blueprint regeneration took 879 ms (1 blueprints)
+[2017.08.31-13.29.19:354][416]PIE: New page: PIE session: FOTWO01 (31 Aug 2017 17:29:19)
+[2017.08.31-13.29.19:354][416]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01
+[2017.08.31-13.29.19:356][416]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001489s)
+[2017.08.31-13.29.19:356][416]LogAIModule: Creating AISystem for world FOTWO01
+[2017.08.31-13.29.19:357][416]LogPlayLevel: PIE: World Init took: (0.000692s)
+[2017.08.31-13.29.19:357][416]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 (0.002371s)
+[2017.08.31-13.29.19:377][416]LogInit: XAudio2 using 'Headset Earphone (3- Microsoft LifeChat LX-3000)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.31-13.29.19:383][416]LogInit: FAudioDevice initialized.
+[2017.08.31-13.29.19:414][416]LogLoad: Game class is 'FOTWOGameMode_C'
+[2017.08.31-13.29.19:416][416]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 up for play (max tick rate 60) at 2017.08.31-15.29.19
+[2017.08.31-13.29.19:416][416]LogWorld: Bringing up level for play took: 0.000822
+[2017.08.31-13.29.19:435][416]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01 -0.028
+[2017.08.31-13.29.19:435][416]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.31-13.29.24:246][703]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.31-13.29.24:278][703]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.31-13.29.27:452][890]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.31-13.29.27:476][890]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.31-13.29.27:476][890]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.31-13.29.27:476][890]PIE: New page: PIE session: FOTWO01 (31 Aug 2017 17:29:27)
+[2017.08.31-13.29.27:476][890]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01
+[2017.08.31-13.29.27:477][890]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001369s)
+[2017.08.31-13.29.27:478][890]LogAIModule: Creating AISystem for world FOTWO01
+[2017.08.31-13.29.27:478][890]LogPlayLevel: PIE: World Init took: (0.000503s)
+[2017.08.31-13.29.27:478][890]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 (0.002065s)
+[2017.08.31-13.29.27:503][890]LogInit: XAudio2 using 'Headset Earphone (3- Microsoft LifeChat LX-3000)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.31-13.29.27:511][890]LogInit: FAudioDevice initialized.
+[2017.08.31-13.29.27:542][890]LogLoad: Game class is 'FOTWOGameMode_C'
+[2017.08.31-13.29.27:545][890]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 up for play (max tick rate 60) at 2017.08.31-15.29.27
+[2017.08.31-13.29.27:545][890]LogWorld: Bringing up level for play took: 0.001010
+[2017.08.31-13.29.27:557][890]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01 0.094
+[2017.08.31-13.29.27:557][890]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.31-13.29.33:758][261]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.31-13.29.33:789][261]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.31-13.33.26:962][218]BlueprintLog: New page: Compile EventHUD
+[2017.08.31-13.33.27:836][218]LogSavePackage: Save=566.61ms
+[2017.08.31-13.33.27:836][218]LogSavePackage: Moving '../../../../../../Unreal/FOTWO/source/FOTWO02/Saved/EventHUD46EC1FB94DA2369354B686ABFBC6F19C.tmp' to '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/EventHUD.uasset'
+[2017.08.31-13.33.27:839][218]LogSavePackage:Display: Finished SavePackage ../../../../../../Unreal/FOTWO/source/FOTWO02/Content/2DSideScrollerBP/Blueprints/User_Interface/EventHUD.uasset
+[2017.08.31-13.33.27:843][218]BlueprintEditorCompileResults: Info Fast Template Successfully Created.
+[2017.08.31-13.33.29:782][327]LogTemp: Repeting last play command: Selected Viewport
+[2017.08.31-13.33.29:806][327]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.31-13.33.29:806][327]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2017.08.31-13.33.29:806][327]PIE: New page: PIE session: FOTWO01 (31 Aug 2017 17:33:29)
+[2017.08.31-13.33.29:806][327]LogPlayLevel: Creating play world package: /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01
+[2017.08.31-13.33.29:808][327]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001490s)
+[2017.08.31-13.33.29:808][327]LogAIModule: Creating AISystem for world FOTWO01
+[2017.08.31-13.33.29:808][327]LogPlayLevel: PIE: World Init took: (0.000644s)
+[2017.08.31-13.33.29:808][327]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01 to /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 (0.002353s)
+[2017.08.31-13.33.29:834][327]LogInit: XAudio2 using 'Headset Earphone (3- Microsoft LifeChat LX-3000)' : 2 channels at 48 kHz using 16 bits per sample (channel mask 0x3)
+[2017.08.31-13.33.29:841][327]LogInit: FAudioDevice initialized.
+[2017.08.31-13.33.29:875][327]LogLoad: Game class is 'FOTWOGameMode_C'
+[2017.08.31-13.33.29:878][327]LogWorld: Bringing World /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01.FOTWO01 up for play (max tick rate 60) at 2017.08.31-15.33.29
+[2017.08.31-13.33.29:878][327]LogWorld: Bringing up level for play took: 0.001273
+[2017.08.31-13.33.29:891][327]PIE: Info Play in editor start time for /Game/2DSideScrollerBP/Maps/UEDPIE_0_FOTWO01 0.428
+[2017.08.31-13.33.29:891][327]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.31-13.33.57:790][  0]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.31-13.33.57:825][  0]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel' has LevelScriptBlueprint '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01' with GeneratedClass '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01_C' with ClassGeneratedBy '/Game/2DSideScrollerBP/Maps/FOTWO01.FOTWO01:PersistentLevel.FOTWO01'
+[2017.08.31-13.40.20:815][537]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2017.08.31-13.40.21:034][538]Cmd: QUIT_EDITOR
+[2017.08.31-13.40.21:165][538]LogExit: Preparing to exit.
+[2017.08.31-13.40.22:126][538]LogDirectoryWatcher: A directory notification for 'C:/Unreal/FOTWO/source/FOTWO02/Content/' was aborted.
+[2017.08.31-13.40.22:183][538]LogExit: Editor shut down
+[2017.08.31-13.40.22:193][538]LogExit: Transaction tracking system shut down
+[2017.08.31-13.40.22:300][538]LogObj: Freed 0b from 0 cluster array pools.
+[2017.08.31-13.40.22:300][538]LogExit: Object subsystem successfully closed.
+[2017.08.31-13.40.22:326][538]LogD3D11RHI: Shutdown
+[2017.08.31-13.40.22:326][538]LogD3D11RHI: CleanupD3DDevice
+[2017.08.31-13.40.22:391][538]LogD3D11RHI: ~FD3D11DynamicRHI
+[2017.08.31-13.40.22:410][538]LogModuleManager: Shutting down and abandoning module SequencerWidgets (532)
+[2017.08.31-13.40.22:410][538]LogModuleManager: Shutting down and abandoning module BlueprintGraph (530)
+[2017.08.31-13.40.22:410][538]LogModuleManager: Shutting down and abandoning module BlueprintProfiler (528)
+[2017.08.31-13.40.22:411][538]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (526)
+[2017.08.31-13.40.22:411][538]LogModuleManager: Shutting down and abandoning module StatsViewer (524)
+[2017.08.31-13.40.22:411][538]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (522)
+[2017.08.31-13.40.22:411][538]LogModuleManager: Shutting down and abandoning module CrashTracker (520)
+[2017.08.31-13.40.22:411][538]LogModuleManager: Shutting down and abandoning module SceneOutliner (518)
+[2017.08.31-13.40.22:411][538]LogModuleManager: Shutting down and abandoning module AddContentDialog (516)
+[2017.08.31-13.40.22:412][538]LogDirectoryWatcher: A directory notification for 'C:/Program Files/Epic Games/UE_4.16/FeaturePacks/' was aborted.
+[2017.08.31-13.40.22:413][538]LogModuleManager: Shutting down and abandoning module WidgetCarousel (515)
+[2017.08.31-13.40.22:413][538]LogModuleManager: Shutting down and abandoning module EditorWidgets (512)
+[2017.08.31-13.40.22:413][538]LogModuleManager: Shutting down and abandoning module CollectionManager (510)
+[2017.08.31-13.40.22:413][538]LogDirectoryWatcher: A directory notification for 'C:/Unreal/FOTWO/source/FOTWO02/Content/Collections/' was aborted.
+[2017.08.31-13.40.22:413][538]LogDirectoryWatcher: A directory notification for 'C:/Unreal/FOTWO/source/FOTWO02/Content/Developers/vonkl/Collections/' was aborted.
+[2017.08.31-13.40.22:413][538]LogDirectoryWatcher: A directory notification for 'C:/Unreal/FOTWO/source/FOTWO02/Saved/Collections/' was aborted.
+[2017.08.31-13.40.22:413][538]LogModuleManager: Shutting down and abandoning module FoliageEdit (508)
+[2017.08.31-13.40.22:413][538]LogModuleManager: Shutting down and abandoning module LandscapeEditor (506)
+[2017.08.31-13.40.22:414][538]LogModuleManager: Shutting down and abandoning module MeshPaintMode (504)
+[2017.08.31-13.40.22:414][538]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (502)
+[2017.08.31-13.40.22:414][538]LogModuleManager: Shutting down and abandoning module ActorPickerMode (500)
+[2017.08.31-13.40.22:414][538]LogModuleManager: Shutting down and abandoning module GeometryMode (498)
+[2017.08.31-13.40.22:414][538]LogModuleManager: Shutting down and abandoning module TextureAlignMode (496)
+[2017.08.31-13.40.22:414][538]LogModuleManager: Shutting down and abandoning module BspMode (494)
+[2017.08.31-13.40.22:414][538]LogModuleManager: Shutting down and abandoning module HardwareSurvey (492)
+[2017.08.31-13.40.22:414][538]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (490)
+[2017.08.31-13.40.22:414][538]LogModuleManager: Shutting down and abandoning module AutomationWorker (488)
+[2017.08.31-13.40.22:414][538]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (486)
+[2017.08.31-13.40.22:414][538]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (484)
+[2017.08.31-13.40.22:414][538]LogModuleManager: Shutting down and abandoning module PlacementMode (483)
+[2017.08.31-13.40.22:414][538]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (480)
+[2017.08.31-13.40.22:414][538]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (478)
+[2017.08.31-13.40.22:414][538]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (476)
+[2017.08.31-13.40.22:414][538]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (474)
+[2017.08.31-13.40.22:414][538]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (472)
+[2017.08.31-13.40.22:414][538]LogModuleManager: Shutting down and abandoning module Media (471)
+[2017.08.31-13.40.22:414][538]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (468)
+[2017.08.31-13.40.22:414][538]LogModuleManager: Shutting down and abandoning module CharacterAI (466)
+[2017.08.31-13.40.22:414][538]LogModuleManager: Shutting down and abandoning module AudioCapture (464)
+[2017.08.31-13.40.22:414][538]LogModuleManager: Shutting down and abandoning module SequenceRecorder (463)
+[2017.08.31-13.40.22:414][538]LogModuleManager: Shutting down and abandoning module SmartSnapping (460)
+[2017.08.31-13.40.22:414][538]LogModuleManager: Shutting down and abandoning module SessionServices (458)
+[2017.08.31-13.40.22:414][538]LogModuleManager: Shutting down and abandoning module ViewportSnapping (456)
+[2017.08.31-13.40.22:414][538]LogModuleManager: Shutting down and abandoning module ViewportInteraction (454)
+[2017.08.31-13.40.22:414][538]LogModuleManager: Shutting down and abandoning module ClothPainter (452)
+[2017.08.31-13.40.22:415][538]LogModuleManager: Shutting down and abandoning module LogVisualizer (450)
+[2017.08.31-13.40.22:416][538]LogModuleManager: Shutting down and abandoning module IntroTutorials (448)
+[2017.08.31-13.40.22:416][538]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (447)
+[2017.08.31-13.40.22:417][538]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (444)
+[2017.08.31-13.40.22:417][538]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (442)
+[2017.08.31-13.40.22:417][538]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (440)
+[2017.08.31-13.40.22:417][538]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (438)
+[2017.08.31-13.40.22:417][538]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (437)
+[2017.08.31-13.40.22:763][538]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (434)
+[2017.08.31-13.40.22:763][538]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (432)
+[2017.08.31-13.40.22:763][538]LogModuleManager: Shutting down and abandoning module InputBindingEditor (430)
+[2017.08.31-13.40.22:764][538]LogModuleManager: Shutting down and abandoning module MergeActors (428)
+[2017.08.31-13.40.22:764][538]LogModuleManager: Shutting down and abandoning module SizeMap (426)
+[2017.08.31-13.40.22:764][538]LogModuleManager: Shutting down and abandoning module TreeMap (424)
+[2017.08.31-13.40.22:765][538]LogModuleManager: Shutting down and abandoning module ReferenceViewer (422)
+[2017.08.31-13.40.22:765][538]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (420)
+[2017.08.31-13.40.22:766][538]LogModuleManager: Shutting down and abandoning module LocalizationService (419)
+[2017.08.31-13.40.22:766][538]LogModuleManager: Shutting down and abandoning module HardwareTargeting (416)
+[2017.08.31-13.40.22:766][538]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (414)
+[2017.08.31-13.40.22:766][538]LogModuleManager: Shutting down and abandoning module UndoHistory (412)
+[2017.08.31-13.40.22:766][538]LogModuleManager: Shutting down and abandoning module UserFeedback (410)
+[2017.08.31-13.40.22:766][538]LogModuleManager: Shutting down and abandoning module XmlParser (408)
+[2017.08.31-13.40.22:766][538]LogModuleManager: Shutting down and abandoning module Blutility (406)
+[2017.08.31-13.40.22:766][538]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (404)
+[2017.08.31-13.40.22:766][538]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (403)
+[2017.08.31-13.40.22:767][538]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (400)
+[2017.08.31-13.40.22:767][538]LogModuleManager: Shutting down and abandoning module SettingsEditor (398)
+[2017.08.31-13.40.22:767][538]LogModuleManager: Shutting down and abandoning module ProjectLauncher (396)
+[2017.08.31-13.40.22:768][538]LogModuleManager: Shutting down and abandoning module SessionFrontend (394)
+[2017.08.31-13.40.22:768][538]LogModuleManager: Shutting down and abandoning module ProfilerClient (392)
+[2017.08.31-13.40.22:769][538]LogModuleManager: Shutting down and abandoning module DeviceManager (390)
+[2017.08.31-13.40.22:769][538]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (389)
+[2017.08.31-13.40.22:823][538]LogModuleManager: Shutting down and abandoning module AutomationController (386)
+[2017.08.31-13.40.22:823][538]LogModuleManager: Shutting down and abandoning module AutomationWindow (384)
+[2017.08.31-13.40.22:824][538]LogModuleManager: Shutting down and abandoning module Layers (382)
+[2017.08.31-13.40.22:825][538]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (380)
+[2017.08.31-13.40.22:825][538]LogModuleManager: Shutting down and abandoning module DetailCustomizations (378)
+[2017.08.31-13.40.22:825][538]LogModuleManager: Shutting down and abandoning module PackagesDialog (376)
+[2017.08.31-13.40.22:826][538]LogModuleManager: Shutting down and abandoning module Persona (374)
+[2017.08.31-13.40.22:826][538]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (373)
+[2017.08.31-13.40.22:826][538]LogModuleManager: Shutting down and abandoning module AnimGraph (371)
+[2017.08.31-13.40.22:826][538]LogModuleManager: Shutting down and abandoning module Kismet (368)
+[2017.08.31-13.40.22:848][538]LogModuleManager: Shutting down and abandoning module ClassViewer (366)
+[2017.08.31-13.40.22:848][538]LogModuleManager: Shutting down and abandoning module Toolbox (364)
+[2017.08.31-13.40.22:848][538]LogModuleManager: Shutting down and abandoning module ModuleUI (362)
+[2017.08.31-13.40.22:849][538]LogModuleManager: Shutting down and abandoning module MovieSceneTools (360)
+[2017.08.31-13.40.22:849][538]LogModuleManager: Shutting down and abandoning module OutputLog (358)
+[2017.08.31-13.40.22:849][538]LogModuleManager: Shutting down and abandoning module GammaUI (356)
+[2017.08.31-13.40.22:850][538]LogModuleManager: Shutting down and abandoning module Documentation (354)
+[2017.08.31-13.40.22:850][538]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (352)
+[2017.08.31-13.40.22:850][538]LogModuleManager: Shutting down and abandoning module MovieScene (350)
+[2017.08.31-13.40.22:850][538]LogModuleManager: Shutting down and abandoning module Niagara (348)
+[2017.08.31-13.40.22:850][538]LogModuleManager: Shutting down and abandoning module NiagaraEditor (347)
+[2017.08.31-13.40.22:851][538]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (344)
+[2017.08.31-13.40.22:851][538]LogModuleManager: Shutting down and abandoning module AnalyticsET (342)
+[2017.08.31-13.40.22:851][538]LogModuleManager: Shutting down and abandoning module PortalServices (340)
+[2017.08.31-13.40.22:851][538]LogModuleManager: Shutting down and abandoning module PortalRpc (338)
+[2017.08.31-13.40.22:851][538]LogModuleManager: Shutting down and abandoning module MessagingRpc (336)
+[2017.08.31-13.40.22:851][538]LogModuleManager: Shutting down and abandoning module AIModule (334)
+[2017.08.31-13.40.22:851][538]LogModuleManager: Shutting down and abandoning module GameplayDebugger (333)
+[2017.08.31-13.40.22:851][538]LogModuleManager: Shutting down and abandoning module AITestSuite (331)
+[2017.08.31-13.40.22:851][538]LogModuleManager: Shutting down and abandoning module ProfilerService (328)
+[2017.08.31-13.40.22:901][538]LogModuleManager: Shutting down and abandoning module TaskGraph (326)
+[2017.08.31-13.40.22:901][538]LogModuleManager: Shutting down and abandoning module SteamVRController (324)
+[2017.08.31-13.40.22:901][538]LogModuleManager: Shutting down and abandoning module SteamVR (322)
+[2017.08.31-13.40.22:901][538]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (320)
+[2017.08.31-13.40.22:901][538]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (318)
+[2017.08.31-13.40.22:901][538]LogModuleManager: Shutting down and abandoning module OculusLibrary (316)
+[2017.08.31-13.40.22:902][538]LogModuleManager: Shutting down and abandoning module OculusInput (314)
+[2017.08.31-13.40.22:902][538]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (312)
+[2017.08.31-13.40.22:902][538]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (310)
+[2017.08.31-13.40.22:902][538]LogModuleManager: Shutting down and abandoning module CableComponent (308)
+[2017.08.31-13.40.22:902][538]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (306)
+[2017.08.31-13.40.22:902][538]LogModuleManager: Shutting down and abandoning module AndroidPermission (304)
+[2017.08.31-13.40.22:902][538]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (300)
+[2017.08.31-13.40.22:902][538]LogModuleManager: Shutting down and abandoning module HTML5Networking (298)
+[2017.08.31-13.40.22:902][538]LogModuleManager: Shutting down and abandoning module AlembicImporter (296)
+[2017.08.31-13.40.22:903][538]LogModuleManager: Shutting down and abandoning module AlembicLibrary (295)
+[2017.08.31-13.40.22:903][538]LogModuleManager: Shutting down and abandoning module GeometryCache (294)
+[2017.08.31-13.40.22:903][538]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (293)
+[2017.08.31-13.40.22:903][538]LogModuleManager: Shutting down and abandoning module SuperSearchEditor (288)
+[2017.08.31-13.40.22:903][538]LogModuleManager: Shutting down and abandoning module SuperSearch (287)
+[2017.08.31-13.40.22:903][538]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (284)
+[2017.08.31-13.40.22:903][538]LogModuleManager: Shutting down and abandoning module PluginBrowser (282)
+[2017.08.31-13.40.22:903][538]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (280)
+[2017.08.31-13.40.22:903][538]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (278)
+[2017.08.31-13.40.22:903][538]LogModuleManager: Shutting down and abandoning module DesktopPlatform (277)
+[2017.08.31-13.40.22:903][538]LogModuleManager: Shutting down and abandoning module UObjectPlugin (274)
+[2017.08.31-13.40.22:903][538]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (272)
+[2017.08.31-13.40.22:903][538]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (270)
+[2017.08.31-13.40.22:903][538]LogModuleManager: Shutting down and abandoning module GitSourceControl (268)
+[2017.08.31-13.40.22:903][538]LogModuleManager: Shutting down and abandoning module SourceControl (267)
+[2017.08.31-13.40.22:903][538]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (264)
+[2017.08.31-13.40.22:903][538]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (262)
+[2017.08.31-13.40.22:903][538]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (260)
+[2017.08.31-13.40.22:903][538]LogModuleManager: Shutting down and abandoning module Paper2DEditor (258)
+[2017.08.31-13.40.22:904][538]LogModuleManager: Shutting down and abandoning module MeshPaint (257)
+[2017.08.31-13.40.22:904][538]LogModuleManager: Shutting down and abandoning module LevelEditor (255)
+[2017.08.31-13.40.22:905][538]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (254)
+[2017.08.31-13.40.22:905][538]LogModuleManager: Shutting down and abandoning module MainFrame (252)
+[2017.08.31-13.40.22:906][538]LogModuleManager: Shutting down and abandoning module HotReload (251)
+[2017.08.31-13.40.22:907][538]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (246)
+[2017.08.31-13.40.22:907][538]LogModuleManager: Shutting down and abandoning module PhysXVehicles (244)
+[2017.08.31-13.40.22:907][538]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (242)
+[2017.08.31-13.40.22:907][538]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (240)
+[2017.08.31-13.40.22:907][538]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (238)
+[2017.08.31-13.40.22:907][538]LogModuleManager: Shutting down and abandoning module UdpMessaging (236)
+[2017.08.31-13.40.23:008][538]LogModuleManager: Shutting down and abandoning module TcpMessaging (234)
+[2017.08.31-13.40.23:109][538]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (232)
+[2017.08.31-13.40.23:110][538]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (230)
+[2017.08.31-13.40.23:110][538]LogModuleManager: Shutting down and abandoning module FacialAnimation (228)
+[2017.08.31-13.40.23:110][538]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (226)
+[2017.08.31-13.40.23:110][538]LogModuleManager: Shutting down and abandoning module GraphEditor (225)
+[2017.08.31-13.40.23:110][538]LogModuleManager: Shutting down and abandoning module ContentBrowser (223)
+[2017.08.31-13.40.23:113][538]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (220)
+[2017.08.31-13.40.23:113][538]LogModuleManager: Shutting down and abandoning module Paper2D (218)
+[2017.08.31-13.40.23:113][538]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (216)
+[2017.08.31-13.40.23:113][538]LogModuleManager: Shutting down and abandoning module WmfMedia (214)
+[2017.08.31-13.40.23:113][538]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (212)
+[2017.08.31-13.40.23:113][538]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (210)
+[2017.08.31-13.40.23:114][538]LogModuleManager: Shutting down and abandoning module MediaAssets (208)
+[2017.08.31-13.40.23:114][538]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (206)
+[2017.08.31-13.40.23:114][538]LogModuleManager: Shutting down and abandoning module VREditor (204)
+[2017.08.31-13.40.23:115][538]LogModuleManager: Shutting down and abandoning module StringTableEditor (202)
+[2017.08.31-13.40.23:115][538]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (200)
+[2017.08.31-13.40.23:115][538]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (198)
+[2017.08.31-13.40.23:116][538]LogModuleManager: Shutting down and abandoning module FunctionalTesting (196)
+[2017.08.31-13.40.23:116][538]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (194)
+[2017.08.31-13.40.23:116][538]LogModuleManager: Shutting down and abandoning module UMG (192)
+[2017.08.31-13.40.23:116][538]LogModuleManager: Shutting down and abandoning module UMGEditor (191)
+[2017.08.31-13.40.23:116][538]LogModuleManager: Shutting down and abandoning module Sequencer (190)
+[2017.08.31-13.40.23:116][538]LogModuleManager: Shutting down and abandoning module AssetTools (188)
+[2017.08.31-13.40.23:119][538]LogModuleManager: Shutting down and abandoning module MessageLog (187)
+[2017.08.31-13.40.23:119][538]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (186)
+[2017.08.31-13.40.23:119][538]LogModuleManager: Shutting down and abandoning module SlateReflector (180)
+[2017.08.31-13.40.23:120][538]LogModuleManager: Shutting down and abandoning module Slate (178)
+[2017.08.31-13.40.23:120][538]LogModuleManager: Shutting down and abandoning module EditorStyle (176)
+[2017.08.31-13.40.23:128][538]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (174)
+[2017.08.31-13.40.23:128][538]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (172)
+[2017.08.31-13.40.23:128][538]LogModuleManager: Shutting down and abandoning module XAudio2 (170)
+[2017.08.31-13.40.23:128][538]LogModuleManager: Shutting down and abandoning module Networking (168)
+[2017.08.31-13.40.23:128][538]LogModuleManager: Shutting down and abandoning module Core (164)
+[2017.08.31-13.40.23:128][538]LogModuleManager: Shutting down and abandoning module AssetRegistry (162)
+[2017.08.31-13.40.23:256][538]LogDirectoryWatcher: A directory notification for '../../../Engine/Content/' was aborted.
+[2017.08.31-13.40.23:256][538]LogDirectoryWatcher: A directory notification for '../../../../../../Unreal/FOTWO/source/FOTWO02/Content/' was aborted.
+[2017.08.31-13.40.23:256][538]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/2D/Paper2D/Content/' was aborted.
+[2017.08.31-13.40.23:257][538]LogDirectoryWatcher: A directory notification for '../../../Engine/Plugins/Runtime/GearVR/Content/' was aborted.
+[2017.08.31-13.40.23:260][538]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (161)
+[2017.08.31-13.40.23:262][538]LogModuleManager: Shutting down and abandoning module KismetCompiler (158)
+[2017.08.31-13.40.23:262][538]LogModuleManager: Shutting down and abandoning module LevelSequence (156)
+[2017.08.31-13.40.23:262][538]LogModuleManager: Shutting down and abandoning module PhysXFormats (154)
+[2017.08.31-13.40.23:262][538]LogModuleManager: Shutting down and abandoning module MeshUtilities (152)
+[2017.08.31-13.40.23:262][538]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (151)
+[2017.08.31-13.40.23:262][538]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (149)
+[2017.08.31-13.40.23:262][538]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (147)
+[2017.08.31-13.40.23:262][538]LogModuleManager: Shutting down and abandoning module DerivedDataCache (144)
+[2017.08.31-13.40.23:287][538]LogDerivedDataCache: Shutdown
+[2017.08.31-13.40.23:287][538]LogModuleManager: Shutting down and abandoning module TargetPlatform (142)
+[2017.08.31-13.40.23:287][538]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (141)
+[2017.08.31-13.40.23:287][538]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (139)
+[2017.08.31-13.40.23:288][538]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (137)
+[2017.08.31-13.40.23:289][538]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (135)
+[2017.08.31-13.40.23:289][538]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (133)
+[2017.08.31-13.40.23:290][538]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (131)
+[2017.08.31-13.40.23:290][538]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (129)
+[2017.08.31-13.40.23:290][538]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (127)
+[2017.08.31-13.40.23:290][538]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (125)
+[2017.08.31-13.40.23:290][538]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (123)
+[2017.08.31-13.40.23:290][538]LogModuleManager: Shutting down and abandoning module ImageWrapper (122)
+[2017.08.31-13.40.23:290][538]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (119)
+[2017.08.31-13.40.23:290][538]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (117)
+[2017.08.31-13.40.23:290][538]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (115)
+[2017.08.31-13.40.23:290][538]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (113)
+[2017.08.31-13.40.23:290][538]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (111)
+[2017.08.31-13.40.23:290][538]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (109)
+[2017.08.31-13.40.23:290][538]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (107)
+[2017.08.31-13.40.23:290][538]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (105)
+[2017.08.31-13.40.23:290][538]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (103)
+[2017.08.31-13.40.23:290][538]LogModuleManager: Shutting down and abandoning module Messaging (101)
+[2017.08.31-13.40.23:290][538]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (99)
+[2017.08.31-13.40.23:290][538]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (97)
+[2017.08.31-13.40.23:290][538]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (95)
+[2017.08.31-13.40.23:290][538]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (93)
+[2017.08.31-13.40.23:290][538]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (91)
+[2017.08.31-13.40.23:290][538]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (89)
+[2017.08.31-13.40.23:290][538]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (87)
+[2017.08.31-13.40.23:290][538]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (85)
+[2017.08.31-13.40.23:290][538]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (83)
+[2017.08.31-13.40.23:290][538]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (81)
+[2017.08.31-13.40.23:290][538]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (79)
+[2017.08.31-13.40.23:290][538]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (77)
+[2017.08.31-13.40.23:290][538]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (75)
+[2017.08.31-13.40.23:290][538]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (73)
+[2017.08.31-13.40.23:290][538]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (71)
+[2017.08.31-13.40.23:290][538]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (69)
+[2017.08.31-13.40.23:290][538]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (67)
+[2017.08.31-13.40.23:290][538]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (65)
+[2017.08.31-13.40.23:290][538]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (63)
+[2017.08.31-13.40.23:290][538]LogModuleManager: Shutting down and abandoning module InputCore (60)
+[2017.08.31-13.40.23:290][538]LogModuleManager: Shutting down and abandoning module Settings (58)
+[2017.08.31-13.40.23:290][538]LogModuleManager: Shutting down and abandoning module OculusRift (56)
+[2017.08.31-13.40.23:290][538]LogModuleManager: Shutting down and abandoning module GearVRController (54)
+[2017.08.31-13.40.23:291][538]LogModuleManager: Shutting down and abandoning module GearVR (52)
+[2017.08.31-13.40.23:291][538]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (50)
+[2017.08.31-13.40.23:291][538]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (48)
+[2017.08.31-13.40.23:291][538]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (44)
+[2017.08.31-13.40.23:291][538]LogOnline:Display: Unloading online subsystem: NULL
+[2017.08.31-13.40.23:291][538]LogModuleManager: Shutting down and abandoning module XMPP (43)
+[2017.08.31-13.40.23:292][538]LogModuleManager: Shutting down and abandoning module HTTP (41)
+[2017.08.31-13.40.23:292][538]LogHttp:Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2017.08.31-13.40.23:292][538]LogHttp:Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BE8242792-41E8-E016-931F-1AAC8E52E735%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.16.3-3561208%2B%2B%2BUE4%2BRelease-4.16&UserID=f07af55e4db0c636e0c073a1312074d9%7Caa7a108f70184e1b92fdd786c25cd9b8%7Caeab9882-b6f4-4a22-991a-718da4fba234&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2017.08.31-13.40.23:317][538]LogModuleManager: Shutting down and abandoning module SSL (40)
+[2017.08.31-13.40.23:319][538]LogModuleManager: Shutting down and abandoning module HTTPChunkInstaller (36)
+[2017.08.31-13.40.23:320][538]LogModuleManager: Shutting down and abandoning module AnimationModifiers (34)
+[2017.08.31-13.40.23:320][538]LogModuleManager: Shutting down and abandoning module PropertyEditor (33)
+[2017.08.31-13.40.23:320][538]LogModuleManager: Shutting down and abandoning module AudioEditor (30)
+[2017.08.31-13.40.23:320][538]LogModuleManager: Shutting down and abandoning module TextureCompressor (28)
+[2017.08.31-13.40.23:320][538]LogModuleManager: Shutting down and abandoning module ShaderCore (26)
+[2017.08.31-13.40.23:320][538]LogModuleManager: Shutting down and abandoning module Landscape (24)
+[2017.08.31-13.40.23:320][538]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (22)
+[2017.08.31-13.40.23:326][538]LogModuleManager: Shutting down and abandoning module OpenGLDrv (20)
+[2017.08.31-13.40.23:326][538]LogModuleManager: Shutting down and abandoning module D3D11RHI (18)
+[2017.08.31-13.40.23:327][538]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (16)
+[2017.08.31-13.40.23:327][538]LogModuleManager: Shutting down and abandoning module Renderer (14)
+[2017.08.31-13.40.23:327][538]LogModuleManager: Shutting down and abandoning module Engine (12)
+[2017.08.31-13.40.23:327][538]LogModuleManager: Shutting down and abandoning module CoreUObject (10)
+[2017.08.31-13.40.23:327][538]LogModuleManager: Shutting down and abandoning module NetworkFile (8)
+[2017.08.31-13.40.23:327][538]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2017.08.31-13.40.23:327][538]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2017.08.31-13.40.23:327][538]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2017.08.31-13.40.23:332][538]LogExit: Exiting.
+[2017.08.31-13.40.23:368][538]Log file closed, 08/31/17 15:40:23
